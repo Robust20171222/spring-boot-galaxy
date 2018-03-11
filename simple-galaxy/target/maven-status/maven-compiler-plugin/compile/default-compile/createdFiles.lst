@@ -1,0 +1,6 @@
+com/galaxy/entity/UserSexEnum.class
+com/galaxy/entity/UserEntity.class
+com/galaxy/mapper/UserMapper.class
+com/galaxy/controller/UserController.class
+com/galaxy/SimpleGalaxyApplication.class
+com/galaxy/service/UserService.class

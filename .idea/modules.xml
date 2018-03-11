@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot/boot.iml" filepath="$PROJECT_DIR$/boot/boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" filepath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" filepath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-galaxy.iml" filepath="$PROJECT_DIR$/spring-boot-galaxy.iml" />
+    </modules>
+  </component>
+</project>
