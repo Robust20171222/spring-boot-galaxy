@@ -1,7 +1,7 @@
-package com.galaxy.controller;
+package com.galaxy.controller.mybatis;
 
 import com.galaxy.entity.UserEntity;
-import com.galaxy.service.UserService;
+import com.galaxy.service.mybatis.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

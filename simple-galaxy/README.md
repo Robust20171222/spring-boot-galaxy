@@ -101,8 +101,11 @@ public enum Propagation {
 
 [elasticsearch报错:None of the configured nodes are available: []](http://blog.csdn.net/lu_wei_wei/article/details/51263133)
 
+## 十二、Spring Boot JPA整合
 
-## 十二、Spring Boot 特性
+[Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+
+## 十三、Spring Boot 特性
 
 - 使用 Spring 项目引导页面可以在几秒构建一个项目
 - 方便对外输出各种形式的服务，如 REST API、WebSocket、Web、Streaming、Tasks

@@ -1,4 +1,4 @@
-package com.galaxy.controller;
+package com.galaxy.controller.elasticsearch;
 
 import com.galaxy.dao.elastissearch.ArticleSearchRepository;
 import com.galaxy.entity.Article;
@@ -17,7 +17,7 @@ import java.util.Iterator;
  */
 @RestController
 @RequestMapping(value = "/es/article")
-public class ESArticleController {
+public class ArticleController {
 
     @Autowired
     private ArticleSearchRepository articleSearchRepository;

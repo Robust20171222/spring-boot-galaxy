@@ -1,4 +1,4 @@
-package com.galaxy.service;
+package com.galaxy.service.mybatis;
 
 import com.galaxy.entity.UserEntity;
 import com.galaxy.mapper.UserMapper;
