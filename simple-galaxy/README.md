@@ -87,7 +87,22 @@ public enum Propagation {
 * `NEVER`：以非事务方式运行，如果当前存在事务，则抛出异常。
 * `NESTED`：如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于REQUIRED。
 
-## 十一、Spring Boot 特性
+## 十一、Spring Boot ElasticSearch整合
+
+整合：[Spring Boot + Spring Data + Elasticsearch example](https://www.mkyong.com/spring-boot/spring-boot-spring-data-elasticsearch-example/)
+
+[5.6 Transport Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api/5.6/transport-client.html#transport-client)
+
+问题解决：
+
+**1、None of the configured nodes are available：**
+
+[使用elasticsearch的时候出现错误（一）](http://blog.csdn.net/Zebra_916/article/details/78653283)
+
+[elasticsearch报错:None of the configured nodes are available: []](http://blog.csdn.net/lu_wei_wei/article/details/51263133)
+
+
+## 十二、Spring Boot 特性
 
 - 使用 Spring 项目引导页面可以在几秒构建一个项目
 - 方便对外输出各种形式的服务，如 REST API、WebSocket、Web、Streaming、Tasks

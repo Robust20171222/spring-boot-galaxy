@@ -1,6 +1,12 @@
+com/galaxy/controller/UserController.class
+com/galaxy/entity/Author.class
+com/galaxy/SimpleGalaxyApplication.class
+com/galaxy/service/UserService.class
+com/galaxy/entity/Article.class
+com/galaxy/controller/ESArticleController.class
+com/galaxy/config/EsConfig.class
 com/galaxy/entity/UserSexEnum.class
 com/galaxy/entity/UserEntity.class
 com/galaxy/mapper/UserMapper.class
-com/galaxy/controller/UserController.class
-com/galaxy/SimpleGalaxyApplication.class
-com/galaxy/service/UserService.class
+com/galaxy/dao/elastissearch/ArticleSearchRepository.class
+com/galaxy/entity/Tutorial.class

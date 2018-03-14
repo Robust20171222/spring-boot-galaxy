@@ -7,9 +7,16 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   jackson:
     default-property-inclusion: non_absent
+  application:
+    name: a-bootiful-client
 
 #MyBatis配置
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
   type-aliases-package: com.galaxy.entity
+
+elasticsearch:
+  clustername : galaxy-cluster
+  host : 127.0.0.1
+  port : 9300
