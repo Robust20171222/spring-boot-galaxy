@@ -10,6 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GalaxyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(new Class[]{SimpleGalaxyApplication.class}, args);
+        SpringApplication.run(GalaxyApplication.class, args);
     }
 }

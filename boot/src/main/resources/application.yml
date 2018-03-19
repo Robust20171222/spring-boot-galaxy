@@ -1,0 +1,25 @@
+spring:
+  #数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/galaxy?useSSL=false
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_absent
+  application:
+    name: a-bootiful-client
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+#MyBatis配置
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.galaxy.entity
+
+elasticsearch:
+  clustername : galaxy-cluster
+  host : 127.0.0.1
+  port : 9300

@@ -1,4 +1,4 @@
-package com.galaxy.controller.mybatis;
+package com.galaxy.web.mybatis;
 
 import com.galaxy.entity.UserEntity;
 import com.galaxy.service.mybatis.UserService;

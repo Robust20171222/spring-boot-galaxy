@@ -1,4 +1,4 @@
-package com.galaxy.controller.elasticsearch;
+package com.galaxy.web.elasticsearch;
 
 import com.galaxy.dao.elastissearch.ArticleSearchRepository;
 import com.galaxy.entity.Article;
