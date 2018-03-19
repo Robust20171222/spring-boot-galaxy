@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/boot/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/boot/src/main/resources/mybatis/mapper/UserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/boot/src/main/resources/mybatis/mybatis-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/ScalaGalaxyApplication.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/dao/jpa/HotelRepository.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/Hotel.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/TripType.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/HotelService.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/impl/HotelServiceImpl.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/web/HotelController.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql/Dump20180316-1.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/Test.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/boot/boot.iml" afterPath="$PROJECT_DIR$/boot/boot.iml" />
-      <change beforePath="$PROJECT_DIR$/boot/pom.xml" afterPath="$PROJECT_DIR$/boot/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/galaxy/GalaxyApplication.java" afterPath="$PROJECT_DIR$/boot/src/main/java/com/galaxy/GalaxyApplication.java" />
-      <change beforePath="$PROJECT_DIR$/boot/target/boot-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/boot/target/classes/com/galaxy/GalaxyApplication.class" afterPath="$PROJECT_DIR$/boot/target/classes/com/galaxy/GalaxyApplication.class" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/pom.xml" afterPath="$PROJECT_DIR$/scala-galaxy/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" afterPath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/README.md" afterPath="$PROJECT_DIR$/simple-galaxy/README.md" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/pom.xml" afterPath="$PROJECT_DIR$/simple-galaxy/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" afterPath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/controller/elasticsearch/ArticleController.java" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/elasticsearch/ArticleController.java" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/controller/jpa/CityController.java" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/jpa/CityController.java" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/controller/mybatis/UserController.java" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/mybatis/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/resources/sql/import.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/SimpleGalaxyApplication.class" afterPath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/SimpleGalaxyApplication.class" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/entity/UserEntity.class" afterPath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/entity/UserEntity.class" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/mapper/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/simple-galaxy-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-galaxy.iml" afterPath="$PROJECT_DIR$/spring-boot-galaxy.iml" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/README.md" afterPath="$PROJECT_DIR$/scala-galaxy/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,12 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TripType.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TripType.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/TripType.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="85" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scala-galaxy/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -172,7 +141,6 @@
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/jpa/scriptFile.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/jpa/HotelService.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/Review.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/README.md" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/web/HotelController.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/Hotel.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/HotelService.scala" />
@@ -190,6 +158,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/Test.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/TripType.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/README.md" />
       </list>
     </option>
   </component>
@@ -357,27 +326,6 @@
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -627,7 +575,7 @@
       <workItem from="1521164519310" duration="5387000" />
       <workItem from="1521170122402" duration="12449000" />
       <workItem from="1521195134791" duration="3957000" />
-      <workItem from="1521422931062" duration="2242000" />
+      <workItem from="1521422931062" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="add elasticsearch test">
       <created>1520996683229</created>
@@ -643,11 +591,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521023635182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Spring Boot And scala integration">
+      <created>1521425361775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521425361775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53535000" />
+    <option name="totallyTimeSpent" value="53711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,6 +615,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -682,7 +638,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5480226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4858757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28381255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28381255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,7 +661,8 @@
     <MESSAGE value="nothing" />
     <MESSAGE value="add elasticsearch test" />
     <MESSAGE value="add Spring Boot JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Spring Boot JPA" />
+    <MESSAGE value="add Spring Boot And scala integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Spring Boot And scala integration" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -843,20 +800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/HotelService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,6 +867,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="519">
             <caret line="111" column="84" lean-forward="false" selection-start-line="111" selection-start-column="84" selection-end-line="111" selection-end-column="84" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -936,6 +887,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -950,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,6 +910,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="67" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <marker date="1521021224000" expanded="true" signature="801:870" ph="SELECT FROM users" />
+            <marker date="1521021224000" expanded="true" signature="976:1070" ph="SELECT FROM users" />
+            <marker date="1521021224000" expanded="true" signature="1164:1311" ph="INSERT INTO users" />
+            <marker date="1521021224000" expanded="true" signature="1405:1632" ph="UPDATE users... users" />
+            <marker date="1521021224000" expanded="true" signature="1712:1769" ph="DELETE FROM users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,6 +955,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,9 +993,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/TripType.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="85" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="85" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
