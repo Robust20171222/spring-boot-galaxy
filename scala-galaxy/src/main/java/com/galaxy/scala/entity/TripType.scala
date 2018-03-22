@@ -8,4 +8,5 @@ package com.galaxy.scala.entity
 object TripType extends Enumeration {
   type TripType = Value;
   val BUSINESS, COUPLES, FAMILY, FRIENDS, SOLO = Value
+  val FOUR = Value(0)
 }

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" filepath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" filepath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-galaxy.iml" filepath="$PROJECT_DIR$/spring-boot-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-galaxy/test-galaxy.iml" filepath="$PROJECT_DIR$/test-galaxy/test-galaxy.iml" />
     </modules>
   </component>
 </project>
