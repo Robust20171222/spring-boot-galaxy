@@ -1,0 +1,14 @@
+spring:
+  #数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/galaxy?useSSL=false
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_absent
+  application:
+    name: a-bootiful-scala-client
+  jpa:
+    hibernate:
+      ddl-auto: none

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bootstrap-galaxy" />
         <module name="scala-galaxy" />
         <module name="simple-galaxy" />
         <module name="test-galaxy" />
@@ -13,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot" target="1.8" />
+      <module name="bootstrap-galaxy" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="scala-galaxy" target="1.8" />
@@ -20,6 +22,7 @@
       <module name="simplegalaxy" target="1.5" />
       <module name="spring-boot-galaxy" target="1.8" />
       <module name="test-galaxy" target="1.8" />
+      <module name="web-application-bootstrap-jquery" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -35,5 +35,28 @@ eureka:
     service-url:
       defaultZone: http://localhost:${server.port}/eureka/
 
+#endpoints 配置
+management:
+  server:
+    port: 8090
+    servlet:
+      context-path: /monitor
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+
+# XXL 配置
+xxl:
+  job:
+    db:
+      driverClass: com.mysql.jdbc.Driver
+      url: jdbc:mysql://local-1:3306/scheduler?useUnicode=true&characterEncoding=UTF-8
+      user: luc
+      password: luc
+    accessToken:
 
 

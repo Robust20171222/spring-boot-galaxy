@@ -1,4 +1,5 @@
 /Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/simple-galaxy/src/main/java/com/galaxy/entity/Article.java
+/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/simple-galaxy/src/main/java/com/galaxy/config/XXLConfig.java
 /Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/simple-galaxy/src/main/java/com/galaxy/dao/jpa/CityRepository.java
 /Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/simple-galaxy/src/main/java/com/galaxy/SimpleGalaxyApplication.java
 /Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/simple-galaxy/src/main/java/com/galaxy/config/EsConfig.java

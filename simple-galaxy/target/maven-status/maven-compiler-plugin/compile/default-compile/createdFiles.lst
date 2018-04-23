@@ -12,4 +12,5 @@ com/galaxy/mapper/UserMapper.class
 com/galaxy/service/mybatis/UserService.class
 com/galaxy/dao/elastissearch/ArticleSearchRepository.class
 com/galaxy/entity/City.class
+com/galaxy/config/XXLConfig.class
 com/galaxy/entity/Tutorial.class

@@ -1,6 +1,9 @@
 package com.galaxy.scala.dao.jpa
 
+import java.lang
+
 import com.galaxy.scala.entity.Hotel
+import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 
@@ -10,4 +13,6 @@ import org.springframework.stereotype.Repository
 @Repository
 trait HotelRepository extends CrudRepository[Hotel, Long] {
 
+  @Query(nativeQuery = true,value = "select * from hotel group by name")
+  def findAll(): lang.Iterable[Hotel]
 }
