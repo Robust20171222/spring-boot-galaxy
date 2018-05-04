@@ -2,15 +2,11 @@ com/galaxy/entity/Author.class
 com/galaxy/SimpleGalaxyApplication.class
 com/galaxy/domain/ReturnT.class
 com/galaxy/web/mybatis/UserController.class
-com/galaxy/entity/Article.class
-com/galaxy/config/EsConfig.class
-com/galaxy/web/elasticsearch/ArticleController.class
 com/galaxy/web/jpa/CityController.class
 com/galaxy/entity/UserEntity.class
 com/galaxy/dao/jpa/CityRepository.class
 com/galaxy/mapper/UserMapper.class
 com/galaxy/service/mybatis/UserService.class
-com/galaxy/dao/elastissearch/ArticleSearchRepository.class
 com/galaxy/entity/City.class
 com/galaxy/config/XXLConfig.class
 com/galaxy/entity/Tutorial.class

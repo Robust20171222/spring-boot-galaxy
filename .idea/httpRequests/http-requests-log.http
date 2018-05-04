@@ -1,0 +1,29 @@
+POST http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:9200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-05-04T035549.200.json
+
+###
+
+GET http://localhost:9200
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-04T035518.200.json
+
+###
+
+POST http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+

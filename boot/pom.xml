@@ -12,9 +12,6 @@
     <groupId>com.galaxy</groupId>
     <artifactId>boot</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>../test-galaxy</module>
-    </modules>
 
     <dependencies>
         <dependency>

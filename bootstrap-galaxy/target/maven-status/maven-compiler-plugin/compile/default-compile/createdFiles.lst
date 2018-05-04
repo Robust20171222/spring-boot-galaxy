@@ -1,0 +1,5 @@
+com/michaelcgood/model/ClientModel.class
+com/michaelcgood/controller/ClientController.class
+com/michaelcgood/PagingAndSortingRepositoryExampleApplication.class
+com/michaelcgood/model/PagerModel.class
+com/michaelcgood/dao/ClientRepository.class

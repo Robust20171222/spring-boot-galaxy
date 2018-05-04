@@ -22,13 +22,6 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   type-aliases-package: com.galaxy.entity
 
-#elasticsearch 配置
-elasticsearch:
-  clustername : galaxy-cluster
-  host : 127.0.0.1
-  port : 9300
-
-
 #eureka 配置
 eureka:
   client:
