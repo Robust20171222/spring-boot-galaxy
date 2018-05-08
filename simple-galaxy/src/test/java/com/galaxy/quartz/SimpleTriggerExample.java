@@ -1,8 +1,5 @@
 package com.galaxy.quartz;
 
-import com.sun.tools.corba.se.idl.StringGen;
-import org.apache.commons.lang.time.DateFormatUtils;
-import org.apache.commons.lang.time.DateUtils;
 import org.junit.Test;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
