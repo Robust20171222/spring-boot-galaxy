@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bootstrap-galaxy" />
         <module name="elastic-galaxy" />
+        <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
         <module name="simple-galaxy" />
@@ -20,6 +21,7 @@
       <module name="elastic-galaxy" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="mail-galaxy" target="1.8" />
       <module name="redis-galaxy" target="1.8" />
       <module name="scala-galaxy" target="1.8" />
       <module name="simple-galaxy" target="1.8" />

@@ -1,0 +1,1 @@
+[Guide to Spring Email](http://www.baeldung.com/spring-email)

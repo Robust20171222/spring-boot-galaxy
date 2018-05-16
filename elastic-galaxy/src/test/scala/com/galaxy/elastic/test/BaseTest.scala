@@ -31,9 +31,9 @@ class BaseTest {
   }
 
   def client: TransportClient = {
-    val settings = Settings.builder.put("cluster.name", "my-application").put("logger.org.elasticsearch.transport.TransportService.tracer", "TRACE").build
+    val settings = Settings.builder.put("cluster.name", "aone").build
     transportClient = new PreBuiltTransportClient(settings)
-      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"), 9300))
+      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("es-1"), 9300))
     transportClient
   }
 }

@@ -1,0 +1,9 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 290167875@qq.com
+    password: wangpeng./2017
+
+server:
+  port: 8087

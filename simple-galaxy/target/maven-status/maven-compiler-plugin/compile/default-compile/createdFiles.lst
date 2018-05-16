@@ -7,6 +7,7 @@ com/galaxy/entity/UserEntity.class
 com/galaxy/dao/jpa/CityRepository.class
 com/galaxy/mapper/UserMapper.class
 com/galaxy/service/mybatis/UserService.class
+com/galaxy/conf/AsyncConfig.class
 com/galaxy/entity/City.class
-com/galaxy/config/XXLConfig.class
+com/galaxy/service/async/AsyncService.class
 com/galaxy/entity/Tutorial.class

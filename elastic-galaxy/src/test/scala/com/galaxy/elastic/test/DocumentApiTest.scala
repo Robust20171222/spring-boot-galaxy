@@ -5,11 +5,10 @@ import java.util.Date
 
 import org.elasticsearch.action.get.GetResponse
 import org.elasticsearch.action.search.SearchResponse
-import org.elasticsearch.index.query.{QueryBuilder, QueryBuilders}
+import org.elasticsearch.common.unit.TimeValue
+import org.elasticsearch.index.query.QueryBuilders
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder
 import org.junit.Test
-
-import scala.io.Source
 
 class DocumentApiTest extends BaseTest {
 
@@ -67,8 +66,22 @@ class DocumentApiTest extends BaseTest {
     log.info(s"PostingsResponse: ${postingsResponse}")
   }
 
+  /**
+    * Using scrolls in Java
+    * https://www.elastic.co/guide/en/elasticsearch/client/java-api/5.4/java-search-scrolling.html
+    */
   @Test
-  def testHttp: Unit = {
-    println(Source.fromURL("http://127.0.0.1:9200", "utf-8").getLines.mkString("\n"))
+  def testScroll: Unit ={
+    val qb = QueryBuilders.rangeQuery("timestamp").gt("2018-05-01T11:59:19+08:00").lt("2018-05-15T11:59:19+08:00")
+    var scrollResp = this.transportClient.prepareSearch("es_cluster").setScroll(new TimeValue(60000)).setQuery(qb).setSize(1000).get()
+    var length = 0
+    var sum = 0
+    do {
+      length = scrollResp.getHits.getHits.length
+      sum += length
+      scrollResp = client.prepareSearchScroll(scrollResp.getScrollId).setScroll(new TimeValue(60000)).execute.actionGet
+    } while (length != 0)
+    println(sum)
   }
+
 }
