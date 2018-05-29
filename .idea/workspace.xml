@@ -2,53 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elastic-galaxy/src/test/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/MailApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/controller/MailController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/service/impl/EmailServiceImpl.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_drapostolos_type_parser_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_orbitz_consul_consul_client_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jcs_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_hc_3_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cfg4j_cfg4j_consul_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cfg4j_cfg4j_core_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_immutables_value_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/conf/PropertyReadHelper.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/EnvController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/Collection2Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/enumration/Margin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/HostNameUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mail-galaxy/mail-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/galaxy/GalaxyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-galaxy/target/galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-galaxy/target/galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/BaseTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/BaseTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/DocumentApiTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/DocumentApiTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/resources/xxl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/XxlConfig.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/entity/Hotel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/entity/Hotel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/TestExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/TestExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/CollectionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/CollectionTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/classes/xxl.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/simple-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/simple-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/target/simple-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-galaxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/SimpleGalaxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/SimpleGalaxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/mybatis/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/mybatis/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/SimpleGalaxyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-galaxy/target/classes/com/galaxy/SimpleGalaxyApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,28 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FTPUploadFileDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-galaxy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FTPUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1995">
+              <caret line="133" column="21" lean-forward="true" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -157,28 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-galaxy/src/main/java/com/galaxy/test/scala/Test.java" />
-        <option value="$PROJECT_DIR$/simple-galaxy/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/config/XXLConfig.java" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/Test.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/ExampleSuite.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/TripType.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/dao/jpa/HotelRepository.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/TestExample.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/BaseSoundPlayer.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Mp3SoundPlayer.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Mp3BaseSoundFilePlayer.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/PizzaTrait.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Pizza.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Cat.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Tail.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Pet.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Dog.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Angry.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/traits/Test.scala" />
-        <option value="$PROJECT_DIR$/web-application-bootstrap-jquery/pom.xml" />
-        <option value="$PROJECT_DIR$/web-application-bootstrap-jquery/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bootstrap-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bootstrap-galaxy/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/colletions/MapTest.scala" />
@@ -190,7 +163,6 @@
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/executor/ExecutorConfig.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/UserService.scala" />
         <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/PrintDateJob.java" />
-        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java" />
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/java/com/galaxy/mail.java" />
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/java/com/galaxy/mail/conf/MailApplication.java" />
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/resources/bootstrap.yml" />
@@ -201,13 +173,36 @@
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/service/impl/EmailServiceImpl.scala" />
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/controller/MailController.scala" />
         <option value="$PROJECT_DIR$/mail-galaxy/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/BaseTest.scala" />
         <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/resources/log4j2.properties" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/DocumentApiTest.scala" />
-        <option value="$PROJECT_DIR$/simple-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java" />
         <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUtil.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/entity/Hotel.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/listener/MyApplicationListener.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/listener/MyServletContextListener.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/conf/MyConfig.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/listener/ListenerBean.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/enumration/Margin.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/CollectionTest.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/TestExample.scala" />
+        <option value="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/BaseTest.scala" />
+        <option value="$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/DocumentApiTest.scala" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/SimpleGalaxyApplication.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/mybatis/UserController.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/web/jpa/CityController.java" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/EnvController.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/conf/PropertyReadHelper.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/HostNameUtil.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/Test.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java" />
+        <option value="$PROJECT_DIR$/simple-galaxy/pom.xml" />
       </list>
     </option>
   </component>
@@ -229,7 +224,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1001" />
@@ -358,58 +353,6 @@
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="ftp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -425,13 +368,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/logs/propertieslogs.log" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -443,11 +387,11 @@
       <recent name="com.galaxy.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources" />
       <recent name="$PROJECT_DIR$/elastic-galaxy/src/test/resources" />
       <recent name="$PROJECT_DIR$/bootstrap-galaxy/src/main/resources" />
       <recent name="$PROJECT_DIR$/bootstrap-galaxy/src/main/java" />
       <recent name="$PROJECT_DIR$/bootstrap-galaxy" />
-      <recent name="$PROJECT_DIR$/web-application-bootstrap-jquery/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,17 +406,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FTPUploadFileDemo.testMakeNestedDirectory">
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="FTPUploadFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.ftp.FTPUploadFileDemo" />
+    <configuration name="ScalaGalaxyApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.scala.ScalaGalaxyApplication" />
+      <module name="scala-galaxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.Test" />
       <module name="simple-galaxy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.ftp.*" />
+          <option name="PATTERN" value="com.galaxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,7 +435,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DocumentApiTest.testScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DocumentApiTest.testDeleteByQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elastic-galaxy" />
       <extension name="coverage">
         <pattern>
@@ -492,7 +447,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.galaxy.elastic.test" />
       <option name="MAIN_CLASS_NAME" value="com.galaxy.elastic.test.DocumentApiTest" />
-      <option name="METHOD_NAME" value="testScroll" />
+      <option name="METHOD_NAME" value="testDeleteByQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -503,19 +458,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FTPUploadFileDemo.testDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simple-galaxy" />
+    <configuration name="TestExample.testListContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scala-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.ftp.*" />
+          <option name="PATTERN" value="com.galaxy.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.galaxy.ftp" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.ftp.FTPUploadFileDemo" />
-      <option name="METHOD_NAME" value="testDel" />
+      <option name="PACKAGE_NAME" value="com.galaxy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.test.TestExample" />
+      <option name="METHOD_NAME" value="testListContains" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -526,42 +481,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.ftp.*" />
+          <option name="PATTERN" value="com.galaxy.quartz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.galaxy.ftp" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.ftp.FTPUploadFileDemo" />
-      <option name="METHOD_NAME" value="testMakeNestedDirectory" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FTPUploadFileDemo.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simple-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.ftp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.galaxy.ftp" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.ftp.FTPUploadFileDemo" />
-      <option name="METHOD_NAME" value="testUpload" />
+      <option name="PACKAGE_NAME" value="com.galaxy.quartz" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.quartz.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,6 +545,10 @@
     <configuration name="GalaxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.GalaxyApplication" />
+    </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mail-galaxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.mail.MailApplication" />
     </configuration>
     <configuration name="PagingAndSortingRepositoryExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bootstrap-galaxy" />
@@ -666,19 +602,20 @@
       <item itemvalue="Spring Boot.PagingAndSortingRepositoryExampleApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.ElasticApplication" />
-      <item itemvalue="JUnit.DocumentApiTest.testScroll" />
-      <item itemvalue="Application.FTPUploadFileDemo" />
-      <item itemvalue="JUnit.FTPUploadFileDemo.testDel" />
-      <item itemvalue="JUnit.FTPUploadFileDemo.testUpload" />
-      <item itemvalue="JUnit.FTPUploadFileDemo.testMakeNestedDirectory" />
+      <item itemvalue="Spring Boot.MailApplication" />
+      <item itemvalue="JUnit.TestExample.testListContains" />
+      <item itemvalue="JUnit.DocumentApiTest.testDeleteByQuery" />
+      <item itemvalue="Application.ScalaGalaxyApplication" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.Test.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FTPUploadFileDemo.testMakeNestedDirectory" />
-        <item itemvalue="JUnit.FTPUploadFileDemo.testUpload" />
-        <item itemvalue="JUnit.FTPUploadFileDemo.testDel" />
-        <item itemvalue="Application.FTPUploadFileDemo" />
-        <item itemvalue="JUnit.DocumentApiTest.testScroll" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ScalaGalaxyApplication" />
+        <item itemvalue="JUnit.DocumentApiTest.testDeleteByQuery" />
+        <item itemvalue="JUnit.TestExample.testListContains" />
       </list>
     </recent_temporary>
   </component>
@@ -758,6 +695,29 @@
       <workItem from="1526454286973" duration="475000" />
       <workItem from="1526457858705" duration="7399000" />
       <workItem from="1526467138859" duration="4681000" />
+      <workItem from="1526481812383" duration="2953000" />
+      <workItem from="1526520767641" duration="1215000" />
+      <workItem from="1526538984689" duration="1383000" />
+      <workItem from="1526561865887" duration="6323000" />
+      <workItem from="1526607119101" duration="4430000" />
+      <workItem from="1526692199898" duration="4456000" />
+      <workItem from="1526782679689" duration="5549000" />
+      <workItem from="1526868085864" duration="3485000" />
+      <workItem from="1526909833703" duration="2826000" />
+      <workItem from="1526951682664" duration="951000" />
+      <workItem from="1526969657602" duration="647000" />
+      <workItem from="1526998203875" duration="2581000" />
+      <workItem from="1527039707281" duration="626000" />
+      <workItem from="1527061927008" duration="1826000" />
+      <workItem from="1527063847369" duration="3018000" />
+      <workItem from="1527170914857" duration="628000" />
+      <workItem from="1527211838488" duration="4105000" />
+      <workItem from="1527294788922" duration="1332000" />
+      <workItem from="1527325246804" duration="129000" />
+      <workItem from="1527325419015" duration="683000" />
+      <workItem from="1527388598140" duration="1740000" />
+      <workItem from="1527470876090" duration="8397000" />
+      <workItem from="1527579016797" duration="5876000" />
     </task>
     <task id="LOCAL-00001" summary="add elasticsearch test">
       <created>1520996683229</created>
@@ -798,39 +758,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 33m 24s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 00m 36s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 34m 41s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 01m 17s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 35m 17s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 15m 39s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 37m 31s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 34m 12s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 37m 46s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 35m 35s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 38m 54s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 40m 34s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 39m 02s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 51m 03s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 40m 22s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 51m 59s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 41m 03s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="DocumentApiTest_testDeleteByQuery - 2018.05.23 at 16h 52m 45s.xml">
+      <configuration name="DocumentApiTest.testDeleteByQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FTPUploadFileDemo_testMakeNestedDirectory - 2018.05.16 at 20h 41m 17s.xml">
-      <configuration name="FTPUploadFileDemo.testMakeNestedDirectory" configurationId="JUnit" />
+    <history-entry file="Test_test - 2018.05.29 at 15h 57m 32s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159480000" />
+    <option name="totallyTimeSpent" value="224639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,32 +802,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291714" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4370034" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3299435" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.22360954" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3291714" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.22247446" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5459705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45516458" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53461975" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291714" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45175937" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20660277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23269436" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="LuaJ" order="4" weight="0.32960597" />
+      <window_info anchor="right" id="LuaJ" order="4" weight="0.32956383" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="3" show_stripe_button="false" weight="0.32956383" />
+      <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5141884" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="REST Client" order="9" show_stripe_button="false" weight="0.44040862" />
       <window_info id="Capture Tool" order="2" />
@@ -883,6 +843,45 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="REST Client" order="16" show_stripe_button="false" weight="0.44040862" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3291714" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5368899" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.45257902" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="LuaJ" order="10" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.22247446" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.43813848" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3291714" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14376996" />
+      <window_info id="Learn" order="8" show_stripe_button="false" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -901,288 +900,368 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven/repo/org/cfg4j/cfg4j-core/4.4.1/cfg4j-core-4.4.1.jar!/org/cfg4j/source/context/propertiesprovider/FormatBasedPropertiesProvider.class</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap-galaxy/src/main/resources/templates/addStudent.html" />
-    <entry file="file://$PROJECT_DIR$/bootstrap-galaxy/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="840">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-galaxy/src/main/resources/templates/students.html" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar!/scala/collection/generic/GenMapFactory.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="480">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/java/com/galaxy/test/colletions/MapTest.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/web/HotelController.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/config/AsyncConfig.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/ScalaGalaxyApplication.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/executor/AsyncConfig.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/executor/AsyncExceptionHandler.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/entity/User.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/executor/ExecutorConfig.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/UserService.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/java/com/galaxy/scala/service/impl/UserServiceImpl.scala" />
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/SimpleGalaxyApplication.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-consul-config/2.0.0.M6/spring-cloud-consul-config-2.0.0.M6-sources.jar!/org/springframework/cloud/consul/config/ConsulPropertySource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/PropertiesPropertySource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0-sources.jar!/org/elasticsearch/search/fetch/subphase/highlight/HighlightBuilder.java">
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/conf/MyConfig.scala" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="434" column="15" selection-start-line="434" selection-start-column="15" selection-end-line="434" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="372" column="34" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0-sources.jar!/org/elasticsearch/action/search/SearchRequestBuilder.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/core/env/MutablePropertySources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="169" column="32" selection-start-line="169" selection-start-column="32" selection-end-line="169" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0-sources.jar!/org/elasticsearch/search/fetch/subphase/highlight/AbstractHighlighterBuilder.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="264" column="56" selection-start-line="264" selection-start-column="48" selection-end-line="264" selection-end-column="56" />
+        <state relative-caret-position="405">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/SimpleTriggerDemo.java">
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/EnvController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#30#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/WebEndpointProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        <state relative-caret-position="570">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/PrintDateJob.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/spring-boot-actuator-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/WebEndpointProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/java/com/galaxy/mail.java" />
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/java/com/galaxy/mail/conf/MailApplication.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar!/org/yaml/snakeyaml/Yaml.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/json/JsonParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/json/YamlJsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3-sources.jar!/com/fasterxml/jackson/databind/JavaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="3068" column="52" selection-start-line="3068" selection-start-column="44" selection-end-line="3068" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.3.0/jackson-dataformat-yaml-2.3.0.jar!/com/fasterxml/jackson/dataformat/yaml/snakeyaml/Yaml.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        <state relative-caret-position="374">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala">
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/conf/PropertyReadHelper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="15" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="60" selection-start-column="60" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-context-support/5.0.4.RELEASE/spring-context-support-5.0.4.RELEASE-sources.jar!/org/springframework/mail/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/mail-galaxy.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="85" column="81" selection-start-line="85" selection-start-column="81" selection-end-line="85" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot/src/main/java/com/galaxy/GalaxyApplication.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/service/impl/EmailServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="e#38#99#0" expanded="true" />
+            <element signature="e#31#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/controller/MailController.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/cfg4j/cfg4j-core/4.4.1/cfg4j-core-4.4.1.jar!/org/cfg4j/source/context/propertiesprovider/FormatBasedPropertiesProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail-galaxy/src/main/scala/com/galaxy/mail/MailApplication.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#74#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="149">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/XxlConfig.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="157">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/main/java/com/galaxy/conf/AsyncConfig.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="127">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/cfg4j/cfg4j-core/4.4.1/cfg4j-core-4.4.1.jar!/org/cfg4j/source/context/propertiesprovider/YamlBasedPropertiesProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/Collection2Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/utils/net/HostNameUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/BaseTest.scala">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/net/NetworkInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="340" column="48" selection-start-line="340" selection-start-column="48" selection-end-line="340" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/HostNameUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="240" column="15" selection-start-line="240" selection-start-column="15" selection-end-line="240" selection-end-column="15" />
+          <folding>
+            <element signature="e#8743#8744#0" expanded="true" />
+            <element signature="e#8782#8783#0" expanded="true" />
+            <element signature="e#19015#19016#0" expanded="true" />
+            <element signature="e#19055#19056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/quartz/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/simpl/SimpleInstanceIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/com/groupbyinc/common/spring/util/ControllerUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/com/groupbyinc/common/spring/model/AdditionalInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/com/groupbyinc/common/spring/model/Status.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/META-INF/maven/com.groupbyinc/common-spring-boot/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/META-INF/maven/com.groupbyinc/common-spring-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/groupbyinc/common-spring-boot/92/common-spring-boot-92.jar!/com/groupbyinc/common/spring/model/Response.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0-sources.jar!/org/elasticsearch/search/SearchHits.java">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/utils/zip/CompressionUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/test/resources/log4j2.properties">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/access/CacheAccess.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/resources/log4j2.properties">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/utils/serialization/CompressingSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/utils/config/PropertySetter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/test/scala/com/galaxy/elastic/test/DocumentApiTest.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/commons/commons-jcs-core/2.2/commons-jcs-core-2.2.jar!/org/apache/commons/jcs/utils/servlet/JCSServletContextListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="74" selection-start-line="74" selection-end-line="75" />
+        <state relative-caret-position="405">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2018-05-04T035549.200.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-galaxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/commons-net/commons-net/3.6/commons-net-3.6.jar!/org/apache/commons/net/ftp/FTPClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="518" selection-start-line="518" selection-end-line="518" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/commons-net/commons-net/3.6/commons-net-3.6-sources.jar!/org/apache/commons/net/ftp/FTP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3074">
-          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/commons-net/commons-net/3.6/commons-net-3.6-sources.jar!/org/apache/commons/net/ftp/FTPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="1164" column="19" selection-start-line="1164" selection-start-column="19" selection-end-line="1164" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="240" column="31" selection-start-line="240" selection-start-column="31" selection-end-line="240" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUploadFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-galaxy/src/test/java/com/galaxy/ftp/FTPUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1995">
+          <caret line="133" column="21" lean-forward="true" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
         </state>
       </provider>
     </entry>

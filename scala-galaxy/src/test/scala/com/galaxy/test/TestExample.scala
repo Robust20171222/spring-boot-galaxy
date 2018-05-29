@@ -59,4 +59,10 @@ class TestExample {
     val z = 0 :: y
     println()
   }
+
+  @Test
+  def testListContains: Unit ={
+    val str = "config/aone-meta/ftp.server.port"
+    println(str.indexOf("config/aone-meta/"))
+  }
 }

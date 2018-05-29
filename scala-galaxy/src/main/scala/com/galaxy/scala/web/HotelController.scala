@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation._
   * Created by wangpeng on 16/03/2018. 
   */
 @RestController
-@RequestMapping(value = Array("/scala/hotel"))
+@RequestMapping(value = Array("/hotel"))
 class HotelController {
 
   @Autowired

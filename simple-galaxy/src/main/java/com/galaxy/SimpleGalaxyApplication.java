@@ -11,8 +11,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * Created by wangpeng on 11/03/2018.
  */
 @EnableTransactionManagement // 启注解事务管理，等同于xml配置方式的 <tx:annotation-driven />
-@EnableAsync
-@EnableScheduling
+//@EnableAsync
+//@EnableScheduling
 @MapperScan("com.galaxy.mapper")
 @SpringBootApplication
 public class SimpleGalaxyApplication {

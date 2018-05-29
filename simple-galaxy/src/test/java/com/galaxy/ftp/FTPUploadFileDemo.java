@@ -1,11 +1,18 @@
 package com.galaxy.ftp;
 
+import javafx.scene.shape.Line;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 
 /**
  * Ftp operation test
@@ -107,4 +114,54 @@ public class FTPUploadFileDemo {
             ex.printStackTrace();
         }
     }
+
+    @Test
+    public void testAppendStringToFile() {
+        // File location.
+        String filePath = "/Users/pengwang/Documents/TestProject/aone/test2/file.txt";
+
+        // Content to append.
+        String contentToAppend = "\nThis发的说法是的 line was added at the end of the file !";
+
+        try {
+            Path path = Paths.get(filePath);
+            if (Files.notExists(path.getParent())) {
+                Files.createDirectories(path.getParent());
+            }
+            if (Files.notExists(path)) {
+                Files.createFile(path);
+            }
+
+            Files.write(Paths.get(filePath), contentToAppend.getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            System.out.println("Problem occurs when deleting the directory : " + ExceptionUtils.getMessage(e));
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void FileWriteUTF8Method() {
+        try {
+            // File location.
+            String filePath = "/Users/pengwang/Documents/TestProject/aone/test2/file.txt";
+            // Content to append.
+            String contentToAppend = "\nThis发的说法是的 line was added at the end of the file !";
+
+            Path path = Paths.get(filePath);
+            if (Files.notExists(path.getParent())) {
+                Files.createDirectories(path.getParent());
+            }
+            if (Files.notExists(path)) {
+                Files.createFile(path);
+            }
+
+            BufferedWriter writer = Files.newBufferedWriter(path, StandardOpenOption.APPEND);
+            writer.write(contentToAppend);
+            writer.flush();
+            writer.close();
+        } catch (IOException x) {
+            System.err.format("IOException: %s%n", x);
+        }
+    }
+
 }

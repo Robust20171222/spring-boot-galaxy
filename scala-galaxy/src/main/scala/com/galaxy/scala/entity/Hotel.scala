@@ -12,9 +12,9 @@ import scala.beans.BeanProperty
 class Hotel extends Serializable {
 
   def this(name: String, address: String) {
-    this();
+    this()
     this.name = name
-    this.address = address;
+    this.address = address
   }
 
   def this(name: String) {
