@@ -1,5 +1,7 @@
 package com.galaxy;
 
+import org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy;
+
 import java.net.UnknownHostException;
 
 /**

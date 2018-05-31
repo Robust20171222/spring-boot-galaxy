@@ -43,4 +43,4 @@ management:
       enabled: true
 
 logging:
-  config: classpath:log4j2.properties
+  config: classpath:log4j2.xml
