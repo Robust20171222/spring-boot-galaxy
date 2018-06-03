@@ -1,13 +1,14 @@
 com/galaxy/entity/Author.class
+com/galaxy/web/Log4jController.class
 com/galaxy/SimpleGalaxyApplication.class
 com/galaxy/domain/ReturnT.class
-com/galaxy/web/mybatis/UserController.class
-com/galaxy/web/jpa/CityController.class
+com/galaxy/web/CityController.class
 com/galaxy/entity/UserEntity.class
 com/galaxy/dao/jpa/CityRepository.class
 com/galaxy/mapper/UserMapper.class
 com/galaxy/service/mybatis/UserService.class
 com/galaxy/conf/AsyncConfig.class
+com/galaxy/web/UserController.class
 com/galaxy/entity/City.class
 com/galaxy/service/async/AsyncService.class
 com/galaxy/entity/Tutorial.class

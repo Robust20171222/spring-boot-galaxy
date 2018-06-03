@@ -16,6 +16,7 @@
         <module>redis-galaxy</module>
         <module>elastic-galaxy</module>
         <module>mail-galaxy</module>
+        <module>docker-galaxy</module>
     </modules>
 
     <parent>

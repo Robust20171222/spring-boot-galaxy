@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bootstrap-galaxy" />
+        <module name="docker-galaxy" />
         <module name="elastic-galaxy" />
         <module name="mail-galaxy" />
         <module name="redis-galaxy" />
@@ -18,6 +19,8 @@
     <bytecodeTargetLevel>
       <module name="boot" target="1.8" />
       <module name="bootstrap-galaxy" target="1.8" />
+      <module name="core-galaxy" target="1.8" />
+      <module name="docker-galaxy" target="1.8" />
       <module name="elastic-galaxy" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-service" target="1.8" />

@@ -13,6 +13,6 @@ class ScalaGalaxyApplication
 
 object ScalaGalaxyApplication {
   def main(args: Array[String]): Unit = {
-    SpringApplication.run(classOf[ScalaGalaxyApplication])
+    SpringApplication.run(classOf[ScalaGalaxyApplication], args: _*)
   }
 }
