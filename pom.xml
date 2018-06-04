@@ -15,7 +15,10 @@
         <module>bootstrap-galaxy</module>
         <module>redis-galaxy</module>
         <module>elastic-galaxy</module>
-        <module>mail-galaxy</module>
+        <module>docker-galaxy</module>
+        <module>server-galaxy</module>
+        <module>client-galaxy</module>
+        <module>eureka-server</module>
     </modules>
 
     <parent>

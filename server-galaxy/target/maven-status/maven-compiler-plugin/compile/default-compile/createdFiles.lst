@@ -1,0 +1,8 @@
+com/galaxy/model/ReturnT.class
+com/galaxy/service/AoneJobLogService.class
+com/galaxy/SimpleGalaxyApplication.class
+com/galaxy/web/AoneJobLogController.class
+com/galaxy/model/XxlJobLog.class
+com/galaxy/service/impl/AoneJobLogServiceImpl.class
+com/galaxy/domain/Param.class
+com/galaxy/dao/XxlJobLogDao.class
