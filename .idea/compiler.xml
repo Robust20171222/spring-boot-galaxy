@@ -7,27 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bootstrap-galaxy" />
-        <module name="docker-galaxy" />
-        <module name="elastic-galaxy" />
-        <module name="mail-galaxy" />
-        <module name="redis-galaxy" />
-        <module name="scala-galaxy" />
-        <module name="simple-galaxy" />
+        <module name="client-galaxy" />
+        <module name="eureka-server" />
+        <module name="server-galaxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot" target="1.8" />
       <module name="bootstrap-galaxy" target="1.8" />
+      <module name="client-galaxy" target="1.8" />
       <module name="core-galaxy" target="1.8" />
       <module name="docker-galaxy" target="1.8" />
       <module name="elastic-galaxy" target="1.8" />
       <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="mail-galaxy" target="1.8" />
       <module name="redis-galaxy" target="1.8" />
       <module name="scala-galaxy" target="1.8" />
-      <module name="simple-galaxy" target="1.8" />
+      <module name="server-galaxy" target="1.8" />
       <module name="simplegalaxy" target="1.5" />
       <module name="spring-boot-galaxy" target="1.8" />
       <module name="test-galaxy" target="1.8" />

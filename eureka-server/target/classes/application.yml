@@ -1,0 +1,13 @@
+eureka:
+    client:
+        fetch-registry: false
+        register-with-eureka: false
+        serviceUrl:
+            defaultZone: http://localhost:${server.port}/eureka/
+    instance:
+        lease-renewal-interval-in-seconds: 10
+server:
+    port: 2222
+spring:
+    application:
+        name: spring-cloud-eureka-server
