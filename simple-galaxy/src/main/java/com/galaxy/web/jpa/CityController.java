@@ -1,4 +1,4 @@
-package com.galaxy.web;
+package com.galaxy.web.jpa;
 
 import com.galaxy.dao.jpa.CityRepository;
 import com.galaxy.domain.ReturnT;

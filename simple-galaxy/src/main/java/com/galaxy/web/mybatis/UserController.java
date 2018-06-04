@@ -1,7 +1,8 @@
-package com.galaxy.web;
+package com.galaxy.web.mybatis;
 
 import com.galaxy.entity.UserEntity;
 import com.galaxy.service.mybatis.UserService;
+import org.apache.catalina.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
