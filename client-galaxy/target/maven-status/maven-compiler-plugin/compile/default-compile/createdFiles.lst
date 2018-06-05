@@ -1,0 +1,4 @@
+com/galaxy/client/ClientApplication.class
+com/galaxy/client/web/LogController.class
+com/galaxy/client/fegin/LogClient.class
+com/galaxy/client/model/ReturnT.class

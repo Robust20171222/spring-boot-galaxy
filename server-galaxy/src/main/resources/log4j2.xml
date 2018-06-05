@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
     <Properties>
-        <Property name="filename">logs/simple-galaxy.log</Property>
-        <Property name="rolling_filename">logs/simple-galaxy-%d{yyyy-MM-dd-HH}-%i.log</Property>
+        <Property name="filename">logs/server-galaxy.log</Property>
+        <Property name="rolling_filename">logs/server-galaxy-%d{yyyy-MM-dd-HH}-%i.log</Property>
         <Property name="pattern">%d{yyyy/MM/dd HH:mm:ss,SSS} [%p] [%t] %C.%M(%F:%L) - %m%n</Property>
     </Properties>
 

@@ -4,6 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/server-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/client-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/core-galaxy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
