@@ -19,7 +19,6 @@
         <module>server-galaxy</module>
         <module>client-galaxy</module>
         <module>eureka-server</module>
-        <module>core-galaxy</module>
     </modules>
 
     <parent>

@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bootstrap-galaxy" />
         <module name="client-galaxy" />
-        <module name="core-galaxy" />
         <module name="docker-galaxy" />
         <module name="elastic-galaxy" />
         <module name="eureka-server" />

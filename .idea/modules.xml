@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" filepath="$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-galaxy/client-galaxy.iml" filepath="$PROJECT_DIR$/client-galaxy/client-galaxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-galaxy/core-galaxy.iml" filepath="$PROJECT_DIR$/core-galaxy/core-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" filepath="$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" filepath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
