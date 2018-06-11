@@ -19,6 +19,7 @@
         <module>server-galaxy</module>
         <module>client-galaxy</module>
         <module>eureka-server</module>
+        <module>groot-galaxy</module>
     </modules>
 
     <parent>
@@ -68,23 +69,4 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <finalName>galaxy</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <executable>true</executable> <!-- Add -->
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>

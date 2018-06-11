@@ -91,11 +91,10 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.cfg4j/cfg4j-consul -->
         <dependency>
-            <groupId>org.cfg4j</groupId>
-            <artifactId>cfg4j-consul</artifactId>
-            <version>4.4.1</version>
+            <groupId>com.galaxy</groupId>
+            <artifactId>groot-galaxy</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
