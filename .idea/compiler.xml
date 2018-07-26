@@ -13,6 +13,7 @@
         <module name="elastic-galaxy" />
         <module name="eureka-server" />
         <module name="groot-galaxy" />
+        <module name="grpc-galaxy" />
         <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
@@ -31,6 +32,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="groot-galaxy" target="1.8" />
+      <module name="grpc-galaxy" target="1.8" />
       <module name="mail-galaxy" target="1.8" />
       <module name="redis-galaxy" target="1.8" />
       <module name="scala-galaxy" target="1.8" />

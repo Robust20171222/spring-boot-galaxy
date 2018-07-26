@@ -119,8 +119,30 @@ class DocumentApiTest extends BaseTest {
     //        log.error(s"Log del fail: ${ExceptionUtils.getMessage(e)}")
     //      }
     //    })
+  }
 
+  @Test
+  def testQueryAndSearch: Unit ={
+    val builder = this.transportClient.prepareSearch("es_cluster").setVersion(true)
 
+    val matchAllQuery = QueryBuilders.matchAllQuery().queryName("DIP日志")
+
+    val boolQuery = QueryBuilders.boolQuery().queryName("DIP日志")
+
+    builder.setFetchSource("*","_source_name")
+
+    boolQuery.disableCoord(true)
+
+    builder.setQuery(boolQuery)
+
+    val highlightBuilder: HighlightBuilder = new HighlightBuilder()
+    highlightBuilder.highlighterType("plain")
+    highlightBuilder.field("*")
+    builder.highlighter(highlightBuilder)
+
+    println(builder.toString)
+
+    println(builder.execute().actionGet())
   }
 
 }

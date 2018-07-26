@@ -1,3 +1,6 @@
-com/galaxy/groot/consul/ConsulConfig.class
+com/galaxy/groot/starter/HelloServiceImpl.class
 com/galaxy/groot/consul/ConsulService.class
+com/galaxy/groot/starter/HelloServiceAutoConfiguration.class
 com/galaxy/groot/consul/ConsulServiceImpl.class
+com/galaxy/groot/consul/ConsulConfig.class
+com/galaxy/groot/starter/HelloService.class

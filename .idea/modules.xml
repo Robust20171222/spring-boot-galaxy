@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" filepath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" filepath="$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" filepath="$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" filepath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" filepath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-galaxy/server-galaxy.iml" filepath="$PROJECT_DIR$/server-galaxy/server-galaxy.iml" />

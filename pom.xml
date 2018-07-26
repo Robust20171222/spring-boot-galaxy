@@ -20,6 +20,7 @@
         <module>client-galaxy</module>
         <module>eureka-server</module>
         <module>groot-galaxy</module>
+        <module>grpc-galaxy</module>
     </modules>
 
     <parent>
