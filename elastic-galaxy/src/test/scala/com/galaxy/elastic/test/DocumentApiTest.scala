@@ -1,8 +1,13 @@
 package com.galaxy.elastic.test
 
+import java.text.SimpleDateFormat
 import java.util
 import java.util.Date
 
+import org.apache.commons.lang3.StringUtils
+import org.apache.commons.lang3.time.DateUtils
+import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest
+import org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest
 import org.elasticsearch.action.bulk.byscroll.BulkByScrollResponse
 import org.elasticsearch.action.get.GetResponse
 import org.elasticsearch.action.search.SearchResponse
@@ -11,6 +16,9 @@ import org.elasticsearch.index.query.QueryBuilders
 import org.elasticsearch.index.reindex.DeleteByQueryAction
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder
 import org.junit.Test
+
+import scala.collection.JavaConversions._
+import scala.collection.mutable.ListBuffer
 
 class DocumentApiTest extends BaseTest {
 
@@ -122,14 +130,14 @@ class DocumentApiTest extends BaseTest {
   }
 
   @Test
-  def testQueryAndSearch: Unit ={
+  def testQueryAndSearch: Unit = {
     val builder = this.transportClient.prepareSearch("es_cluster").setVersion(true)
 
     val matchAllQuery = QueryBuilders.matchAllQuery().queryName("DIP日志")
 
     val boolQuery = QueryBuilders.boolQuery().queryName("DIP日志")
 
-    builder.setFetchSource("*","_source_name")
+    builder.setFetchSource("*", "_source_name")
 
     boolQuery.disableCoord(true)
 
@@ -145,4 +153,33 @@ class DocumentApiTest extends BaseTest {
     println(builder.execute().actionGet())
   }
 
+  @Test
+  def testDeleteIndex: Unit = {
+    val indicesAdminClient = this.transportClient.admin().indices()
+    val dateFormat = new SimpleDateFormat("yyyy.MM.dd")
+    val nowTime = dateFormat.format(DateUtils.addDays(new Date(), -7))
+    val nowDate = dateFormat.parse(nowTime)
+    val isr = indicesAdminClient.stats(new IndicesStatsRequest().all).actionGet().getIndices.keySet()
+
+    val list = new ListBuffer[String]()
+    isr.foreach(index => {
+      val lastIndex = index.lastIndexOf("-")
+      if (lastIndex != -1) {
+        val time = index.substring(lastIndex + 1)
+        if (StringUtils.isNoneBlank(time)) {
+          val indexDate = dateFormat.parse(time)
+          val num = indexDate.compareTo(nowDate)
+          if (num == -1) {
+            if (indicesAdminClient.prepareExists(index).execute.actionGet.isExists) {
+              list += index
+            }
+          }
+        }
+      }
+    })
+
+    if (list.nonEmpty) {
+      indicesAdminClient.delete(new DeleteIndexRequest(list: _*)).actionGet()
+    }
+  }
 }
