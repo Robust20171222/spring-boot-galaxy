@@ -15,7 +15,6 @@
         <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
-        <module name="simple-galaxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

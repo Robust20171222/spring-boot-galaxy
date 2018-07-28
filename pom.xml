@@ -11,14 +11,10 @@
 
     <modules>
         <module>scala-galaxy</module>
-        <module>simple-galaxy</module>
         <module>bootstrap-galaxy</module>
         <module>redis-galaxy</module>
         <module>elastic-galaxy</module>
         <module>docker-galaxy</module>
-        <module>server-galaxy</module>
-        <module>client-galaxy</module>
-        <module>eureka-server</module>
         <module>groot-galaxy</module>
         <module>grpc-galaxy</module>
     </modules>
