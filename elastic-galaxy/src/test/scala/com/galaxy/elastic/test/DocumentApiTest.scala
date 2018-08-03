@@ -1,7 +1,6 @@
 package com.galaxy.elastic.test
 
 import java.text.SimpleDateFormat
-import java.util
 import java.util.Date
 
 import org.apache.commons.lang3.StringUtils
@@ -9,9 +8,9 @@ import org.apache.commons.lang3.time.DateUtils
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest
 import org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest
 import org.elasticsearch.action.bulk.byscroll.BulkByScrollResponse
-import org.elasticsearch.action.get.GetResponse
 import org.elasticsearch.action.search.SearchResponse
 import org.elasticsearch.common.unit.TimeValue
+import org.elasticsearch.common.xcontent.{XContentBuilder, XContentFactory}
 import org.elasticsearch.index.query.QueryBuilders
 import org.elasticsearch.index.reindex.DeleteByQueryAction
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder
@@ -22,37 +21,23 @@ import scala.collection.mutable.ListBuffer
 
 class DocumentApiTest extends BaseTest {
 
-  def putJsonDocument(title: String, content: String, postDate: Date, tags: Array[String], author: String): java.util.Map[String, Object] = {
-    val jsonDocument: java.util.Map[String, Object] = new util.HashMap[String, Object]
-    jsonDocument.put("title", title)
-    jsonDocument.put("content", content)
-    jsonDocument.put("postDate", postDate)
-    jsonDocument.put("tags", tags)
-    jsonDocument.put("author", author)
-    jsonDocument
-  }
-
   @Test
   def testCreateIndex: Unit = {
-    val doc: java.util.Map[String, Object] = putJsonDocument("ElasticSearch: Java API", "ElasticSearch provides the Java API, all operations "
-      + "can be executed asynchronously using a client object.", new Date, Array("elasticsearch"), "Hüseyin Akdoğan")
+    val builder = XContentFactory.jsonBuilder()
 
-    val response = this.transportClient.prepareIndex("kodcucom", "article", "1").setSource(doc).execute().actionGet()
-    log.info(s"$response")
-  }
+    builder.startObject()
+    builder.startObject("properties")
+    builder.startObject("timestamp")
+    builder.field("type","date")
+    builder.endObject()
+    builder.endObject()
+    builder.endObject()
 
-  @Test
-  def testGetIndex: Unit = {
-    val getResponse: GetResponse = this.transportClient.prepareGet("kodcucom", "article", "1").execute.actionGet
+    println(builder.toString)
+   // val isAcknowledged = this.transportClient.admin().indices().prepareCreate("test1").addMapping("test", "timestamp", "type=date").execute().get().isAcknowledged
 
-    val source = getResponse.getSource
-    println("------------------------------")
-    println("Index: " + getResponse.getIndex)
-    println("Type: " + getResponse.getType)
-    println("Id: " + getResponse.getId)
-    println("Version: " + getResponse.getVersion)
-    println(source)
-    println("------------------------------")
+    val isAcknowledged = this.transportClient.admin().indices().prepareCreate("test2").addMapping("test", builder).execute().get().isAcknowledged
+    println(isAcknowledged)
   }
 
   /**
@@ -127,30 +112,6 @@ class DocumentApiTest extends BaseTest {
     //        log.error(s"Log del fail: ${ExceptionUtils.getMessage(e)}")
     //      }
     //    })
-  }
-
-  @Test
-  def testQueryAndSearch: Unit = {
-    val builder = this.transportClient.prepareSearch("es_cluster").setVersion(true)
-
-    val matchAllQuery = QueryBuilders.matchAllQuery().queryName("DIP日志")
-
-    val boolQuery = QueryBuilders.boolQuery().queryName("DIP日志")
-
-    builder.setFetchSource("*", "_source_name")
-
-    boolQuery.disableCoord(true)
-
-    builder.setQuery(boolQuery)
-
-    val highlightBuilder: HighlightBuilder = new HighlightBuilder()
-    highlightBuilder.highlighterType("plain")
-    highlightBuilder.field("*")
-    builder.highlighter(highlightBuilder)
-
-    println(builder.toString)
-
-    println(builder.execute().actionGet())
   }
 
   @Test

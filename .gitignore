@@ -29,3 +29,4 @@ hs_err_pid*
 /grpc-galaxy/target/
 /simple-galaxy/target/
 /redis-galaxy/target/
+/elastic-galaxy/target/
