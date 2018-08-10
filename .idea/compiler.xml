@@ -10,6 +10,7 @@
         <module name="bootstrap-galaxy" />
         <module name="docker-galaxy" />
         <module name="elastic-galaxy" />
+        <module name="gateway-galaxy" />
         <module name="groot-galaxy" />
         <module name="grpc-galaxy" />
         <module name="mail-galaxy" />
@@ -27,6 +28,7 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="gateway-galaxy" target="1.8" />
       <module name="groot-galaxy" target="1.8" />
       <module name="grpc-galaxy" target="1.8" />
       <module name="mail-galaxy" target="1.8" />

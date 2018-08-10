@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" filepath="$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" filepath="$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" filepath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" filepath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" filepath="$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" filepath="$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" filepath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" />

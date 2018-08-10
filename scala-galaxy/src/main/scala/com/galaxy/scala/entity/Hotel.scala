@@ -22,7 +22,7 @@ class Hotel extends Serializable {
   }
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @BeanProperty
   var id: Long = _
 

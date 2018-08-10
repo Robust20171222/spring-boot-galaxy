@@ -1,5 +1,7 @@
 server:
   port: 8080
+  servlet:
+    context-path: /scala-galaxy/
 spring:
   #数据库配置
   datasource:
@@ -53,7 +55,7 @@ spring:
         # 执行监控检查的频率
         health-check-interval: 30s
         # 健康检查的路径
-        health-check-path: /actuator/info
+        health-check-path: ${server.servlet.context-path}/actuator/info
         # 设置健康检查失败多长时间后，取消注册
         health-check-critical-timeout: 30m
         # 服务注册标识，格式为：应用名称+服务器IP+端口

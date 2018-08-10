@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gateway-service-zuul
+server:
+  port: 8888
+
+#这里的配置表示，访问/it/** 直接重定向到http://www.ityouknow.com/**
+zuul:
+  routes:
+    baidu:
+      path: /it/**
+      url: http://www.ityouknow.com/
+    scala:
+      path: /scala-galaxy/**
+      url: http://localhost:8080/scala-galaxy
