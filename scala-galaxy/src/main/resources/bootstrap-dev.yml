@@ -1,7 +1,7 @@
 server:
-  port: 8080
+  port: 5080
   servlet:
-    context-path: /scala-galaxy/
+    context-path: /scala/
 spring:
   #数据库配置
   datasource:
@@ -9,6 +9,14 @@ spring:
     username: root
     password: ''
     driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-timeout: 20000
+      minimum-idle: 5
+      maximum-pool-size: 12
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+
   jackson:
     default-property-inclusion: non_absent
   application:
@@ -16,6 +24,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL57Dialect
     show-sql: true
 
   # consul 配置
