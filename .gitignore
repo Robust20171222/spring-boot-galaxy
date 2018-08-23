@@ -27,3 +27,11 @@ hs_err_pid*
 /scala-galaxy/target/
 /logs/
 /grpc-galaxy/target/
+/simple-galaxy/target/
+/redis-galaxy/target/
+/elastic-galaxy/target/
+/gateway-galaxy/target/
+/.idea/sonarlint/
+/docker-galaxy/target/
+/bootstrap-galaxy/target/
+/groot-galaxy/target/

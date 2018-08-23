@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="mail-galaxy,scala-galaxy,docker-galaxy,elastic-galaxy" />
+    <profile name="Maven 1" modules="mail-galaxy,elastic-galaxy,docker-galaxy,scala-galaxy,gateway-galaxy" />
   </component>
 </project>

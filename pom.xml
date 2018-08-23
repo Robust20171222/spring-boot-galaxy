@@ -11,16 +11,12 @@
 
     <modules>
         <module>scala-galaxy</module>
-        <module>simple-galaxy</module>
         <module>bootstrap-galaxy</module>
         <module>redis-galaxy</module>
-        <module>elastic-galaxy</module>
         <module>docker-galaxy</module>
-        <module>server-galaxy</module>
-        <module>client-galaxy</module>
-        <module>eureka-server</module>
         <module>groot-galaxy</module>
         <module>grpc-galaxy</module>
+        <module>gateway-galaxy</module>
     </modules>
 
     <parent>
@@ -37,6 +33,7 @@
         <guava.version>23.6-jre</guava.version>
         <commons-lang3.version>3.7</commons-lang3.version>
         <spring-cloud.version>Finchley.M8</spring-cloud.version>
+        <scala.version>2.11.7</scala.version>
     </properties>
 
     <dependencyManagement>

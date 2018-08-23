@@ -34,17 +34,14 @@ class BaseTest {
     /**
       * local settings
       */
-    //    val settings = Settings.builder.put("cluster.name", "my-application").build
+//    val settings = Settings.builder.put("cluster.name", "elasticsearch").build
 //    transportClient = new PreBuiltTransportClient(settings)
 //      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300))
 //    transportClient
 
-    /**
-      * aone settings
-      */
-    val settings = Settings.builder.put("cluster.name", "aone").build
+    val settings = Settings.builder.put("cluster.name", "mdp").build
     transportClient = new PreBuiltTransportClient(settings)
-      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("es2"), 9300))
+      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("dev"), 9300))
     transportClient
   }
 }

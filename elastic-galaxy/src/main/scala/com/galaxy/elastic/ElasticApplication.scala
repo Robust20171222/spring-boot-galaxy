@@ -8,7 +8,6 @@ class ElasticApplication {
 
 }
 
-
 object ElasticApplication{
   def main(args: Array[String]): Unit = {
     SpringApplication.run(classOf[ElasticApplication])
