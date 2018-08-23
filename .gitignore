@@ -32,3 +32,6 @@ hs_err_pid*
 /elastic-galaxy/target/
 /gateway-galaxy/target/
 /.idea/sonarlint/
+/docker-galaxy/target/
+/bootstrap-galaxy/target/
+/groot-galaxy/target/
