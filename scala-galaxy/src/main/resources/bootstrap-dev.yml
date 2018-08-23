@@ -1,7 +1,5 @@
 server:
   port: 5080
-  servlet:
-    context-path: /scala/
 spring:
   #数据库配置
   datasource:
@@ -31,9 +29,9 @@ spring:
   cloud:
     consul:
       # consul服务器地址
-      host: dev
+      host: localhost
       # consul服务端口
-      port: 8700
+      port: 8500
       enabled: true
       config:
         # enabled为true表示启用配置管理功能
@@ -64,9 +62,9 @@ spring:
         # 执行监控检查的频率
         health-check-interval: 30s
         # 健康检查的路径
-        health-check-path: ${server.servlet.context-path}/actuator/info
+        health-check-path: /actuator/info
         # 设置健康检查失败多长时间后，取消注册
-        health-check-critical-timeout: 30m
+        health-check-critical-timeout: 30s
         # 服务注册标识，格式为：应用名称+服务器IP+端口
         instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
 
@@ -78,7 +76,12 @@ logging:
   config: classpath:log4j2.xml
 
 management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+  context-path: /actuator
+  security:
+    enabled: false
+endpoints:
+  actuator:
+    enabled: true
+    sensitive: true
+  logfile:
+    enabled: true
