@@ -52,15 +52,19 @@ spring:
         instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
 
 zuul:
+  #  ignoredServices: '*'
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 300000
   sensitiveHeaders: Cookie,Set-Cookie
   routes:
     scalaRoute:
-      stripPrefix: false
-      uri: /hotel/**
+      # consul 中注册的服务名称
       serviceId: scala-galaxy
+      # 要映射的url路径
+      path: /scala/**
+      # 在转发之前是否忽略前缀
+      strip-prefix: false
 
 management:
   context-path: /actuator
@@ -72,3 +76,6 @@ endpoints:
     sensitive: true
   logfile:
     enabled: true
+
+logging:
+  config: classpath:log4j2.xml
