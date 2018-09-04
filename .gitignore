@@ -35,3 +35,11 @@ hs_err_pid*
 /docker-galaxy/target/
 /bootstrap-galaxy/target/
 /groot-galaxy/target/
+/zookeeper-galaxy/target/
+/zookeeper-galaxy/zookeeper-galaxy.iml
+/hello-spring-boot-autoconfigure/target/
+/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml
+/hello-spring-boot-sample-app/target/
+/hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml
+/hello-spring-boot-starter/hello-spring-boot-starter.iml
+/gateway-galaxy/gateway-galaxy.iml

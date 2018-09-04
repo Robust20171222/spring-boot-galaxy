@@ -11,12 +11,14 @@
 
     <modules>
         <module>scala-galaxy</module>
-        <module>bootstrap-galaxy</module>
         <module>redis-galaxy</module>
-        <module>docker-galaxy</module>
         <module>groot-galaxy</module>
         <module>grpc-galaxy</module>
         <module>gateway-galaxy</module>
+        <module>zookeeper-galaxy</module>
+        <module>hello-spring-boot-autoconfigure</module>
+        <module>hello-spring-boot-starter</module>
+        <module>hello-spring-boot-sample-app</module>
     </modules>
 
     <parent>
