@@ -66,16 +66,5 @@ zuul:
       # 在转发之前是否忽略前缀
       strip-prefix: false
 
-management:
-  context-path: /actuator
-  security:
-    enabled: false
-endpoints:
-  actuator:
-    enabled: true
-    sensitive: true
-  logfile:
-    enabled: true
-
 logging:
   config: classpath:log4j2.xml

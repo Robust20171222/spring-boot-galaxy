@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
 
 /**
+  * 自定义token过滤器
+  *
   * Created by wangpeng
   * Date: 2018/9/12
   * Time: 19:28
@@ -42,15 +44,12 @@ class TokenFilter extends ZuulFilter {
       ctx.setSendZuulResponse(true) //对请求进行路由
       ctx.setResponseStatusCode(200)
       ctx.set("isSuccess", true)
-      null
-    }
-    else {
+    } else {
       ctx.setSendZuulResponse(false) //不对其进行路由
-
       ctx.setResponseStatusCode(400)
       ctx.setResponseBody("token is empty")
       ctx.set("isSuccess", false)
-      null
     }
+    null
   }
 }
