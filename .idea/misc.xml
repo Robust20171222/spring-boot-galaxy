@@ -2,20 +2,28 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/gateway-galaxy" />
+    <file type="web" url="file://$PROJECT_DIR$/zookeeper-galaxy" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/boot/pom.xml" />
+        <option value="$PROJECT_DIR$/bootstrap-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/client-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-service/pom.xml" />
+        <option value="$PROJECT_DIR$/greeter-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/greeter-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/greeter-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/greeter-starter/pom.xml" />
         <option value="$PROJECT_DIR$/server-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/simple-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/simplegalaxy/pom.xml" />

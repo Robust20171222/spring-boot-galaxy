@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" filepath="$PROJECT_DIR$/bootstrap-galaxy/bootstrap-galaxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" filepath="$PROJECT_DIR$/docker-galaxy/docker-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" filepath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" filepath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" filepath="$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" filepath="$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml" filepath="$PROJECT_DIR$/hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" filepath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" filepath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-galaxy.iml" filepath="$PROJECT_DIR$/spring-boot-galaxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" filepath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" />
     </modules>
   </component>
 </project>

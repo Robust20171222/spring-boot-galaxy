@@ -43,3 +43,4 @@ hs_err_pid*
 /hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml
 /hello-spring-boot-starter/hello-spring-boot-starter.iml
 /gateway-galaxy/gateway-galaxy.iml
+/.idea/

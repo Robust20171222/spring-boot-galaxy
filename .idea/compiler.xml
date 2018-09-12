@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bootstrap-galaxy" />
-        <module name="docker-galaxy" />
         <module name="elastic-galaxy" />
         <module name="gateway-galaxy" />
         <module name="groot-galaxy" />
         <module name="grpc-galaxy" />
+        <module name="hello-spring-boot-autoconfigure" />
+        <module name="hello-spring-boot-sample-app" />
+        <module name="hello-spring-boot-starter" />
         <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
+        <module name="zookeeper-galaxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,8 +31,15 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="gateway-galaxy" target="1.8" />
+      <module name="greeter-autoconfigure" target="1.8" />
+      <module name="greeter-galaxy" target="1.8" />
+      <module name="greeter-sample" target="1.8" />
+      <module name="greeter-starter" target="1.8" />
       <module name="groot-galaxy" target="1.8" />
       <module name="grpc-galaxy" target="1.8" />
+      <module name="hello-spring-boot-autoconfigure" target="1.8" />
+      <module name="hello-spring-boot-sample-app" target="1.8" />
+      <module name="hello-spring-boot-starter" target="1.8" />
       <module name="mail-galaxy" target="1.8" />
       <module name="redis-galaxy" target="1.8" />
       <module name="scala-galaxy" target="1.8" />
@@ -40,6 +49,7 @@
       <module name="spring-boot-galaxy" target="1.8" />
       <module name="test-galaxy" target="1.8" />
       <module name="web-application-bootstrap-jquery" target="1.8" />
+      <module name="zookeeper-galaxy" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
