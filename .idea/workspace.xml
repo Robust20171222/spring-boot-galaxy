@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Add zuul filter">
-      <change afterPath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_0_pr3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_2_0_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_2_0_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+    <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Add zuul post filter and fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +61,7 @@
     <session id="380871921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -85,9 +72,11 @@
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="6" />
@@ -95,42 +84,42 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="28" />
+          <entry key="class" value="29" />
           <entry key="factories" value="4" />
-          <entry key="gitignore" value="20" />
+          <entry key="gitignore" value="21" />
           <entry key="http" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="113" />
+          <entry key="java" value="119" />
           <entry key="json" value="2" />
-          <entry key="md" value="3" />
-          <entry key="pom" value="14" />
+          <entry key="md" value="4" />
+          <entry key="pom" value="15" />
           <entry key="properties" value="11" />
-          <entry key="scala" value="83" />
+          <entry key="scala" value="88" />
           <entry key="sh" value="1" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="135" />
+          <entry key="xml" value="136" />
           <entry key="yml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="CLASS" value="28" />
-          <entry key="Git file" value="20" />
+          <entry key="CLASS" value="29" />
+          <entry key="Git file" value="21" />
           <entry key="HTTP Request" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="113" />
+          <entry key="JAVA" value="119" />
           <entry key="JSON" value="2" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="Properties" value="11" />
           <entry key="SQL" value="3" />
-          <entry key="Scala" value="83" />
-          <entry key="XML" value="149" />
+          <entry key="Scala" value="88" />
+          <entry key="XML" value="151" />
           <entry key="YAML" value="78" />
           <entry key="spring.factories" value="4" />
         </counts>
@@ -140,10 +129,10 @@
           <entry key="dummy" value="5" />
           <entry key="factories" value="9" />
           <entry key="java" value="127" />
-          <entry key="md" value="50" />
+          <entry key="md" value="52" />
           <entry key="properties" value="63" />
-          <entry key="scala" value="3625" />
-          <entry key="txt" value="62" />
+          <entry key="scala" value="3667" />
+          <entry key="txt" value="98" />
           <entry key="xml" value="413" />
           <entry key="yml" value="636" />
         </counts>
@@ -151,10 +140,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="127" />
-          <entry key="Markdown" value="50" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="Markdown" value="52" />
+          <entry key="PLAIN_TEXT" value="103" />
           <entry key="Properties" value="63" />
-          <entry key="Scala" value="3625" />
+          <entry key="Scala" value="3667" />
           <entry key="XML" value="413" />
           <entry key="YAML" value="636" />
           <entry key="spring.factories" value="9" />
@@ -170,24 +159,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala">
+        <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="e#35#69#0" expanded="true" />
+                <element signature="e#35#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala">
+        <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="675">
+              <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
               <folding>
-                <element signature="e#35#56#0" expanded="true" />
+                <element signature="e#35#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,22 +186,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="128" selection-start-line="6" selection-start-column="128" selection-end-line="6" selection-end-column="128" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <element signature="e#35#98#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -328,9 +305,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gateway-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" />
         <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala" />
+        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" />
+        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -372,10 +349,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="width" value="1920" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -492,17 +468,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -513,7 +485,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1119,7 +1090,9 @@
       <workItem from="1536629931715" duration="6422000" />
       <workItem from="1536679025531" duration="234000" />
       <workItem from="1536715977045" duration="6516000" />
-      <workItem from="1536758125647" duration="6333000" />
+      <workItem from="1536758125647" duration="6862000" />
+      <workItem from="1536803023800" duration="1711000" />
+      <workItem from="1536811014988" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="add elasticsearch test">
       <created>1520996683229</created>
@@ -1177,7 +1150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536752586553</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add zuul post filter and fallback">
+      <created>1536764514315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536764514315</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1213,7 +1193,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384132000" />
+    <option name="totallyTimeSpent" value="387630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,10 +1205,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1280" height="721" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.22213247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.15015975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1285,42 +1265,11 @@
     <MESSAGE value="Modidy zuul gateway config" />
     <MESSAGE value="Add custom starter" />
     <MESSAGE value="Add zuul filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add zuul filter" />
+    <MESSAGE value="Add zuul post filter and fallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add zuul post filter and fallback" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/greeter-sample/src/test/java/com/galaxy/greeter/sample/GreeterSampleApplicationIntegrationTest.java" />
-    <entry file="file://$PROJECT_DIR$/greeter-autoconfigure/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/greeter-starter/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/greeter-sample/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/hello-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-spring-boot-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-spring-boot-autoconfigure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-spring-boot-sample-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-spring-boot-autoconfigure/src/main/java/com/galaxy/autoconfigure/HelloConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1451,13 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/GatewayServiceZuulApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1469,10 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="272" column="16" selection-start-line="272" selection-start-column="16" selection-end-line="272" selection-end-column="16" />
-          <folding>
-            <element signature="e#7159#7160#0" expanded="true" />
-            <element signature="e#7212#7213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1528,10 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
-          <folding>
-            <element signature="e#4902#4903#0" expanded="true" />
-            <element signature="e#4938#4939#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1539,13 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="60" column="14" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="165" column="36" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1570,40 +1497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-          <folding>
-            <element signature="e#35#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8.jar!/org/springframework/cloud/netflix/zuul/filters/route/FallbackProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#35#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#35#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,11 +1511,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/GatewayServiceZuulApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="442" column="59" selection-start-line="442" selection-start-column="43" selection-end-line="442" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8449">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/TypeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="737" column="54" lean-forward="true" selection-start-line="737" selection-start-column="54" selection-end-line="737" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="164" column="53" selection-start-line="164" selection-start-column="41" selection-end-line="164" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-dependencies/Finchley.M9/spring-cloud-dependencies-Finchley.M9.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+          <folding>
+            <element signature="e#35#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#35#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <element signature="e#35#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="128" selection-start-line="6" selection-start-column="128" selection-end-line="6" selection-end-column="128" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           </first_editor>
           <second_editor />
         </state>

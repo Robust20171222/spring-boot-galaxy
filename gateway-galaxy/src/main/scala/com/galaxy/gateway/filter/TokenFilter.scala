@@ -4,6 +4,7 @@ import com.netflix.zuul.ZuulFilter
 import com.netflix.zuul.context.RequestContext
 import org.apache.commons.lang.StringUtils
 import org.slf4j.LoggerFactory
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants
 import org.springframework.stereotype.Component
 
 /**
@@ -23,7 +24,7 @@ class TokenFilter extends ZuulFilter {
     *
     * @return
     */
-  override def filterType(): String = "pre" //可以在请求被路由之前调用
+  override def filterType(): String = FilterConstants.PRE_TYPE //可以在请求被路由之前调用
 
   override def filterOrder(): Int = 10 //定义filter的顺序，数字越小表示顺序越高，越先执行
 
