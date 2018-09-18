@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.{PostMapping, RequestBody, Reques
   */
 @RequestMapping(value = Array("/article"))
 @RestController
-@Api(value = "文章信息Restful API") // it description of api at top
 class ArticleController {
 
   final val DEFAULT_ES_TIMESTAMP_FORMAT: String = "yyyy-MM-dd'T'HH:mm:ssZZ"

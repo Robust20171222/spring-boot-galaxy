@@ -27,7 +27,7 @@ class EsConfig {
   private var port: Int = 0
 
   @Bean
-  def client: TransportClient = {
+  def transportClient: TransportClient = {
     val settings = Settings.builder
       .put("client.transport.ignore_cluster_name", true)
       .put("transport.tcp.connect_timeout", new TimeValue(60, TimeUnit.SECONDS))
@@ -40,6 +40,6 @@ class EsConfig {
   }
 
   @Bean
-  def elasticsearchTemplate = new ElasticsearchTemplate(client)
+  def elasticsearchTemplate = new ElasticsearchTemplate(transportClient)
 
 }
