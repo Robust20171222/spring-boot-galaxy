@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;">
-      <change afterPath="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/BookController.scala" afterDir="false" />
+    <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Add ES restful API for BookController">
+      <change afterPath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/galalxy/dubbo/api/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/EsConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/EsConfig.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/ArticleController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/ArticleController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-galaxy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +57,9 @@
     <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/hello-spring-boot-sample-app/target/" />
     <ignored path="$PROJECT_DIR$/hello-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +84,7 @@
     <session id="380871921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="53" />
+          <entry key="project.closed" value="56" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -74,54 +97,54 @@
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="6" />
+          <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.30" value="4" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="38" />
+          <entry key="class" value="40" />
           <entry key="factories" value="4" />
-          <entry key="gitignore" value="21" />
+          <entry key="gitignore" value="23" />
           <entry key="http" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="148" />
+          <entry key="java" value="187" />
           <entry key="json" value="2" />
           <entry key="md" value="5" />
           <entry key="pom" value="16" />
-          <entry key="properties" value="11" />
+          <entry key="properties" value="15" />
           <entry key="scala" value="104" />
           <entry key="sh" value="1" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="140" />
-          <entry key="yml" value="83" />
+          <entry key="xml" value="154" />
+          <entry key="yml" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="CLASS" value="38" />
-          <entry key="Git file" value="21" />
+          <entry key="CLASS" value="40" />
+          <entry key="Git file" value="23" />
           <entry key="HTTP Request" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="148" />
+          <entry key="JAVA" value="187" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="5" />
-          <entry key="Properties" value="11" />
+          <entry key="Properties" value="15" />
           <entry key="SQL" value="3" />
           <entry key="Scala" value="104" />
-          <entry key="XML" value="156" />
-          <entry key="YAML" value="83" />
+          <entry key="XML" value="170" />
+          <entry key="YAML" value="102" />
           <entry key="spring.factories" value="4" />
         </counts>
       </usages-collector>
@@ -129,24 +152,24 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="factories" value="9" />
-          <entry key="java" value="130" />
+          <entry key="java" value="534" />
           <entry key="md" value="85" />
-          <entry key="properties" value="63" />
+          <entry key="properties" value="73" />
           <entry key="scala" value="5118" />
-          <entry key="txt" value="158" />
-          <entry key="xml" value="413" />
-          <entry key="yml" value="658" />
+          <entry key="txt" value="184" />
+          <entry key="xml" value="504" />
+          <entry key="yml" value="1067" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="130" />
+          <entry key="JAVA" value="534" />
           <entry key="Markdown" value="85" />
-          <entry key="PLAIN_TEXT" value="163" />
-          <entry key="Properties" value="63" />
+          <entry key="PLAIN_TEXT" value="189" />
+          <entry key="Properties" value="73" />
           <entry key="Scala" value="5118" />
-          <entry key="XML" value="413" />
-          <entry key="YAML" value="658" />
+          <entry key="XML" value="504" />
+          <entry key="YAML" value="1067" />
           <entry key="spring.factories" value="9" />
         </counts>
       </usages-collector>
@@ -159,14 +182,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/BookController.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
-                <element signature="e#39#55#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -176,10 +217,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Package Object" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -237,25 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/GatewayServiceZuulApplication.scala" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala" />
-        <option value="$PROJECT_DIR$/zookeeper-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper-galaxy/src/main/java/com/imooc/curator/CuratorOperator.java" />
-        <option value="$PROJECT_DIR$/zookeeper-galaxy/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/GreeterAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/entity/GreetingConfig.java" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/entity/GreeterConfigParams.java" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/autoconfigure/GreeterAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/GreeterProperties.java" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/autoconfigure/GreeterProperties.java" />
-        <option value="$PROJECT_DIR$/greeter-sample/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/greeter-autoconfigure/src/main/java/com/galaxy/greeter/entity/Greeter.java" />
-        <option value="$PROJECT_DIR$/greeter-sample/src/test/java/com/galaxy/greeter/sample/GreeterSampleApplicationIntegrationTest.java" />
         <option value="$PROJECT_DIR$/greeter-sample/src/main/java/com/galaxy/greeter/sample/GreeterSampleApplication.java" />
         <option value="$PROJECT_DIR$/greeter-autoconfigure/target/classes/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/greeter-sample/pom.xml" />
@@ -278,7 +300,6 @@
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/hello-spring-boot-sample-app/src/test/java/com/galaxy/sample/HelloSampleApplicationIntegrationTest.java" />
         <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/MyFilter.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gateway-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala" />
         <option value="$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/AddResponseHeaderFilter.scala" />
@@ -288,6 +309,26 @@
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/EsConfig.scala" />
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/ArticleController.scala" />
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/BookController.scala" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/ServiceAPI.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/ServiceAPI.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/impl/QuickstartConsumer.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/QuickstartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/galalxy/dubbo/api/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoDemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java" />
       </list>
     </option>
   </component>
@@ -458,55 +499,82 @@
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -540,22 +608,24 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/zookeeper-galaxy/src/main" />
+      <recent name="$PROJECT_DIR$/elastic-galaxy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.galalxy.dubbo.api" />
+      <recent name="com.galaxy.dubbo.consumer.service" />
+      <recent name="com.galaxy.scala.config" />
+      <recent name="com.galaxy.config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources" />
       <recent name="$PROJECT_DIR$/grpc-galaxy/src/main/resources" />
       <recent name="$PROJECT_DIR$/grpc-galaxy/src/main/java/io/grpc/examples/routeguide" />
       <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.galaxy.scala.config" />
-      <recent name="com.galaxy.config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/zookeeper-galaxy/src/main" />
-      <recent name="$PROJECT_DIR$/elastic-galaxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql" />
-      <recent name="$PROJECT_DIR$/groot-galaxy/src/main/java/com/galaxy/groot/consul" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -578,7 +648,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ElasticApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -652,40 +722,6 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
-    </configuration>
-    <configuration name="HelloSampleApplicationIntegrationTest.givenEveningTime_ifEveningMessage_thenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring-boot-sample-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.sample.HelloSampleApplicationIntegrationTest" />
-      <option name="METHOD_NAME" value="givenEveningTime_ifEveningMessage_thenSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloSampleApplicationIntegrationTest.givenNightTime_ifNightMessage_thenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring-boot-sample-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.sample.HelloSampleApplicationIntegrationTest" />
-      <option name="METHOD_NAME" value="givenNightTime_ifNightMessage_thenSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -801,6 +837,19 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.dubbo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="docker-galaxy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.docker.DockerApplication" />
@@ -825,6 +874,19 @@
     <configuration name="PagingAndSortingRepositoryExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bootstrap-galaxy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.michaelcgood.PagingAndSortingRepositoryExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.dubbo.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.provider.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -951,19 +1013,19 @@
       <item itemvalue="Spring Boot.PagingAndSortingRepositoryExampleApplication" />
       <item itemvalue="Spring Boot.DockerApplication" />
       <item itemvalue="Spring Boot.GatewayServiceZuulApplication" />
-      <item itemvalue="JUnit.HelloSampleApplicationIntegrationTest.givenEveningTime_ifEveningMessage_thenSuccess" />
-      <item itemvalue="JUnit.HelloSampleApplicationIntegrationTest.givenNightTime_ifNightMessage_thenSuccess" />
       <item itemvalue="Application.ScalaGalaxyApplication" />
       <item itemvalue="Application.GatewayServiceZuulApplication" />
       <item itemvalue="Application.ElasticApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Application.ElasticApplication" />
         <item itemvalue="Application.GatewayServiceZuulApplication" />
         <item itemvalue="Application.ScalaGalaxyApplication" />
-        <item itemvalue="JUnit.HelloSampleApplicationIntegrationTest.givenNightTime_ifNightMessage_thenSuccess" />
-        <item itemvalue="JUnit.HelloSampleApplicationIntegrationTest.givenEveningTime_ifEveningMessage_thenSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -1129,7 +1191,10 @@
       <workItem from="1537149855564" duration="1255000" />
       <workItem from="1537187200847" duration="34000" />
       <workItem from="1537187295940" duration="4000" />
-      <workItem from="1537257621704" duration="6317000" />
+      <workItem from="1537257621704" duration="6595000" />
+      <workItem from="1537324020937" duration="20000" />
+      <workItem from="1537324048388" duration="15000" />
+      <workItem from="1537324200835" duration="9983000" />
     </task>
     <task id="LOCAL-00001" summary="add elasticsearch test">
       <created>1520996683229</created>
@@ -1208,7 +1273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536970615265</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add ES restful API for BookController">
+      <created>1537265976658</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537265976659</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1244,7 +1316,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403980000" />
+    <option name="totallyTimeSpent" value="414276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1259,7 +1331,7 @@
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.23344104" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.24394184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1270,15 +1342,15 @@
       <window_info id="Learn" order="8" show_stripe_button="false" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.5322314" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.5322314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5123967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.327787" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" weight="0.5084746" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159746" side_tool="true" weight="0.5322314" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" weight="0.507438" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.5322314" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4280992" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32655367" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49919224" weight="0.3289256" />
@@ -1301,7 +1373,7 @@
       <window_info anchor="right" id="SciView" order="11" weight="0.32960597" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.1517572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.24394184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1312,15 +1384,15 @@
       <window_info id="Learn" order="8" show_stripe_button="false" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.5338843" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.5322314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5123967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.327787" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" weight="0.5084746" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.5118644" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" weight="0.507438" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159746" side_tool="true" weight="0.5322314" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4280992" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32655367" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49919224" weight="0.3289256" />
@@ -1335,7 +1407,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32956383" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.24387646" />
@@ -1360,167 +1432,11 @@
     <MESSAGE value="Add zuul filter" />
     <MESSAGE value="Add zuul post filter and fallback" />
     <MESSAGE value="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;" />
+    <MESSAGE value="Add ES restful API for BookController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ES restful API for BookController" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2424">
-          <caret line="219" column="17" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="164" column="75" lean-forward="true" selection-start-line="164" selection-start-column="75" selection-end-line="164" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/ProducerFallback.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/filter/TokenFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1802">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="122" column="30" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ProxyRequestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2729">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonCommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot-autoconfigure/2.0.0.M1/spring-boot-autoconfigure-2.0.0.M1-sources.jar!/org/springframework/boot/autoconfigure/condition/AnyNestedCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="54" column="89" lean-forward="true" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.0.0.M8/spring-cloud-starter-netflix-zuul-2.0.0.M8.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="59" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1-sources.jar!/org/springframework/cloud/netflix/zuul/RibbonCommandFactoryConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="111" column="64" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/GatewayServiceZuulApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/dao/ArticleRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/ElasticApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/SwaggerConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/EsConfig.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1560,10 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="377" column="26" selection-start-line="377" selection-start-column="26" selection-end-line="377" selection-end-column="26" />
-          <folding>
-            <element signature="e#13793#13794#0" expanded="true" />
-            <element signature="e#13830#13831#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,10 +1621,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/controller/BookController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="333">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
           <folding>
             <element signature="e#39#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elastic-galaxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-galaxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="120" column="12" lean-forward="true" selection-start-line="89" selection-start-column="3" selection-end-line="120" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/ServiceAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/impl/QuickstartConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubboConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="74" lean-forward="true" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/galalxy/dubbo/api/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/AbstractConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" filepath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" filepath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" filepath="$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" />

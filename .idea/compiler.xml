@@ -7,6 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
         <module name="elastic-galaxy" />
         <module name="gateway-galaxy" />
         <module name="groot-galaxy" />
@@ -26,6 +29,9 @@
       <module name="client-galaxy" target="1.8" />
       <module name="core-galaxy" target="1.8" />
       <module name="docker-galaxy" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
       <module name="elastic-galaxy" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />

@@ -19,6 +19,9 @@
         <module>hello-spring-boot-autoconfigure</module>
         <module>hello-spring-boot-starter</module>
         <module>hello-spring-boot-sample-app</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
+        <module>dubbo-api</module>
     </modules>
 
     <parent>

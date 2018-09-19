@@ -44,3 +44,11 @@ hs_err_pid*
 /hello-spring-boot-starter/hello-spring-boot-starter.iml
 /gateway-galaxy/gateway-galaxy.iml
 /.idea/
+/dubbo-provider/target/
+/dubbo-provider/dubbo-provider.iml
+/dubbo-consumer/target/
+/dubbo-consumer/dubbo-consumer.iml
+/dubbo-api/dubbo-api.iml
+/dubbo-api/target/
+/redis-galaxy/target/redis-galaxy.jar.original
+/scala-galaxy/target/scala-galaxy.jar.original
