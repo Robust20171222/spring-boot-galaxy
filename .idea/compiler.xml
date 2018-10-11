@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="concurrency-galalxy" />
         <module name="dubbo-api" />
         <module name="dubbo-consumer" />
         <module name="dubbo-provider" />
@@ -27,6 +28,7 @@
       <module name="boot" target="1.8" />
       <module name="bootstrap-galaxy" target="1.8" />
       <module name="client-galaxy" target="1.8" />
+      <module name="concurrency-galalxy" target="1.8" />
       <module name="core-galaxy" target="1.8" />
       <module name="docker-galaxy" target="1.8" />
       <module name="dubbo-api" target="1.8" />

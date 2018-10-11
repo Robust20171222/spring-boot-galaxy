@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 6011
 spring:
   application:
     name: dubbo-provider

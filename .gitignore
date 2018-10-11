@@ -52,3 +52,5 @@ hs_err_pid*
 /dubbo-api/target/
 /redis-galaxy/target/redis-galaxy.jar.original
 /scala-galaxy/target/scala-galaxy.jar.original
+/concurrency-galalxy/target/
+/concurrency-galalxy/concurrency-galalxy.iml

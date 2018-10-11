@@ -3,8 +3,8 @@ package com.galaxy.dubbo.consumer.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import com.galalxy.dubbo.api.DemoService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -19,7 +19,7 @@ public class DemoConsumerController {
     @Reference
     private DemoService demoService;
 
-    @RequestMapping("/sayHello/{name}")
+    @GetMapping("/sayHello/{name}")
     public String sayHello(@PathVariable("name") String name) {
         return demoService.sayHello(name);
     }

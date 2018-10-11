@@ -2,7 +2,7 @@ spring:
   application:
     name: dubbo-consumer
 server:
-  port: 9091
+  port: 6012
 
 #指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名）
 dubbo:
