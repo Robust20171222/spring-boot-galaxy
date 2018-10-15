@@ -2,7 +2,6 @@ package com.galaxy.concurrency.example;
 
 import com.galaxy.concurrency.annotations.NotThreadSafe;
 import lombok.extern.log4j.Log4j2;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -12,6 +11,8 @@ import java.util.concurrent.Semaphore;
 @Log4j2
 @NotThreadSafe
 public class ConcurrencyTest {
+
+    ThreadLocal threadLocal = new ThreadLocal();
 
     // 请求总数
     public static int clientTotal = 5000;
