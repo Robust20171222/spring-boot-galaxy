@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-commons-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-context-integration-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-loadbalancer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-test-support" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/concurrency-galalxy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-api" charset="UTF-8" />

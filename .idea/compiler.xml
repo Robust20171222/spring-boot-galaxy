@@ -21,6 +21,12 @@
         <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
+        <module name="spring-cloud-commons" />
+        <module name="spring-cloud-context" />
+        <module name="spring-cloud-context-integration-tests" />
+        <module name="spring-cloud-loadbalancer" />
+        <module name="spring-cloud-starter" />
+        <module name="spring-cloud-test-support" />
         <module name="zookeeper-galaxy" />
       </profile>
     </annotationProcessing>
@@ -55,9 +61,28 @@
       <module name="simple-galaxy" target="1.8" />
       <module name="simplegalaxy" target="1.5" />
       <module name="spring-boot-galaxy" target="1.8" />
+      <module name="spring-cloud-commons" target="1.8" />
+      <module name="spring-cloud-commons-dependencies" target="1.5" />
+      <module name="spring-cloud-commons-docs" target="1.8" />
+      <module name="spring-cloud-commons-parent" target="1.8" />
+      <module name="spring-cloud-context" target="1.8" />
+      <module name="spring-cloud-context-integration-tests" target="1.8" />
+      <module name="spring-cloud-loadbalancer" target="1.8" />
+      <module name="spring-cloud-starter" target="1.8" />
+      <module name="spring-cloud-test-support" target="1.8" />
       <module name="test-galaxy" target="1.8" />
       <module name="web-application-bootstrap-jquery" target="1.8" />
       <module name="zookeeper-galaxy" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-commons" options="-parameters" />
+      <module name="spring-cloud-context" options="-parameters" />
+      <module name="spring-cloud-context-integration-tests" options="-parameters" />
+      <module name="spring-cloud-loadbalancer" options="-parameters" />
+      <module name="spring-cloud-starter" options="-parameters" />
+      <module name="spring-cloud-test-support" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -21,6 +21,28 @@ public class JConsoleTest {
         public byte[] placeholder = new byte[64 * 1024];
     }
 
+    /**
+     * 死锁代码演示
+     */
+    static class SynAddRunnable implements Runnable {
+
+        int a, b;
+
+        public SynAddRunnable(int a, int b) {
+            this.a = a;
+            this.b = b;
+        }
+
+        @Override
+        public void run() {
+            synchronized (Integer.valueOf(a)) {
+                synchronized (Integer.valueOf(b)) {
+                    System.out.println(a + b);
+                }
+            }
+        }
+    }
+
     public static void fillHeap(int num) throws InterruptedException {
         List<OOMObject> list = new ArrayList<>();
         for (int i = 0; i < num; i++) {
@@ -74,9 +96,17 @@ public class JConsoleTest {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         br.readLine();
         createBusyThread();
-        br.readLine();
-        Object object = new Object();
-        createLockThread(object);
+//        br.readLine();
+//        Object object = new Object();
+//        createLockThread(object);
+
+        /**
+         * 死锁代码演示
+         */
+//        for (int i = 0; i < 1000; i++) {
+//            new Thread(new SynAddRunnable(1, 2)).start();
+//            new Thread(new SynAddRunnable(2, 1)).start();
+//        }
     }
 }
 

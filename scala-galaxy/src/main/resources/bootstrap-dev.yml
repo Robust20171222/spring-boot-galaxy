@@ -33,7 +33,7 @@ spring:
       # consul服务器地址
       host: localhost
       # consul服务端口
-      port: 8500
+      port: 11500
       enabled: true
       config:
         # enabled为true表示启用配置管理功能
