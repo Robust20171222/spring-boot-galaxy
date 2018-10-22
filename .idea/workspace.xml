@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Add jvm example">
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-galaxy/src/test/java/com/galaxy/redis/test/JedisClusterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/concurrency-galalxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/concurrency-galalxy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrency-galalxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/jvm/JConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/jvm/JConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/src/test/scala/com/galaxy/gateway/test/GatewayTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/src/test/scala/com/galaxy/gateway/test/GatewayTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-default.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,7 +80,7 @@
     <session id="380871921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="76" />
+          <entry key="project.closed" value="77" />
           <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -105,14 +99,14 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="8" />
           <entry key="project.open.time.30" value="4" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,7 +118,7 @@
           <entry key="gitignore" value="27" />
           <entry key="http" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="251" />
+          <entry key="java" value="257" />
           <entry key="json" value="2" />
           <entry key="lua" value="1" />
           <entry key="md" value="8" />
@@ -133,7 +127,7 @@
           <entry key="scala" value="117" />
           <entry key="sh" value="1" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="190" />
+          <entry key="xml" value="191" />
           <entry key="yml" value="114" />
         </counts>
       </usages-collector>
@@ -145,7 +139,7 @@
           <entry key="Git file" value="27" />
           <entry key="HTTP Request" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="251" />
+          <entry key="JAVA" value="257" />
           <entry key="JSON" value="2" />
           <entry key="Lua" value="1" />
           <entry key="Markdown" value="8" />
@@ -153,7 +147,7 @@
           <entry key="SQL" value="3" />
           <entry key="Scala" value="117" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="211" />
+          <entry key="XML" value="212" />
           <entry key="YAML" value="114" />
           <entry key="spring.factories" value="4" />
         </counts>
@@ -161,9 +155,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="34" />
-          <entry key="dummy" value="20" />
+          <entry key="dummy" value="21" />
           <entry key="factories" value="9" />
-          <entry key="java" value="2657" />
+          <entry key="java" value="3764" />
           <entry key="md" value="101" />
           <entry key="properties" value="87" />
           <entry key="scala" value="5198" />
@@ -175,9 +169,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="34" />
-          <entry key="JAVA" value="2657" />
+          <entry key="JAVA" value="3764" />
           <entry key="Markdown" value="101" />
-          <entry key="PLAIN_TEXT" value="239" />
+          <entry key="PLAIN_TEXT" value="240" />
           <entry key="Properties" value="87" />
           <entry key="Scala" value="5198" />
           <entry key="XML" value="619" />
@@ -195,22 +189,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency-galalxy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="18" lean-forward="true" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="114">
+              <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#784#793#0" expanded="true" />
+                <element signature="e#850#859#0" expanded="true" />
+                <element signature="e#1172#1188#0" expanded="true" />
+                <element signature="e#1281#1290#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#2079#2080#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,6 +259,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -283,14 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/galalxy/dubbo/api/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoDemoService.java" />
-        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/dubbo-api/README.md" />
         <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/SwaggerConfig.scala" />
@@ -334,6 +320,14 @@
         <option value="$PROJECT_DIR$/concurrency-galalxy/pom.xml" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/README.md" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/LinkedList.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/LinkList.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/Singleton.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java" />
       </list>
     </option>
   </component>
@@ -493,7 +487,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -525,11 +519,7 @@
               <item name="concurrency-galalxy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -539,7 +529,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -605,48 +595,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConcurrencyApplication">
+  <component name="RunManager" selected="JUnit.CollectionTest.testLoopLinkedHashMap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.example.atomic.Customer" />
+    <configuration name="PrimitiveTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.PrimitiveTypeTest" />
       <module name="concurrency-galalxy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.concurrency.example.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.jvm.JConsoleTest" />
-      <module name="concurrency-galalxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.concurrency.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaGalaxyApplication" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.scala.ScalaGalaxyApplication" />
-      <module name="scala-galaxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.scala.*" />
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -680,17 +642,68 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="JedisClusterTest.mgetOnAskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-galaxy" />
+    <configuration name="CollectionTest.testLoopLinkedHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-galalxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.redis.test.*" />
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.redis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.redis.test.JedisClusterTest" />
-      <option name="METHOD_NAME" value="mgetOnAskTest" />
+      <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
+      <option name="METHOD_NAME" value="testLoopLinkedHashMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.testLoopList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-galalxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
+      <option name="METHOD_NAME" value="testLoopList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.testLoopList2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-galalxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
+      <option name="METHOD_NAME" value="testLoopList2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.testSynchronizeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-galalxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
+      <option name="METHOD_NAME" value="testSynchronizeList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -810,19 +823,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
-    </configuration>
-    <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="concurrency-galalxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.concurrency.ConcurrencyApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="docker-galaxy" />
@@ -974,19 +974,19 @@
       <item itemvalue="Spring Boot.PagingAndSortingRepositoryExampleApplication" />
       <item itemvalue="Spring Boot.DockerApplication" />
       <item itemvalue="Spring Boot.GatewayServiceZuulApplication" />
-      <item itemvalue="Application.Customer" />
-      <item itemvalue="Application.ScalaGalaxyApplication" />
-      <item itemvalue="Application.JConsoleTest" />
-      <item itemvalue="JUnit.JedisClusterTest.mgetOnAskTest" />
-      <item itemvalue="Spring Boot.ConcurrencyApplication" />
+      <item itemvalue="Application.PrimitiveTypeTest" />
+      <item itemvalue="JUnit.CollectionTest.testSynchronizeList" />
+      <item itemvalue="JUnit.CollectionTest.testLoopList" />
+      <item itemvalue="JUnit.CollectionTest.testLoopList2" />
+      <item itemvalue="JUnit.CollectionTest.testLoopLinkedHashMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConcurrencyApplication" />
-        <item itemvalue="Application.JConsoleTest" />
-        <item itemvalue="Application.ScalaGalaxyApplication" />
-        <item itemvalue="JUnit.JedisClusterTest.mgetOnAskTest" />
-        <item itemvalue="Application.Customer" />
+        <item itemvalue="JUnit.CollectionTest.testLoopLinkedHashMap" />
+        <item itemvalue="JUnit.CollectionTest.testLoopList2" />
+        <item itemvalue="JUnit.CollectionTest.testLoopList" />
+        <item itemvalue="JUnit.CollectionTest.testSynchronizeList" />
+        <item itemvalue="Application.PrimitiveTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1174,6 +1174,7 @@
       <workItem from="1539919820278" duration="2409000" />
       <workItem from="1540015664561" duration="2927000" />
       <workItem from="1540039185998" duration="9604000" />
+      <workItem from="1540080250047" duration="11646000" />
     </task>
     <task id="LOCAL-00001" summary="add elasticsearch test">
       <created>1520996683229</created>
@@ -1284,39 +1285,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 17m 50s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 18m 01s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 18m 34s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 18m 48s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 20m 18s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 21m 41s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 24m 09s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 24m 19s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 24m 27s.xml">
       <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 25m 42s.xml">
       <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CollectionTest_testSynchronizeList - 2018.10.21 at 10h 58m 28s.xml">
+      <configuration name="CollectionTest.testSynchronizeList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 25m 04s.xml">
+      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 26m 17s.xml">
+      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 26m 39s.xml">
+      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 11h 37m 01s.xml">
+      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 11h 37m 43s.xml">
+      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 20h 09m 23s.xml">
+      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_testLoopLinkedHashMap - 2018.10.21 at 21h 32m 33s.xml">
+      <configuration name="CollectionTest.testLoopLinkedHashMap" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494729000" />
+    <option name="totallyTimeSpent" value="506375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1329,8 +1330,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.28109854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1348,8 +1350,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.327787" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49676898" visible="true" weight="0.507438" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" weight="0.5322314" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49596122" weight="0.507438" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" weight="0.507438" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4280992" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32655367" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49919224" weight="0.3289256" />
@@ -1369,7 +1371,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.24313408" />
       <window_info anchor="right" id="LuaJ" order="10" weight="0.32875606" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.32960597" />
+      <window_info anchor="right" id="SciView" order="11" weight="0.32956383" />
       <window_info anchor="right" id="CDI" order="12" weight="0.32956383" />
     </layout>
     <layout-to-restore>
@@ -1440,24 +1442,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/redis-galaxy/src/test/resources/script/ratelimiting.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-galaxy/src/test/java/com/galaxy/redis/test/JedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/exceptions/JedisAskDataException.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisClusterConnection.class" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisClusterConnection.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisCluster.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedisCluster.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/util/JedisClusterCRC16.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisClusterConnectionHandler.java" />
@@ -1652,13 +1636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1670,24 +1648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="132" column="21" selection-start-line="119" selection-start-column="11" selection-end-line="132" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1701,10 +1665,85 @@
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="18" lean-forward="true" selection-end-line="1" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="46" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="46" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="149" column="17" lean-forward="true" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="2001" column="21" selection-start-line="2001" selection-start-column="21" selection-end-line="2001" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#793#0" expanded="true" />
+            <element signature="e#850#859#0" expanded="true" />
+            <element signature="e#1172#1188#0" expanded="true" />
+            <element signature="e#1281#1290#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
