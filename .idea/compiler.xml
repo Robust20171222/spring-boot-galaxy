@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -18,71 +17,10 @@
         <module name="hello-spring-boot-autoconfigure" />
         <module name="hello-spring-boot-sample-app" />
         <module name="hello-spring-boot-starter" />
-        <module name="mail-galaxy" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
-        <module name="spring-cloud-commons" />
-        <module name="spring-cloud-context" />
-        <module name="spring-cloud-context-integration-tests" />
-        <module name="spring-cloud-loadbalancer" />
-        <module name="spring-cloud-starter" />
-        <module name="spring-cloud-test-support" />
         <module name="zookeeper-galaxy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="boot" target="1.8" />
-      <module name="bootstrap-galaxy" target="1.8" />
-      <module name="client-galaxy" target="1.8" />
-      <module name="concurrency-galalxy" target="1.8" />
-      <module name="core-galaxy" target="1.8" />
-      <module name="docker-galaxy" target="1.8" />
-      <module name="dubbo-api" target="1.8" />
-      <module name="dubbo-consumer" target="1.8" />
-      <module name="dubbo-provider" target="1.8" />
-      <module name="elastic-galaxy" target="1.8" />
-      <module name="eureka-client" target="1.8" />
-      <module name="eureka-server" target="1.8" />
-      <module name="eureka-service" target="1.8" />
-      <module name="gateway-galaxy" target="1.8" />
-      <module name="greeter-autoconfigure" target="1.8" />
-      <module name="greeter-galaxy" target="1.8" />
-      <module name="greeter-sample" target="1.8" />
-      <module name="greeter-starter" target="1.8" />
-      <module name="groot-galaxy" target="1.8" />
-      <module name="grpc-galaxy" target="1.8" />
-      <module name="hello-spring-boot-autoconfigure" target="1.8" />
-      <module name="hello-spring-boot-sample-app" target="1.8" />
-      <module name="hello-spring-boot-starter" target="1.8" />
-      <module name="mail-galaxy" target="1.8" />
-      <module name="redis-galaxy" target="1.8" />
-      <module name="scala-galaxy" target="1.8" />
-      <module name="server-galaxy" target="1.8" />
-      <module name="simple-galaxy" target="1.8" />
-      <module name="simplegalaxy" target="1.5" />
-      <module name="spring-boot-galaxy" target="1.8" />
-      <module name="spring-cloud-commons" target="1.8" />
-      <module name="spring-cloud-commons-dependencies" target="1.5" />
-      <module name="spring-cloud-commons-docs" target="1.8" />
-      <module name="spring-cloud-commons-parent" target="1.8" />
-      <module name="spring-cloud-context" target="1.8" />
-      <module name="spring-cloud-context-integration-tests" target="1.8" />
-      <module name="spring-cloud-loadbalancer" target="1.8" />
-      <module name="spring-cloud-starter" target="1.8" />
-      <module name="spring-cloud-test-support" target="1.8" />
-      <module name="test-galaxy" target="1.8" />
-      <module name="web-application-bootstrap-jquery" target="1.8" />
-      <module name="zookeeper-galaxy" target="1.7" />
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-cloud-commons" options="-parameters" />
-      <module name="spring-cloud-context" options="-parameters" />
-      <module name="spring-cloud-context-integration-tests" options="-parameters" />
-      <module name="spring-cloud-loadbalancer" options="-parameters" />
-      <module name="spring-cloud-starter" options="-parameters" />
-      <module name="spring-cloud-test-support" options="-parameters" />
-    </option>
   </component>
 </project>

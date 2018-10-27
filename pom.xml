@@ -23,6 +23,7 @@
         <module>dubbo-consumer</module>
         <module>dubbo-api</module>
         <module>concurrency-galalxy</module>
+        <module>elastic-galaxy</module>
     </modules>
 
     <parent>

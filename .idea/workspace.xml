@@ -1,333 +1,510 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="Add jvm example">
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java" afterDir="false" />
+    <list default="true" id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/aop/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/aop/DaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/aop/TestAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/aop/TimeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/ExchangerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/conf/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/conf/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/filter/LogCostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/filter/LogCostInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lifecycle/CustomBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lifecycle/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/spring/aop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gateway_galaxy_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gateway_galaxy_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zookeeper_galaxy_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zookeeper_galaxy_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-04T035518.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-04T035549.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ecwid_consul_consul_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_0_pr3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_drapostolos_type_parser_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_0_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_24_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_instrumentation_instrumentation_api_0_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_orbitz_consul_consul_client_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_converter_jackson_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_retrofit_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_22_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_hc_3_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_cfg4j_cfg4j_consul_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_cfg4j_cfg4j_core_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_rest_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty3_client_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalactic_scalactic_2_11_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalatest_scalatest_2_11_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_config_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_core_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_discovery_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_config_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_2_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0926c4306ba9586bc17ac345194b6df224dd4555" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e652634a796cb5856005d71f2224de73909e8b17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec16d6627e5f4a0ed101a0aa936453ee70cd21fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/concurrency-galalxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/concurrency-galalxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/concurrency-galalxy.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrency-galalxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/ConcurrencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/EvenChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/EvenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/count/CountExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/count/CountExample2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic-galaxy/elastic-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-galaxy/gateway-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groot-galaxy/groot-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-galaxy/grpc-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-galaxy/redis-galaxy.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/scala-galaxy.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-galaxy/zookeeper-galaxy.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/scala-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/simplegalaxy/target/" />
-    <ignored path="$PROJECT_DIR$/simple-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/boot/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-service/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
-    <ignored path="$PROJECT_DIR$/test-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/web-application-bootstrap-jquery/target/" />
-    <ignored path="$PROJECT_DIR$/bootstrap-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/grpc-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/concurrency-galalxy/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-sample-app/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/groot-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/redis-galaxy/target/" />
     <ignored path="$PROJECT_DIR$/elastic-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/mail-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/docker-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/server-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/client-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/core-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/groot-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/grpc-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/gateway-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/greeter-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/greeter-autoconfigure/target/" />
-    <ignored path="$PROJECT_DIR$/greeter-starter/target/" />
-    <ignored path="$PROJECT_DIR$/greeter-sample/target/" />
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-sample-app/target/" />
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-starter/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
-    <ignored path="$PROJECT_DIR$/concurrency-galalxy/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-loadbalancer/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-test-support/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-context/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-starter/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-commons-dependencies/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-commons/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/docs/target/" />
-    <ignored path="$PROJECT_DIR$/../../data/spring-cloud-commons/spring-cloud-context-integration-tests/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="380871921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="77" />
-          <entry key="project.open.time.1" value="10" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="6" />
-          <entry key="project.open.time.16" value="3" />
-          <entry key="project.open.time.17" value="5" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="5" />
-          <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.23" value="4" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.3" value="8" />
-          <entry key="project.open.time.30" value="4" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="78" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="AbstractLoadBalancer" value="1" />
-          <entry key="Dockerfile" value="5" />
-          <entry key="class" value="55" />
-          <entry key="factories" value="4" />
-          <entry key="gitignore" value="27" />
-          <entry key="http" value="1" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="257" />
-          <entry key="json" value="2" />
-          <entry key="lua" value="1" />
-          <entry key="md" value="8" />
-          <entry key="pom" value="21" />
-          <entry key="properties" value="22" />
-          <entry key="scala" value="117" />
-          <entry key="sh" value="1" />
-          <entry key="sql" value="3" />
-          <entry key="xml" value="191" />
-          <entry key="yml" value="114" />
+          <entry key="Dockerfile" value="1" />
+          <entry key="Learning" value="1" />
+          <entry key="class" value="14" />
+          <entry key="groovy" value="4" />
+          <entry key="http" value="2" />
+          <entry key="java" value="35" />
+          <entry key="js" value="1" />
+          <entry key="md" value="1" />
+          <entry key="old" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="1" />
-          <entry key="CLASS" value="55" />
-          <entry key="Dockerfile" value="5" />
-          <entry key="Git file" value="27" />
-          <entry key="HTTP Request" value="1" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="257" />
-          <entry key="JSON" value="2" />
-          <entry key="Lua" value="1" />
-          <entry key="Markdown" value="8" />
-          <entry key="Properties" value="22" />
-          <entry key="SQL" value="3" />
-          <entry key="Scala" value="117" />
-          <entry key="UML" value="1" />
-          <entry key="XML" value="212" />
-          <entry key="YAML" value="114" />
-          <entry key="spring.factories" value="4" />
+          <entry key="CLASS" value="14" />
+          <entry key="Dockerfile" value="1" />
+          <entry key="JAVA" value="35" />
+          <entry key="Markdown" value="1" />
+          <entry key="Scratch" value="9" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="34" />
-          <entry key="dummy" value="21" />
-          <entry key="factories" value="9" />
-          <entry key="java" value="3764" />
-          <entry key="md" value="101" />
-          <entry key="properties" value="87" />
-          <entry key="scala" value="5198" />
-          <entry key="txt" value="219" />
-          <entry key="xml" value="619" />
-          <entry key="yml" value="1102" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="1231" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="34" />
-          <entry key="JAVA" value="3764" />
-          <entry key="Markdown" value="101" />
-          <entry key="PLAIN_TEXT" value="240" />
-          <entry key="Properties" value="87" />
-          <entry key="Scala" value="5198" />
-          <entry key="XML" value="619" />
-          <entry key="YAML" value="1102" />
-          <entry key="spring.factories" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="JAVA" value="1231" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#784#793#0" expanded="true" />
-                <element signature="e#850#859#0" expanded="true" />
-                <element signature="e#1172#1188#0" expanded="true" />
-                <element signature="e#1281#1290#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2119#2120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sample</find>
-      <find>repackage</find>
-      <find>user_sex</find>
-      <find>val</find>
-      <find>CronExpression</find>
-      <find>highlight</find>
-      <find>mybatis</find>
-      <find>SpringApplication</find>
-      <find>logStartupProfileInfo</find>
-      <find>log4j2</find>
-      <find>config</find>
-      <find>888</find>
-      <find>scala.version</find>
-      <find>Hello Baeldung</find>
-      <find>greeter</find>
-      <find>Baeldung</find>
-      <find>2017</find>
-      <find>proxyRequestHelper</find>
-      <find>EndpointConfiguration</find>
-      <find>guava</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>galaxy</replace>
-      <replace>var</replace>
-      <replace>My Starter</replace>
-      <replace>hello</replace>
-      <replace>Starter</replace>
-      <replace>2018</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/mail-galaxy</dir>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/scala-galaxy</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="2.0.0" />
-      </map>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../source/spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/grpc-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/json-sql" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka-1.1.0-src" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka-connect-common" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka-connect-query-language" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka-connect-tools" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/kafka-monitor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data/stream-reactor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../json-schema-validator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kafka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../stream-reactor" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-api/README.md" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/conf/SwaggerConfig.scala" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/conf/SwaggerConf.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/conf/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java" />
-        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/Collection2Test.scala" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyApplication.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/annotations/ThreadSafe.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/annotations/NotThreadSafe.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/annotations/NotRecommand.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/annotations/Recommand.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/CountExample.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/CountExample2.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/count/CountExample2.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/CountExample2.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample2.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample4.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample5.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/AtomicExample6.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/EvenGenerator.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/BankAccount.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/Customer.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/atomic/EvenChecker.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/redis-galaxy/src/test/java/com/galaxy/redis/test/JedisClusterTest.java" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/test/scala/com/galaxy/gateway/test/GatewayTest.scala" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/jvm/JConsoleTest.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/Dockerfile" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/pom.xml" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/README.md" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/LinkedList.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/LinkList.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/Singleton.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/MapTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lock.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lock/LockTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lock/CountDownLatch.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lock/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/ExchangerTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/StringTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/A.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/B.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SortTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/FibonacciTest.java" />
       </list>
     </option>
   </component>
@@ -346,142 +523,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="grpc-galaxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="grpc-galaxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="grpc-galaxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>Code StyleScala</id>
-          </State>
-          <State>
-            <id>CollectionsScala</id>
-          </State>
-          <State>
-            <id>ComparingCollectionsScala</id>
-          </State>
-          <State>
-            <id>GeneralScala</id>
-          </State>
-          <State>
-            <id>IndicesCollectionsScala</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>MapsCollectionsScala</id>
-          </State>
-          <State>
-            <id>Method signatureScala</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>OptionsCollectionsScala</id>
-          </State>
-          <State>
-            <id>OtherCollectionsScala</id>
-          </State>
-          <State>
-            <id>OtherScala</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Scala</id>
-          </State>
-          <State>
-            <id>Scala/Akka</id>
-          </State>
-          <State>
-            <id>Scala: General</id>
-          </State>
-          <State>
-            <id>ScaladocScala</id>
-          </State>
-          <State>
-            <id>Simplifications: filter and existsCollectionsScala</id>
-          </State>
-          <State>
-            <id>Simplifications: find and map to applyCollectionsScala</id>
-          </State>
-          <State>
-            <id>Simplifications: forall and existsCollectionsScala</id>
-          </State>
-          <State>
-            <id>Simplifications: otherCollectionsScala</id>
-          </State>
-          <State>
-            <id>SizeCollectionsScala</id>
-          </State>
-          <State>
-            <id>Specs2Scala</id>
-          </State>
-          <State>
-            <id>Specs2Specs2Scala</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring DataSpring</id>
-          </State>
-          <State>
-            <id>Syntactic ClarificationScala</id>
-          </State>
-          <State>
-            <id>Syntactic SimplificationScala</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -523,65 +570,30 @@
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-galalxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/concurrency-galalxy" />
-      <recent name="$PROJECT_DIR$/concurrency-galalxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency" />
-      <recent name="$PROJECT_DIR$/dubbo-api" />
-      <recent name="$PROJECT_DIR$/dubbo-consumer/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.galaxy.concurrency.example.atomic" />
-      <recent name="com.galaxy.concurrency.example" />
-      <recent name="com.galaxy.concurrency.annotations" />
-      <recent name="com.galalxy.dubbo.api" />
-      <recent name="com.galaxy.dubbo.consumer.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/concurrency-galalxy" />
-      <recent name="$PROJECT_DIR$/concurrency-galalxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/concurrency-galalxy/src/main/docker" />
-      <recent name="$PROJECT_DIR$/scala-galaxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/grpc-galaxy/src/main/resources" />
-    </key>
-  </component>
-  <component name="RubyModuleManagerSettings">
-    <option name="blackListedRootsPaths">
-      <list>
-        <option value="$PROJECT_DIR$/elastic-galaxy" />
-        <option value="$PROJECT_DIR$/gateway-galaxy" />
-      </list>
-    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -595,54 +607,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.testLoopLinkedHashMap">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimitiveTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.PrimitiveTypeTest" />
-      <module name="concurrency-galalxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciTest.testFibonacciSearch">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CollectionTest.testLoopLinkedHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest.testFibonacciSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="concurrency-galalxy" />
       <extension name="coverage">
         <pattern>
@@ -651,15 +623,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
-      <option name="METHOD_NAME" value="testLoopLinkedHashMap" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.FibonacciTest" />
+      <option name="METHOD_NAME" value="testFibonacciSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.testLoopList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest.bubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="concurrency-galalxy" />
       <extension name="coverage">
         <pattern>
@@ -668,15 +640,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
-      <option name="METHOD_NAME" value="testLoopList" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.SortTest" />
+      <option name="METHOD_NAME" value="bubbleSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.testLoopList2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest.insertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="concurrency-galalxy" />
       <extension name="coverage">
         <pattern>
@@ -685,15 +657,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
-      <option name="METHOD_NAME" value="testLoopList2" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.SortTest" />
+      <option name="METHOD_NAME" value="insertSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.testSynchronizeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest.quickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="concurrency-galalxy" />
       <extension name="coverage">
         <pattern>
@@ -702,8 +674,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.CollectionTest" />
-      <option name="METHOD_NAME" value="testSynchronizeList" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.SortTest" />
+      <option name="METHOD_NAME" value="quickSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-galalxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.concurrency.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galaxy.concurrency.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.concurrency.algorithm.SortTest" />
+      <option name="METHOD_NAME" value="selectTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -716,117 +705,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="eureka-service" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="concurrency-galalxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.concurrency.ConcurrencyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="elastic-galaxy" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="docker-galaxy" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.docker.DockerApplication" />
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -845,9 +733,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PagingAndSortingRepositoryExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bootstrap-galaxy" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.michaelcgood.PagingAndSortingRepositoryExampleApplication" />
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.provider.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -874,548 +762,125 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="core-galaxy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.ScalaGalaxyApplication" />
-      <item itemvalue="Spring Boot.ElasticApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="Spring Boot.PagingAndSortingRepositoryExampleApplication" />
-      <item itemvalue="Spring Boot.DockerApplication" />
+      <item itemvalue="Spring Boot.ConcurrencyApplication" />
       <item itemvalue="Spring Boot.GatewayServiceZuulApplication" />
-      <item itemvalue="Application.PrimitiveTypeTest" />
-      <item itemvalue="JUnit.CollectionTest.testSynchronizeList" />
-      <item itemvalue="JUnit.CollectionTest.testLoopList" />
-      <item itemvalue="JUnit.CollectionTest.testLoopList2" />
-      <item itemvalue="JUnit.CollectionTest.testLoopLinkedHashMap" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.ElasticApplication" />
+      <item itemvalue="JUnit.SortTest.bubbleSort" />
+      <item itemvalue="JUnit.SortTest.selectTest" />
+      <item itemvalue="JUnit.SortTest.insertSort" />
+      <item itemvalue="JUnit.SortTest.quickSort" />
+      <item itemvalue="JUnit.FibonacciTest.testFibonacciSearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CollectionTest.testLoopLinkedHashMap" />
-        <item itemvalue="JUnit.CollectionTest.testLoopList2" />
-        <item itemvalue="JUnit.CollectionTest.testLoopList" />
-        <item itemvalue="JUnit.CollectionTest.testSynchronizeList" />
-        <item itemvalue="Application.PrimitiveTypeTest" />
+        <item itemvalue="JUnit.FibonacciTest.testFibonacciSearch" />
+        <item itemvalue="JUnit.SortTest.quickSort" />
+        <item itemvalue="JUnit.SortTest.insertSort" />
+        <item itemvalue="JUnit.SortTest.selectTest" />
+        <item itemvalue="JUnit.SortTest.bubbleSort" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../data/kafka-offset-monitor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kafka-manager" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="269385d2-1708-46ba-a87a-dfdda43fc311" name="Default" comment="" />
-      <created>1520734295376</created>
+      <changelist id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="" />
+      <created>1540298165865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1520734295376</updated>
-      <workItem from="1520734298966" duration="2353000" />
-      <workItem from="1520904775304" duration="3768000" />
-      <workItem from="1520912988401" duration="1458000" />
-      <workItem from="1520925781681" duration="7789000" />
-      <workItem from="1520951363827" duration="931000" />
-      <workItem from="1520996369217" duration="580000" />
-      <workItem from="1521014528788" duration="9124000" />
-      <workItem from="1521024389129" duration="3066000" />
-      <workItem from="1521033627302" duration="431000" />
-      <workItem from="1521164519310" duration="5387000" />
-      <workItem from="1521170122402" duration="12449000" />
-      <workItem from="1521195134791" duration="3957000" />
-      <workItem from="1521422931062" duration="3701000" />
-      <workItem from="1521428724897" duration="1993000" />
-      <workItem from="1521440387118" duration="5571000" />
-      <workItem from="1521458952160" duration="289000" />
-      <workItem from="1521459273343" duration="182000" />
-      <workItem from="1521459484406" duration="658000" />
-      <workItem from="1521460170375" duration="869000" />
-      <workItem from="1521515413704" duration="917000" />
-      <workItem from="1521540515510" duration="832000" />
-      <workItem from="1521541383425" duration="2770000" />
-      <workItem from="1521556963655" duration="1088000" />
-      <workItem from="1521558091301" duration="179000" />
-      <workItem from="1521595196238" duration="1750000" />
-      <workItem from="1521625568913" duration="946000" />
-      <workItem from="1521643878240" duration="200000" />
-      <workItem from="1521682443364" duration="1290000" />
-      <workItem from="1522028000221" duration="2722000" />
-      <workItem from="1522064977077" duration="2750000" />
-      <workItem from="1522068456152" duration="1098000" />
-      <workItem from="1522115079743" duration="265000" />
-      <workItem from="1522119515390" duration="778000" />
-      <workItem from="1522138049209" duration="1615000" />
-      <workItem from="1522154855389" duration="736000" />
-      <workItem from="1522201142771" duration="1245000" />
-      <workItem from="1522588367996" duration="2332000" />
-      <workItem from="1522592841591" duration="28000" />
-      <workItem from="1522633112948" duration="63000" />
-      <workItem from="1522654669415" duration="1612000" />
-      <workItem from="1522663862107" duration="606000" />
-      <workItem from="1522719941282" duration="2787000" />
-      <workItem from="1523263401141" duration="599000" />
-      <workItem from="1523433996615" duration="2321000" />
-      <workItem from="1523436341103" duration="6105000" />
-      <workItem from="1523843018717" duration="5351000" />
-      <workItem from="1523929152401" duration="1858000" />
-      <workItem from="1524021619988" duration="3300000" />
-      <workItem from="1524047029598" duration="609000" />
-      <workItem from="1524060119403" duration="652000" />
-      <workItem from="1524061919234" duration="44000" />
-      <workItem from="1524061996724" duration="902000" />
-      <workItem from="1524109099081" duration="7622000" />
-      <workItem from="1524149322616" duration="6000" />
-      <workItem from="1524218407259" duration="2897000" />
-      <workItem from="1524447986414" duration="2974000" />
-      <workItem from="1525935095412" duration="1249000" />
-      <workItem from="1526021744644" duration="2978000" />
-      <workItem from="1526297985360" duration="738000" />
-      <workItem from="1526356696348" duration="250000" />
-      <workItem from="1526379664369" duration="196000" />
-      <workItem from="1526380016221" duration="736000" />
-      <workItem from="1526435531526" duration="3280000" />
-      <workItem from="1526454286973" duration="475000" />
-      <workItem from="1526457858705" duration="7399000" />
-      <workItem from="1526467138859" duration="4681000" />
-      <workItem from="1526481812383" duration="2953000" />
-      <workItem from="1526520767641" duration="1215000" />
-      <workItem from="1526538984689" duration="1383000" />
-      <workItem from="1526561865887" duration="6323000" />
-      <workItem from="1526607119101" duration="4430000" />
-      <workItem from="1526692199898" duration="4456000" />
-      <workItem from="1526782679689" duration="5549000" />
-      <workItem from="1526868085864" duration="3485000" />
-      <workItem from="1526909833703" duration="2826000" />
-      <workItem from="1526951682664" duration="951000" />
-      <workItem from="1526969657602" duration="647000" />
-      <workItem from="1526998203875" duration="2581000" />
-      <workItem from="1527039707281" duration="626000" />
-      <workItem from="1527061927008" duration="1826000" />
-      <workItem from="1527063847369" duration="3018000" />
-      <workItem from="1527170914857" duration="628000" />
-      <workItem from="1527211838488" duration="4105000" />
-      <workItem from="1527294788922" duration="1332000" />
-      <workItem from="1527325246804" duration="129000" />
-      <workItem from="1527325419015" duration="683000" />
-      <workItem from="1527388598140" duration="1740000" />
-      <workItem from="1527470876090" duration="8397000" />
-      <workItem from="1527579016797" duration="5876000" />
-      <workItem from="1528207025497" duration="4976000" />
-      <workItem from="1528449464534" duration="6361000" />
-      <workItem from="1528504412742" duration="844000" />
-      <workItem from="1528505465111" duration="597000" />
-      <workItem from="1528680956570" duration="509000" />
-      <workItem from="1531362481325" duration="2207000" />
-      <workItem from="1531496908587" duration="2400000" />
-      <workItem from="1531524815432" duration="6812000" />
-      <workItem from="1531627000999" duration="3126000" />
-      <workItem from="1532612546998" duration="927000" />
-      <workItem from="1532613515341" duration="2198000" />
-      <workItem from="1532617076716" duration="194000" />
-      <workItem from="1532654302068" duration="13716000" />
-      <workItem from="1532684474117" duration="204000" />
-      <workItem from="1532697776602" duration="3438000" />
-      <workItem from="1532703123392" duration="36000" />
-      <workItem from="1532746184808" duration="8621000" />
-      <workItem from="1532826713984" duration="594000" />
-      <workItem from="1533038163730" duration="415000" />
-      <workItem from="1533192301326" duration="628000" />
-      <workItem from="1533260587970" duration="17824000" />
-      <workItem from="1533302792160" duration="930000" />
-      <workItem from="1533347632573" duration="613000" />
-      <workItem from="1533363545970" duration="2293000" />
-      <workItem from="1533633413129" duration="4774000" />
-      <workItem from="1533692149268" duration="102000" />
-      <workItem from="1533692326385" duration="597000" />
-      <workItem from="1533695773057" duration="594000" />
-      <workItem from="1533709156887" duration="204000" />
-      <workItem from="1533709420072" duration="7028000" />
-      <workItem from="1533868817836" duration="4893000" />
-      <workItem from="1534849133223" duration="739000" />
-      <workItem from="1534937899164" duration="2331000" />
-      <workItem from="1534945658702" duration="4826000" />
-      <workItem from="1534988094432" duration="2339000" />
-      <workItem from="1535702139262" duration="1850000" />
-      <workItem from="1535766681252" duration="1252000" />
-      <workItem from="1535792479968" duration="4248000" />
-      <workItem from="1535816265923" duration="595000" />
-      <workItem from="1535893142508" duration="262000" />
-      <workItem from="1535983375146" duration="706000" />
-      <workItem from="1535984128771" duration="3201000" />
-      <workItem from="1535987356814" duration="1051000" />
-      <workItem from="1536052997146" duration="5701000" />
-      <workItem from="1536070481561" duration="16000" />
-      <workItem from="1536071293017" duration="18000" />
-      <workItem from="1536135767269" duration="2002000" />
-      <workItem from="1536155336708" duration="2000" />
-      <workItem from="1536285078168" duration="1908000" />
-      <workItem from="1536589877144" duration="1431000" />
-      <workItem from="1536629931715" duration="6422000" />
-      <workItem from="1536679025531" duration="234000" />
-      <workItem from="1536715977045" duration="6516000" />
-      <workItem from="1536758125647" duration="6862000" />
-      <workItem from="1536803023800" duration="1711000" />
-      <workItem from="1536811014988" duration="4490000" />
-      <workItem from="1536826195547" duration="1384000" />
-      <workItem from="1536828751273" duration="1773000" />
-      <workItem from="1536832126307" duration="1574000" />
-      <workItem from="1536970549124" duration="777000" />
-      <workItem from="1537149855564" duration="1255000" />
-      <workItem from="1537187200847" duration="34000" />
-      <workItem from="1537187295940" duration="4000" />
-      <workItem from="1537257621704" duration="6595000" />
-      <workItem from="1537324020937" duration="20000" />
-      <workItem from="1537324048388" duration="15000" />
-      <workItem from="1537324200835" duration="17855000" />
-      <workItem from="1537494246850" duration="442000" />
-      <workItem from="1537757607195" duration="636000" />
-      <workItem from="1537848219000" duration="50000" />
-      <workItem from="1539095307361" duration="143000" />
-      <workItem from="1539223558084" duration="11274000" />
-      <workItem from="1539310016340" duration="2999000" />
-      <workItem from="1539395740858" duration="2270000" />
-      <workItem from="1539486744496" duration="4545000" />
-      <workItem from="1539567947192" duration="12716000" />
-      <workItem from="1539655832940" duration="4916000" />
-      <workItem from="1539833409009" duration="27000" />
-      <workItem from="1539833512173" duration="72000" />
-      <workItem from="1539833618505" duration="8419000" />
-      <workItem from="1539870624084" duration="7744000" />
-      <workItem from="1539913577157" duration="1388000" />
-      <workItem from="1539919820278" duration="2409000" />
-      <workItem from="1540015664561" duration="2927000" />
-      <workItem from="1540039185998" duration="9604000" />
-      <workItem from="1540080250047" duration="11646000" />
+      <updated>1540298165865</updated>
+      <workItem from="1540298168054" duration="13536000" />
+      <workItem from="1540423261305" duration="4145000" />
+      <workItem from="1540515659856" duration="6441000" />
+      <workItem from="1540604966228" duration="3189000" />
+      <workItem from="1540609511520" duration="6199000" />
     </task>
-    <task id="LOCAL-00001" summary="add elasticsearch test">
-      <created>1520996683229</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1520996683230</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add Spring Boot JPA">
-      <created>1521023635182</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1521023635182</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add Spring Boot And scala integration">
-      <created>1521425361775</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1521425361775</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add Spring Boot And scala integration">
-      <created>1521425478180</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1521425478180</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add Spring Boot And Spring Cloud Eureka integration">
-      <created>1521682489278</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1521682489278</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Modidy zuul gateway config">
-      <created>1534945821962</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1534945821962</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add custom starter">
-      <created>1536059628946</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1536059628946</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add zuul filter">
-      <created>1536752586552</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1536752586553</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Add zuul post filter and fallback">
-      <created>1536764514315</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1536764514315</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;">
-      <created>1536813094103</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1536813094104</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;">
-      <created>1536970615265</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1536970615265</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add ES restful API for BookController">
-      <created>1537265976658</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1537265976659</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Add dubbo example">
-      <created>1537362010053</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1537362010053</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Add concurrency example">
-      <created>1539264907256</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1539264907256</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add jvm example">
-      <created>1539575581958</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1539575581958</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 24m 27s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
+    <history-entry file="SortTest_bubbleSort - 2018.10.27 at 16h 33m 40s.xml">
+      <configuration name="SortTest.bubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClusterTest_mgetOnAskTest - 2018.10.16 at 10h 25m 42s.xml">
-      <configuration name="JedisClusterTest.mgetOnAskTest" configurationId="JUnit" />
+    <history-entry file="SortTest_selectTest - 2018.10.27 at 16h 39m 29s.xml">
+      <configuration name="SortTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testSynchronizeList - 2018.10.21 at 10h 58m 28s.xml">
-      <configuration name="CollectionTest.testSynchronizeList" configurationId="JUnit" />
+    <history-entry file="SortTest_selectTest - 2018.10.27 at 16h 39m 45s.xml">
+      <configuration name="SortTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 25m 04s.xml">
-      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    <history-entry file="SortTest_insertSort - 2018.10.27 at 16h 41m 48s.xml">
+      <configuration name="SortTest.insertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 26m 17s.xml">
-      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    <history-entry file="SortTest_insertSort - 2018.10.27 at 16h 42m 04s.xml">
+      <configuration name="SortTest.insertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList - 2018.10.21 at 11h 26m 39s.xml">
-      <configuration name="CollectionTest.testLoopList" configurationId="JUnit" />
+    <history-entry file="SortTest_quickSort - 2018.10.27 at 16h 50m 08s.xml">
+      <configuration name="SortTest.quickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 11h 37m 01s.xml">
-      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    <history-entry file="SortTest_quickSort - 2018.10.27 at 16h 52m 15s.xml">
+      <configuration name="SortTest.quickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 11h 37m 43s.xml">
-      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    <history-entry file="SortTest_quickSort - 2018.10.27 at 16h 52m 47s.xml">
+      <configuration name="SortTest.quickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopList2 - 2018.10.21 at 20h 09m 23s.xml">
-      <configuration name="CollectionTest.testLoopList2" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testFibonacciSearch - 2018.10.27 at 20h 32m 33s.xml">
+      <configuration name="FibonacciTest.testFibonacciSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_testLoopLinkedHashMap - 2018.10.21 at 21h 32m 33s.xml">
-      <configuration name="CollectionTest.testLoopLinkedHashMap" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_testFibonacciSearch - 2018.10.27 at 20h 32m 49s.xml">
+      <configuration name="FibonacciTest.testFibonacciSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506375000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="33510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.28109854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.30129242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.5008264" side_tool="true" weight="0.25767368" />
-      <window_info id="Learn" order="8" show_stripe_button="false" weight="0.32956383" />
+      <window_info id="Learn" order="3" weight="0.32956383" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" sideWeight="0.5008264" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49596122" weight="0.5322314" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5123967" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43305784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.327787" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49596122" weight="0.507438" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50403875" side_tool="true" weight="0.507438" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4280992" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32655367" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49919224" weight="0.3289256" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.3294509" />
-      <window_info anchor="bottom" id="REST Client" order="17" show_stripe_button="false" weight="0.44040862" />
-      <window_info anchor="bottom" id="SonarLint" order="18" weight="0.3299435" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.3289256" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.49586776" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289256" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32956383" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.24313408" />
-      <window_info anchor="right" id="LuaJ" order="10" weight="0.32875606" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.32956383" />
-      <window_info anchor="right" id="CDI" order="12" weight="0.32956383" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.24394184" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.5008264" side_tool="true" weight="0.25767368" />
-      <window_info id="Learn" order="8" show_stripe_button="false" weight="0.32956383" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.5322314" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5123967" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.327787" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" weight="0.507438" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159746" side_tool="true" weight="0.5322314" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4280992" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32655367" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49919224" weight="0.3289256" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.3294509" />
-      <window_info anchor="bottom" id="REST Client" order="17" show_stripe_button="false" weight="0.44040862" />
-      <window_info anchor="bottom" id="SonarLint" order="18" weight="0.3299435" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32956383" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.24387646" />
-      <window_info anchor="right" id="LuaJ" order="10" weight="0.3290735" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.32960597" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1423,326 +888,331 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="nothing" />
-    <MESSAGE value="add elasticsearch test" />
-    <MESSAGE value="add Spring Boot JPA" />
-    <MESSAGE value="add Spring Boot And scala integration" />
-    <MESSAGE value="add Spring Boot And Spring Cloud Eureka integration" />
-    <MESSAGE value="Modidy zuul gateway config" />
-    <MESSAGE value="Add custom starter" />
-    <MESSAGE value="Add zuul filter" />
-    <MESSAGE value="Add zuul post filter and fallback" />
-    <MESSAGE value="Use FilterConstants.PRE_TYPE and FilterConstants.POST_TYPE instead of string &quot;pre&quot; and &quot;post&quot;" />
-    <MESSAGE value="Add ES restful API for BookController" />
-    <MESSAGE value="Add dubbo example" />
-    <MESSAGE value="Add concurrency example" />
-    <MESSAGE value="Add jvm example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jvm example" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedisCluster.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/util/JedisClusterCRC16.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisClusterConnectionHandler.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisClusterCommand.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisClusterInfoCache.java" />
-    <entry file="file://$PROJECT_DIR$/redis-galaxy/src/test/java/com/galaxy/redis/test/JedisClusterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-default.yml" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/service/impl/HotelServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elastic-galaxy/src/main/scala/com/galaxy/elastic/ElasticApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.M8/spring-cloud-netflix-zuul-2.0.0.M8-sources.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-galaxy.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-commons/2.0.0.M9/spring-cloud-commons-2.0.0.M9.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-commons/2.0.0.M9/spring-cloud-commons-2.0.0.M9.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-netflix-core/2.0.0.M1/spring-cloud-netflix-core-2.0.0.M1.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar!/com/netflix/loadbalancer/Server.class" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.netflix.loadbalancer.AbstractLoadBalancer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.netflix.loadbalancer.AbstractLoadBalancer</OriginalElement>
-          <nodes>
-            <node x="" y="">com.netflix.loadbalancer.AbstractLoadBalancer</node>
-            <node x="" y="">com.netflix.loadbalancer.ILoadBalancer</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="54.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ServerListUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-consul-discovery/2.0.0.M7/spring-cloud-consul-discovery-2.0.0.M7.jar!/org/springframework/cloud/consul/discovery/ConsulDiscoveryProperties.class" />
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/PollingServerListUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="127" column="41" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/test/scala/com/galaxy/gateway/test/GatewayTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/src/main/scala/com/galaxy/gateway/GatewayServiceZuulApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/springframework/cloud/spring-cloud-dependencies/Finchley.M9/spring-cloud-dependencies-Finchley.M9.pom" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-852" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/ConcurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/jvm/JConsoleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="65" column="23" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="132" column="21" selection-start-line="119" selection-start-column="11" selection-end-line="132" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="12" selection-end-column="16" />
+        <state relative-caret-position="86">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="46" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="46" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/resources/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/MergeLists.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/ConcurrencyTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="149" column="17" lean-forward="true" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+        <state relative-caret-position="186">
+          <caret line="233" column="17" selection-start-line="233" selection-start-column="17" selection-end-line="233" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SingletonTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="283">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/PrimitiveTypeTest.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="343">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/TwoDimensionArray.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/ConcurrencyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/lock.java" />
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/aop/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/ExchangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="1862" column="22" selection-start-line="1862" selection-start-column="22" selection-end-line="1862" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/JSON-Groovy.json.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/XML-Groovy.xml.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-635" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/actions/cpp/ActionLexer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/collections/Stack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/collections/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/collections/AST.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/build/ANTLR.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/json/Base64TypeAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/UrlParameters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/model/Check.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/model/Member.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/model/NewCheck.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/model/NewService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/AgentClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/com/ecwid/consul/consul-api/1.2.2/consul-api-1.2.2.jar!/com/ecwid/consul/v1/agent/AgentConsulClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7272">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/example/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="160" column="4" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/SortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5877">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/pom.xml">
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/conf/FilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="2001" column="21" selection-start-line="2001" selection-start-column="21" selection-end-line="2001" selection-end-column="21" />
+        <state relative-caret-position="-387">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#784#793#0" expanded="true" />
-            <element signature="e#850#859#0" expanded="true" />
-            <element signature="e#1172#1188#0" expanded="true" />
-            <element signature="e#1281#1290#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1764,7 +1234,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>gateway-galaxy:war</last-edited>
+          <last-edited>zookeeper-galaxy:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1789,7 +1259,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.7</last-edited>
+          <last-edited>bigdecimal (v1.2.8, RVM: ruby-2.3.0 [global]) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1801,7 +1271,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1813,7 +1283,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|gateway-galaxy</last-edited>
+          <last-edited>concurrency-galalxy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1825,7 +1295,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

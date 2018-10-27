@@ -5,3 +5,5 @@ docker exec -ti springboot/concurrency-galalxy bash
 docker run -i -t centos /bin/bash
 
 docker build -t addo/centos-java8 .
+
+docker run -i -t addo/centos-java8 /bin/bash
