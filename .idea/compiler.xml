@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bigdata-galaxy" />
         <module name="concurrency-galalxy" />
         <module name="dubbo-api" />
         <module name="dubbo-consumer" />
@@ -22,5 +23,22 @@
         <module name="zookeeper-galaxy" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bigdata-galaxy" options="-parameters" />
+      <module name="concurrency-galalxy" options="-parameters" />
+      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="gateway-galaxy" options="-parameters" />
+      <module name="groot-galaxy" options="-parameters" />
+      <module name="grpc-galaxy" options="-parameters" />
+      <module name="hello-spring-boot-autoconfigure" options="-parameters" />
+      <module name="hello-spring-boot-sample-app" options="-parameters" />
+      <module name="hello-spring-boot-starter" options="-parameters" />
+      <module name="redis-galaxy" options="-parameters" />
+      <module name="zookeeper-galaxy" options="-parameters" />
+    </option>
   </component>
 </project>

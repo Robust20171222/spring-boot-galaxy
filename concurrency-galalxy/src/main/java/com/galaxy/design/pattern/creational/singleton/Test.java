@@ -33,17 +33,23 @@ public class Test {
      */
     @org.junit.Test
     public void testHungrySingletonWithSerializable() throws ClassNotFoundException, IOException {
-        HungrySingleton hungrySingleton = HungrySingleton.getInstance();
+        // HungrySingleton instance = HungrySingleton.getInstance();
+        EnumInstance instance = EnumInstance.getInstance();
+        instance.setData(new Object());
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("singleton_file"));
-        objectOutputStream.writeObject(hungrySingleton);
+        objectOutputStream.writeObject(instance);
 
         File file = new File("singleton_file");
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(file));
-        HungrySingleton hungrySingleton1 = (HungrySingleton) objectInputStream.readObject();
+        //HungrySingleton newInstance = (HungrySingleton) objectInputStream.readObject();
+        EnumInstance newInstance = (EnumInstance) objectInputStream.readObject();
 
-        System.out.println(hungrySingleton);
-        System.out.println(hungrySingleton1);
-        System.out.println(hungrySingleton == hungrySingleton1);
+//        System.out.println(instance);
+//        System.out.println(newInstance);
+        System.out.println(instance.getData());
+        System.out.println(newInstance.getData());
+//        System.out.println(instance == newInstance);
+        System.out.println(instance.getData() == newInstance.getData());
     }
 
     /**
@@ -55,9 +61,10 @@ public class Test {
     public void testHungrySingletonWithReflect() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         //Class objectClass = HungrySingleton.class;
         // Class objectClass = StaticInnerClassSingleton.class;
+        //Class objectClass = LazySingleton.class;
 
-        Class objectClass = LazySingleton.class;
-        Constructor constructor = objectClass.getDeclaredConstructor();
+        Class objectClass = EnumInstance.class;
+        Constructor constructor = objectClass.getDeclaredConstructor(String.class, int.class);
         constructor.setAccessible(true);
 
 //        HungrySingleton hungrySingleton = HungrySingleton.getInstance();
@@ -69,8 +76,11 @@ public class Test {
 //        StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();
 //        StaticInnerClassSingleton newInstance = (StaticInnerClassSingleton)constructor.newInstance();
 
-        LazySingleton newInstance = (LazySingleton) constructor.newInstance();
-        LazySingleton instance = LazySingleton.getInstance();
+//        LazySingleton newInstance = (LazySingleton) constructor.newInstance();
+//        LazySingleton instance = LazySingleton.getInstance();
+
+        EnumInstance newInstance = (EnumInstance) constructor.newInstance("Hello", 0);
+        EnumInstance instance = EnumInstance.getInstance();
 
         System.out.println(instance);
         System.out.println(newInstance);
