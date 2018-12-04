@@ -1,5 +1,6 @@
 package com.galaxy.bigdata.web
 
+import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.{RequestMapping, RestController}
 
 /**
@@ -8,10 +9,10 @@ import org.springframework.web.bind.annotation.{RequestMapping, RestController}
   * Time: 17:49
   */
 @RestController
-@RequestMapping("/hello")
+@RequestMapping(value = Array("/hello"), produces = Array(MediaType.APPLICATION_JSON_UTF8_VALUE))
 class HelloController {
 
-  @RequestMapping("/")
+  @RequestMapping(value = Array("/hello"))
   def hello: String = {
     "Hello, bigdata!"
   }

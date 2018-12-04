@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/bigdata-galaxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/BigDataApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/creational/singleton/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/creational/singleton/EnumInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/IOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/db/DataSourceContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/db/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/dynamicproxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/staticproxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/staticproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/creational/singleton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/creational/singleton/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groot-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/groot-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/bigdata-galaxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/scala-galaxy/target/" />
@@ -55,24 +31,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="300">
+              <caret line="144" column="36" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <element signature="e#33#60#0" expanded="true" />
+                <element signature="e#32#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -130,9 +115,10 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/BigDataApplication.scala" />
         <option value="$PROJECT_DIR$/groot-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Example.java" />
       </list>
     </option>
   </component>
@@ -145,7 +131,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
@@ -156,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,11 +149,83 @@
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,6 +243,9 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.galaxy.design.pattern.structural.proxy" />
       <recent name="com.galaxy.design.pattern.creational.singleton" />
@@ -207,7 +267,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kudu.test.Example" />
+      <module name="bigdata-galaxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kudu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.galaxy.design.pattern.structural.proxy.dynamicproxy.Test" />
       <module name="concurrency-galalxy" />
@@ -238,23 +312,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testHungrySingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="concurrency-galalxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.design.pattern.creational.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.design.pattern.creational.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.design.pattern.creational.singleton.Test" />
-      <option name="METHOD_NAME" value="testHungrySingleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -366,7 +423,6 @@
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="JUnit.Test.testHungrySingleton" />
       <item itemvalue="JUnit.Test.testHungrySingletonWithReflect" />
       <item itemvalue="JUnit.Test.testHungrySingletonWithSerializable" />
       <item itemvalue="Spring Boot.ScalaGalaxyApplication" />
@@ -377,14 +433,15 @@
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.ElasticApplication" />
       <item itemvalue="Spring Boot.BigDataApplication" />
+      <item itemvalue="Application.Example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Test.testHungrySingletonWithReflect" />
         <item itemvalue="JUnit.Test.testHungrySingletonWithSerializable" />
-        <item itemvalue="JUnit.Test.testHungrySingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +485,8 @@
       <workItem from="1543029774721" duration="93000" />
       <workItem from="1543029919711" duration="12000" />
       <workItem from="1543196939821" duration="2165000" />
-      <workItem from="1543222824716" duration="5980000" />
+      <workItem from="1543222824716" duration="6394000" />
+      <workItem from="1543920910910" duration="842000" />
     </task>
     <task id="LOCAL-00001" summary="Add aop test">
       <created>1540652531931</created>
@@ -480,12 +538,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82846000" />
+    <option name="totallyTimeSpent" value="84102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="1" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.2625202" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.17571884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32956383" />
@@ -493,16 +552,16 @@
       <window_info id="Web" order="5" sideWeight="0.5008264" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43305784" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4322799" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.5280528" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.3611738" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.4950495" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.49435666" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32731378" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
@@ -560,27 +619,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add design pattern test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/conf/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/CollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -786,13 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/App.scala" />
     <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -848,23 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#33#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -892,10 +907,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#33#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="144" column="36" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="28" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#32#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
