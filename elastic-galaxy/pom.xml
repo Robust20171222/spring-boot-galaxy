@@ -7,7 +7,7 @@
     <artifactId>elastic-galaxy</artifactId>
 
     <properties>
-        <scala.version>2.11.7</scala.version>
+        <scala.version>2.11.8</scala.version>
         <elasticsearch.version>5.4.0</elasticsearch.version>
         <springdata.commons>2.0.0.M4</springdata.commons>
     </properties>
