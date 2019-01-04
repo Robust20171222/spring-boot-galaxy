@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameCase.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameRDDApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/ParquetApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
@@ -32,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameCase.scala">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/ParquetApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -66,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/concurrent/ExchangerTest.java" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/algorithm/StringTest.java" />
@@ -117,6 +114,7 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameRDDApp.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameApp.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameCase.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/ParquetApp.scala" />
       </list>
     </option>
   </component>
@@ -129,7 +127,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1001" />
@@ -147,6 +145,51 @@
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataFrameRDDApp">
+  <component name="RunManager" selected="Application.ParquetApp">
     <configuration name="DataFrameApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.spark.DataFrameApp" />
       <module name="bigdata-galaxy" />
@@ -225,10 +268,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQLContextApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.spark.SQLContextApp" />
+    <configuration name="ParquetApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.spark.ParquetApp" />
       <module name="bigdata-galaxy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Dorg.xerial.snappy.lib.name=libsnappyjava.jnilib -Dorg.xerial.snappy.tempdir=/tmp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.galaxy.bigdata.spark.*" />
@@ -344,9 +387,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SQLContextApp" />
       <item itemvalue="Application.SparkSessionApp" />
       <item itemvalue="Application.SparkSQLThriftServerApp" />
+      <item itemvalue="Application.DataFrameApp" />
+      <item itemvalue="Application.DataFrameRDDApp" />
+      <item itemvalue="Application.ParquetApp" />
       <item itemvalue="Spring Boot.ScalaGalaxyApplication" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
       <item itemvalue="Spring Boot.GatewayServiceZuulApplication" />
@@ -355,16 +400,14 @@
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.ElasticApplication" />
       <item itemvalue="Spring Boot.BigDataApplication" />
-      <item itemvalue="Application.DataFrameApp" />
-      <item itemvalue="Application.DataFrameRDDApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParquetApp" />
         <item itemvalue="Application.DataFrameRDDApp" />
         <item itemvalue="Application.DataFrameApp" />
         <item itemvalue="Application.SparkSQLThriftServerApp" />
         <item itemvalue="Application.SparkSessionApp" />
-        <item itemvalue="Application.SQLContextApp" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +466,7 @@
       <workItem from="1546399712531" duration="2873000" />
       <workItem from="1546485974662" duration="6000" />
       <workItem from="1546486032343" duration="3589000" />
-      <workItem from="1546509838546" duration="6013000" />
+      <workItem from="1546509838546" duration="10325000" />
     </task>
     <task id="LOCAL-00001" summary="Add aop test">
       <created>1540652531931</created>
@@ -460,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546410085172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add DataFrame and RDD test">
+      <created>1546523643526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546523643526</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -496,11 +546,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120778000" />
+    <option name="totallyTimeSpent" value="125090000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774265" visible="true" weight="0.23003195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,23 +626,10 @@
     <MESSAGE value="Add filterNot test" />
     <MESSAGE value="Add Spark SQL Thrift test" />
     <MESSAGE value="Modify .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify .gitignore" />
+    <MESSAGE value="Add DataFrame and RDD test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DataFrame and RDD test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/CollectionTest.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/Collection2Test.scala" />
     <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -787,9 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-203" />
@@ -850,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="133" column="6" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSQLThriftServerApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -868,16 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSessionApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="e#34#53#0" expanded="true" />
           </folding>
@@ -904,10 +920,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameCase.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSessionApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="98" />
+          <folding>
+            <element signature="e#34#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1.jar!/org/apache/spark/sql/internal/SQLConf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="548" column="83" selection-start-line="548" selection-start-column="62" selection-end-line="548" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1-sources.jar!/org/apache/spark/sql/internal/SQLConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="346" column="33" selection-start-line="346" selection-start-column="33" selection-end-line="346" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/ParquetApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
