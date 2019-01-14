@@ -5,7 +5,7 @@
         <!--需要修改：日志名称，可以与bootstrap.yml文件里的spring.application.name属性保持一致-->
         <Property name="service_name">bigdata-galaxy</Property>
         <!--需要修改：日志保存路径-->
-        <Property name="baseDir">../logs/${service_name}/</Property>
+        <Property name="baseDir">../../logs/${service_name}/</Property>
         <!--不用修改：当前正在写日志的日志文件名称-->
         <Property name="fileName">${baseDir}/${service_name}.log</Property>
         <!--不用修改：已经备份的日志文件名称-->
