@@ -2,8 +2,8 @@ package com.galaxy.elastic.test
 
 import java.net.InetAddress
 
-import org.elasticsearch.client.{ClusterAdminClient, IndicesAdminClient}
 import org.elasticsearch.client.transport.TransportClient
+import org.elasticsearch.client.{ClusterAdminClient, IndicesAdminClient}
 import org.elasticsearch.common.settings.Settings
 import org.elasticsearch.common.transport.InetSocketTransportAddress
 import org.elasticsearch.transport.client.PreBuiltTransportClient

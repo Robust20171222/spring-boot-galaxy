@@ -1,7 +1,5 @@
 package com.galaxy.elastic.service
 
-import java.util.Optional
-
 import com.galaxy.elastic.entity.Article
 
 /**

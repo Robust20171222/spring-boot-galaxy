@@ -3,10 +3,9 @@ package com.galaxy.gateway.filter
 import java.io.{ByteArrayInputStream, IOException, InputStream}
 
 import com.netflix.hystrix.exception.HystrixTimeoutException
-import org.slf4j.LoggerFactory
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider
-import org.springframework.http.{HttpHeaders, HttpStatus, MediaType}
 import org.springframework.http.client.ClientHttpResponse
+import org.springframework.http.{HttpHeaders, HttpStatus, MediaType}
 import org.springframework.stereotype.Component
 
 /**

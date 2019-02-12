@@ -4,9 +4,6 @@ import org.junit.Test;
 import org.springframework.data.redis.connection.jedis.JedisClusterConnection;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
-import redis.clients.jedis.exceptions.JedisAskDataException;
-
-import java.util.List;
 
 /**
  * Redis集群测试

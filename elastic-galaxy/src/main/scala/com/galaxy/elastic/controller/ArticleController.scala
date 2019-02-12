@@ -2,7 +2,7 @@ package com.galaxy.elastic.controller
 
 import com.galaxy.elastic.entity.Article
 import com.galaxy.elastic.service.ArticleService
-import io.swagger.annotations.{Api, ApiOperation}
+import io.swagger.annotations.ApiOperation
 import org.joda.time.DateTime
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.{PostMapping, RequestBody, RequestMapping, RestController}
