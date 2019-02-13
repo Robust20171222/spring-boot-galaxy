@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hadoop/HdfsTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hadoop/HdfsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/scala-galaxy/target/" />
@@ -35,23 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="123">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#24#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -132,8 +116,8 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hadoop/HdfsTest.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/concurrency-galalxy/pom.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" />
       </list>
     </option>
   </component>
@@ -148,8 +132,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="width" value="1920" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,24 +149,6 @@
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.testExists">
+  <component name="RunManager" selected="JUnit.AvroTest.testProducer">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -403,8 +369,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListTest.testExists" />
         <item itemvalue="JUnit.AvroTest.testProducer" />
+        <item itemvalue="JUnit.ListTest.testExists" />
         <item itemvalue="JUnit.HdfsTest.testConnNamenode" />
         <item itemvalue="JUnit.HiveTest.test" />
         <item itemvalue="JUnit.HiveTest.test1" />
@@ -487,7 +453,7 @@
       <workItem from="1549523557050" duration="1362000" />
       <workItem from="1549696135421" duration="648000" />
       <workItem from="1549872462177" duration="2797000" />
-      <workItem from="1549938063589" duration="12992000" />
+      <workItem from="1549938063589" duration="20274000" />
     </task>
     <task id="LOCAL-00001" summary="Add aop test">
       <created>1540652531931</created>
@@ -556,27 +522,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 21h 46m 03s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 21h 46m 14s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 21h 46m 30s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 21h 53m 03s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 21h 57m 46s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AvroTest_testProducer - 2019.02.12 at 22h 00m 30s.xml">
-      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_testExists - 2019.02.13 at 10h 17m 59s.xml">
-      <configuration name="ListTest.testExists" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListTest_testExists - 2019.02.13 at 10h 18m 18s.xml">
       <configuration name="ListTest.testExists" configurationId="JUnit" />
     </history-entry>
@@ -586,9 +531,30 @@
     <history-entry file="ListTest_testExists - 2019.02.13 at 10h 19m 08s.xml">
       <configuration name="ListTest.testExists" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 11h 15m 01s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 14h 18m 06s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 15h 44m 43s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 15h 48m 37s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 15h 49m 28s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 15h 53m 01s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AvroTest_testProducer - 2019.02.13 at 16h 04m 30s.xml">
+      <configuration name="AvroTest.testProducer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217553000" />
+    <option name="totallyTimeSpent" value="224835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
@@ -675,7 +641,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add hadoop test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/IpUtils.scala" />
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/SparkStatFormatJob.scala" />
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/MySQLUtils.scala" />
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSessionApp.scala" />
@@ -967,20 +932,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala">
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/package.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="287">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#24#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

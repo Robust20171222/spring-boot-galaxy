@@ -33,17 +33,34 @@ class AvroTest {
     val schema = parser.parse(userSchema)
 
     try {
-      val avroRecord = new GenericData.Record(schema)
-      avroRecord.put("city", "value1")
-      avroRecord.put("state", "IL")
-      avroRecord.put("population", 1568000)
-      avroRecord.put("country", "CHINA")
-      val record = new ProducerRecord("hive_sink_orc", key, avroRecord)
+      val avroRecord1 = new GenericData.Record(schema)
+      avroRecord1.put("city", "Philadelphia")
+      avroRecord1.put("state", "PA")
+      avroRecord1.put("population", 1568000)
+      avroRecord1.put("country", "USA")
 
-      for (i <- 0 to 100) {
-        val ack = producer.send(record).get()
-        println(s"${ack.toString} written to partition ${ack.partition.toString}")
+      val avroRecord2 = new GenericData.Record(schema)
+      avroRecord2.put("city", "Chicago")
+      avroRecord2.put("state", "IL")
+      avroRecord2.put("population", 2705000)
+      avroRecord2.put("country", "USA")
+
+      val avroRecord3 = new GenericData.Record(schema)
+      avroRecord3.put("city", "New York")
+      avroRecord3.put("state", "NY")
+      avroRecord3.put("population", 8538000)
+      avroRecord3.put("country", "USA")
+
+      val recordList = List(avroRecord1, avroRecord2, avroRecord3)
+
+      for (elem <- recordList) {
+        val record = new ProducerRecord("hive_sink_orc", key, elem)
+        for (i <- 0 to 100) {
+          val ack = producer.send(record).get()
+          println(s"${ack.toString} written to partition ${ack.partition.toString}")
+        }
       }
+
     } catch {
       case e: Throwable => e.printStackTrace()
     } finally {
