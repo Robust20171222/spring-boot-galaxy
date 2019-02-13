@@ -1,7 +1,7 @@
 package com.test.hadoop
 
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.fs.FileSystem
+import org.apache.hadoop.fs.{FileSystem, Path}
 import org.junit.Test
 
 /**
@@ -15,10 +15,11 @@ class HdfsTest {
     * 测试连接NameNode
     */
   @Test
-  def testConnNamenode: Unit ={
+  def testFileSystem: Unit = {
     val conf = new Configuration()
-    conf.set("fs.defaultFS", "hdfs://namenodetest01.bi:9001")
+    conf.set("fs.defaultFS", "hdfs://quickstart.cloudera:8020")
     val fs: FileSystem = FileSystem.get(conf)
-    print(fs.getCanonicalServiceName)
+    val path = new Path("hdfs://quickstart.cloudera:8020/user/hive/warehouse/hive_connect.db/cities_orc/.streamreactor_hive_sink_orc_0")
+    print(fs.delete(new Path("/user/wangpeng"),true))
   }
 }

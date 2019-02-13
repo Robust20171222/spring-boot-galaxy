@@ -21,5 +21,10 @@ class ListTest {
     println("\nStep 3: How to declare a predicate value function for the exists function")
     val plainDonutPredicate: (String) => Boolean = (donutName) => donutName == "Plain Donut"
     println(s"Value function plainDonutPredicate = $plainDonutPredicate")
+
+    val a:Option[Long] = Some(1)
+    val c = a.exists(_ == 1)
+    println(c)
   }
+
 }
