@@ -1,4 +1,4 @@
-package com.test.spark
+package com.galaxy.bigdata.spark
 
 import org.junit.Test
 

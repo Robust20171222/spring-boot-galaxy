@@ -1,4 +1,4 @@
-package com.test.hadoop
+package com.galaxy.bigdata.hadoop
 
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, Path}

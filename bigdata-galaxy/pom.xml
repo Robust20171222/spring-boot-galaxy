@@ -15,6 +15,7 @@
         <spark.version>2.1.1</spark.version>
         <hive.version>2.1.1</hive.version>
         <kafka.version>2.1.0</kafka.version>
+        <confluent.version>5.1.0</confluent.version>
     </properties>
 
     <dependencies>
@@ -102,7 +103,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>provided</scope>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -172,6 +173,12 @@
             <groupId>io.confluent</groupId>
             <artifactId>kafka-avro-serializer</artifactId>
             <version>5.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.crunch</groupId>
+            <artifactId>crunch-hive</artifactId>
+            <version>0.12.0-hadoop2</version>
         </dependency>
     </dependencies>
 

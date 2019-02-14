@@ -1,4 +1,4 @@
-package com.test.kafka
+package com.galaxy.bigdata.kafka
 
 import java.util.Properties
 

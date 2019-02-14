@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package com.test.kudu;
+package com.galaxy.bigdata.kudu;
 
 import org.apache.kudu.ColumnSchema;
 import org.apache.kudu.Schema;
