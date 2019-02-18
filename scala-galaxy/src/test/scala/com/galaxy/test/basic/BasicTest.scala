@@ -24,7 +24,7 @@ class BasicTest {
   }
 
   @Test
-  def testExists: Unit ={
+  def testExists: Unit = {
     println("Step 1: How to initialize a Sequence of donuts")
     val donuts: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
     println(s"Elements of donuts = $donuts")
@@ -41,9 +41,19 @@ class BasicTest {
     println(s"Does Plain Donut exists = ${donuts.exists(plainDonutPredicate)}")
 
     println("\nStep 5: How to declare a predicate def function for the exists function")
+
     def plainDonutPredicateFunction(donutName: String): Boolean = donutName == "Plain Donut"
 
     println("\nStep 6: How to find element Plain Donut using the exists function and passing through the predicate function from Step 5")
     println(s"Does plain Donut exists = ${donuts.exists(plainDonutPredicateFunction(_))}")
+  }
+
+  @Test
+  def testIncrement: Unit = {
+    var a = 0
+    a += 1
+    val b = a
+    var c: Int = b
+    println(b)
   }
 }
