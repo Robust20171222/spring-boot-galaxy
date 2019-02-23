@@ -55,3 +55,5 @@ hs_err_pid*
 /concurrency-galalxy/target/
 /concurrency-galalxy/concurrency-galalxy.iml
 /bigdata-galaxy/target/
+/dubbo-model/target/
+/dubbo-server/target/

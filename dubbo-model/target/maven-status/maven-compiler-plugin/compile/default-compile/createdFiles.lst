@@ -1,0 +1,5 @@
+com/debug/mooc/dubbo/one/model/mapper/OrderRecordMapper.class
+com/debug/mooc/dubbo/one/model/entity/ItemInfo.class
+com/debug/mooc/dubbo/one/model/entity/OrderRecord.class
+com/debug/mooc/dubbo/one/model/mapper/ItemInfoMapper.class
+com/debug/mooc/dubbo/one/model/Main.class

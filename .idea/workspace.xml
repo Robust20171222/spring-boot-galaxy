@@ -1,37 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/KuduTest.scala" afterDir="false" />
+    <list default="true" id="176f56d3-3839-4778-93c6-726c0f63c801" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/enums/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/ItemInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/OrderRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/resources/mappers/ItemInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/src/main/resources/mappers/OrderRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/target/dubbo-consumer.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/BootMoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/spring/spring-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/src/main/resources/spring/spring-jdbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/target/dubbo-provider.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/.advanced-example.orc.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/.my-file.orc.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/advanced-example.orc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/my-file.orc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kafka/AvroTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kafka/AvroTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/BasicTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/BasicTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/collection/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/com/galalxy/dubbo/api/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/conf/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/galaxy/dubbo/consumer/controller/DemoConsumerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-model/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/ProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/galaxy/dubbo/provider/service/impl/DefaultDemoDemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
-    <ignored path="$PROJECT_DIR$/scala-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/grpc-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/concurrency-galalxy/target/" />
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-sample-app/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/groot-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
-    <ignored path="$PROJECT_DIR$/gateway-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/hello-spring-boot-starter/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/redis-galaxy/target/" />
-    <ignored path="$PROJECT_DIR$/elastic-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-sample-app/target/" />
+    <ignored path="$PROJECT_DIR$/grpc-galaxy/target/" />
     <ignored path="$PROJECT_DIR$/bigdata-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-model/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-autoconfigure/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/hello-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/scala-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/groot-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/elastic-galaxy/target/" />
+    <ignored path="$PROJECT_DIR$/concurrency-galalxy/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-galaxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,39 +75,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="180" column="45" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Scala Object" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>jackson</find>
-      <find>packaging</find>
-      <find>hive-jdbc</find>
-      <find>jackson-module-scala_2.11</find>
-      <find>com.fasterxml.jackson.module</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,57 +90,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/App.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/BigDataApplication.scala" />
-        <option value="$PROJECT_DIR$/groot-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/conf/AppConfig.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/web/HelloController.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Example.java" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/web/HotelController.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SQLContextApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/HiveContextApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSQLThriftServerApp.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameRDDApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/DataFrameCase.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/ParquetApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/ParquetApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkStatFormatJob.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/Test.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/SparkStatFormatJob.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/IpUtils.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/SparkSessionApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/log/SparkStatCleanJob.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/livy/PiJob.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/spark/livy/PiJob.java" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/MapTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/hdfs/HDFSApp.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hive/CoreReader.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/spark/SparkTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hadoop/HdfsTest.scala" />
-        <option value="$PROJECT_DIR$/concurrency-galalxy/pom.xml" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/kafka/AvroTest.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/Test.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hive/HiveTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/test/hive/OrcTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/OrcTest.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/BasicTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kafka/AvroTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/Example.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/KuduTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboItemService.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/response/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/Main.java" />
+        <option value="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java" />
+        <option value="$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-model/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboItemService.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/Main.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/BootMoreApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -141,12 +114,6 @@
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../../JavaIDE/apache-maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -169,20 +136,85 @@
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,10 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/concurrency-galalxy/src/main/java/com/galaxy/design/pattern/creational/singleton/T.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -204,24 +233,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/test/resources" />
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata" />
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src" />
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/main/lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.galaxy.bigdata.spark" />
-      <recent name="com.galaxy.design.pattern.structural.proxy" />
-      <recent name="com.galaxy.design.pattern.creational.singleton" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/test" />
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/kudu/test" />
+      <recent name="$PROJECT_DIR$/dubbo-server/src/main" />
+      <recent name="$PROJECT_DIR$/dubbo-model/src/main" />
+      <recent name="$PROJECT_DIR$/dubbo-api/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,94 +254,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KuduTest.testRead">
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuduTest.testCreateTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.kudu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.kudu" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.kudu.KuduTest" />
-      <option name="METHOD_NAME" value="testCreateTable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuduTest.testDelByPK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.kudu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.kudu" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.kudu.KuduTest" />
-      <option name="METHOD_NAME" value="testDelByPK" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuduTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.kudu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.kudu" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.kudu.KuduTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuduTest.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.kudu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.kudu" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.kudu.KuduTest" />
-      <option name="METHOD_NAME" value="testRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuduTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.kudu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.kudu" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.kudu.KuduTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -331,6 +264,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootMoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.debug.mooc.dubbo.one.server.BootMoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,7 +283,7 @@
       </method>
     </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="dubbo-consumer" />
+      <module name="dubbo-model" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,7 +304,7 @@
       </method>
     </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="dubbo-provider" />
+      <module name="dubbo-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.galaxy.dubbo.provider.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -392,29 +332,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ElasticApplication" />
-      <item itemvalue="Spring Boot.GatewayServiceZuulApplication" />
-      <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="Spring Boot.ScalaGalaxyApplication" />
-      <item itemvalue="JUnit.KuduTest.testCreateTable" />
-      <item itemvalue="JUnit.KuduTest.testInsert" />
-      <item itemvalue="JUnit.KuduTest.testUpdate" />
-      <item itemvalue="JUnit.KuduTest.testDelByPK" />
-      <item itemvalue="JUnit.KuduTest.testRead" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.KuduTest.testRead" />
-        <item itemvalue="JUnit.KuduTest.testInsert" />
-        <item itemvalue="JUnit.KuduTest.testDelByPK" />
-        <item itemvalue="JUnit.KuduTest.testUpdate" />
-        <item itemvalue="JUnit.KuduTest.testCreateTable" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -425,659 +342,268 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
-    <option name="runUnderTerminal" value="true" />
-    <option name="sshConnectionType" value="PASSWORD" />
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b8d71fa-10cd-4855-ab49-f081c4161ad2" name="Default Changelist" comment="" />
-      <created>1540298165865</created>
+      <changelist id="176f56d3-3839-4778-93c6-726c0f63c801" name="Default Changelist" comment="" />
+      <created>1550893641330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540298165865</updated>
-      <workItem from="1540298168054" duration="13536000" />
-      <workItem from="1540423261305" duration="4145000" />
-      <workItem from="1540515659856" duration="6441000" />
-      <workItem from="1540604966228" duration="3189000" />
-      <workItem from="1540609511520" duration="6846000" />
-      <workItem from="1540716288705" duration="1124000" />
-      <workItem from="1540803677098" duration="622000" />
-      <workItem from="1540808077581" duration="4849000" />
-      <workItem from="1540860759163" duration="18122000" />
-      <workItem from="1540948191562" duration="3137000" />
-      <workItem from="1541577406928" duration="22000" />
-      <workItem from="1541577462870" duration="310000" />
-      <workItem from="1541646185311" duration="183000" />
-      <workItem from="1541646407358" duration="8450000" />
-      <workItem from="1541749899549" duration="3200000" />
-      <workItem from="1543029263902" duration="340000" />
-      <workItem from="1543029659964" duration="80000" />
-      <workItem from="1543029774721" duration="93000" />
-      <workItem from="1543029919711" duration="12000" />
-      <workItem from="1543196939821" duration="2165000" />
-      <workItem from="1543222824716" duration="6394000" />
-      <workItem from="1543920910910" duration="1691000" />
-      <workItem from="1544163103861" duration="56000" />
-      <workItem from="1544163239731" duration="2044000" />
-      <workItem from="1545486095846" duration="993000" />
-      <workItem from="1545992258793" duration="753000" />
-      <workItem from="1546064094693" duration="597000" />
-      <workItem from="1546078705058" duration="342000" />
-      <workItem from="1546218187617" duration="2239000" />
-      <workItem from="1546224753954" duration="653000" />
-      <workItem from="1546242167284" duration="9021000" />
-      <workItem from="1546304183926" duration="6648000" />
-      <workItem from="1546399712531" duration="2873000" />
-      <workItem from="1546485974662" duration="6000" />
-      <workItem from="1546486032343" duration="3589000" />
-      <workItem from="1546509838546" duration="10350000" />
-      <workItem from="1546842580609" duration="6385000" />
-      <workItem from="1546930387205" duration="21599000" />
-      <workItem from="1547299523073" duration="1895000" />
-      <workItem from="1547359004075" duration="101000" />
-      <workItem from="1547359238764" duration="693000" />
-      <workItem from="1547361175706" duration="108000" />
-      <workItem from="1547431163327" duration="15850000" />
-      <workItem from="1547781604293" duration="3250000" />
-      <workItem from="1548645797387" duration="7762000" />
-      <workItem from="1548664555604" duration="3583000" />
-      <workItem from="1548754728716" duration="2949000" />
-      <workItem from="1548829504882" duration="596000" />
-      <workItem from="1548831418160" duration="936000" />
-      <workItem from="1548900477958" duration="1361000" />
-      <workItem from="1548916546537" duration="1858000" />
-      <workItem from="1549006702885" duration="5087000" />
-      <workItem from="1549093743370" duration="626000" />
-      <workItem from="1549523557050" duration="1362000" />
-      <workItem from="1549696135421" duration="648000" />
-      <workItem from="1549872462177" duration="2797000" />
-      <workItem from="1549938063589" duration="23742000" />
-      <workItem from="1550064685237" duration="303000" />
-      <workItem from="1550065048378" duration="18669000" />
-      <workItem from="1550197010168" duration="1709000" />
-      <workItem from="1550227328527" duration="596000" />
-      <workItem from="1550368736457" duration="5000000" />
-      <workItem from="1550456012083" duration="9918000" />
+      <updated>1550893641330</updated>
+      <workItem from="1550893643732" duration="1511000" />
     </task>
-    <task id="LOCAL-00001" summary="Add aop test">
-      <created>1540652531931</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540652531931</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add design pattern test">
-      <created>1540895139567</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540895139568</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add filterNot test">
-      <created>1546224798861</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1546224798861</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add Spark SQL Thrift test">
-      <created>1546410031813</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1546410031816</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Modify .gitignore">
-      <created>1546410085172</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1546410085172</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add DataFrame and RDD test">
-      <created>1546523643526</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1546523643526</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add Parquet test">
-      <created>1546597035493</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1546597035493</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add spark log stats">
-      <created>1546953791033</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1546953791034</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Add hadoop test">
-      <created>1547465349706</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1547465349707</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="KuduTest_testCreateTable - 2019.02.18 at 14h 19m 39s.xml">
-      <configuration name="KuduTest.testCreateTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testInsert - 2019.02.18 at 14h 19m 53s.xml">
-      <configuration name="KuduTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testUpdate - 2019.02.18 at 14h 22m 06s.xml">
-      <configuration name="KuduTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testDelByPK - 2019.02.18 at 14h 23m 33s.xml">
-      <configuration name="KuduTest.testDelByPK" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testInsert - 2019.02.18 at 14h 34m 18s.xml">
-      <configuration name="KuduTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testRead - 2019.02.18 at 14h 34m 32s.xml">
-      <configuration name="KuduTest.testRead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testInsert - 2019.02.18 at 14h 35m 00s.xml">
-      <configuration name="KuduTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testRead - 2019.02.18 at 14h 35m 11s.xml">
-      <configuration name="KuduTest.testRead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testInsert - 2019.02.18 at 14h 35m 43s.xml">
-      <configuration name="KuduTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KuduTest_testRead - 2019.02.18 at 14h 35m 57s.xml">
-      <configuration name="KuduTest.testRead" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264498000" />
+    <option name="totallyTimeSpent" value="1511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="721" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49774265" visible="true" weight="0.22949947" />
-      <window_info id="Structure" order="1" sideWeight="0.50225735" side_tool="true" weight="0.22949947" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Learn" order="3" weight="0.32956383" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Web" order="5" sideWeight="0.50225735" side_tool="true" weight="0.23003195" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.51241535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49757674" weight="0.3611738" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021299" side_tool="true" weight="0.34875846" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3442438" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3295711" />
-      <window_info active="true" anchor="bottom" id="SVN Repositories" order="15" visible="true" weight="0.3289256" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.32960597" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917355" visible="true" weight="0.2609047" />
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Learn" order="3" weight="0.32956383" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Web" order="5" sideWeight="0.5008264" side_tool="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43305784" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.3289256" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.49586776" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289256" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-    </layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add aop test" />
-    <MESSAGE value="Add design pattern test" />
-    <MESSAGE value="Add filterNot test" />
-    <MESSAGE value="Add Spark SQL Thrift test" />
-    <MESSAGE value="Modify .gitignore" />
-    <MESSAGE value="Add DataFrame and RDD test" />
-    <MESSAGE value="Add Parquet test" />
-    <MESSAGE value="Add spark log stats" />
-    <MESSAGE value="Add hadoop test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add hadoop test" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrency-galalxy/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/enums/StatusCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/package.class">
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+        <state relative-caret-position="660">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
           <folding>
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="321" column="6" selection-start-line="321" selection-start-column="6" selection-end-line="321" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboRecordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/response/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/com/debug/mooc/dubbo/one/api/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1219" />
+      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1041" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-serde/2.1.1/hive-serde-2.1.1.jar!/org/apache/hadoop/hive/serde2/typeinfo/TypeInfoUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="369" column="27" selection-start-line="369" selection-start-column="27" selection-end-line="369" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-orc/2.1.1/hive-orc-2.1.1-sources.jar!/org/apache/orc/OrcFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="528" column="30" selection-start-line="528" selection-start-column="30" selection-end-line="528" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-orc/2.1.1/hive-orc-2.1.1-sources.jar!/org/apache/orc/TypeDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#8025#8026#0" expanded="true" />
-            <element signature="e#8078#8079#0" expanded="true" />
-            <element signature="e#13881#13882#0" expanded="true" />
-            <element signature="e#13945#13946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-storage-api/2.1.1/hive-storage-api-2.1.1-sources.jar!/org/apache/hadoop/hive/ql/exec/vector/VectorizedRowBatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding>
-            <element signature="e#3901#3902#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-storage-api/2.1.1/hive-storage-api-2.1.1-sources.jar!/org/apache/hadoop/hive/ql/exec/vector/LongColumnVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.jar!/org/apache/hadoop/hive/ql/io/orc/OrcFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/ItemInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hadoop/hadoop-common/2.6.0-cdh5.13.0/hadoop-common-2.6.0-cdh5.13.0-sources.jar!/org/apache/hadoop/io/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-orc/2.1.1/hive-orc-2.1.1-sources.jar!/org/apache/orc/impl/WriterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="2200" column="64" lean-forward="true" selection-start-line="2200" selection-start-column="64" selection-end-line="2200" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/OrcTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1321">
-          <caret line="203" column="3" selection-start-line="203" selection-start-column="3" selection-end-line="203" selection-end-column="3" />
-          <folding>
-            <element signature="e#33#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/BasicTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/avro/avro/1.7.6-cdh5.13.0/avro-1.7.6-cdh5.13.0.jar!/org/apache/avro/generic/GenericData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="1096" column="24" selection-start-line="1096" selection-start-column="24" selection-end-line="1096" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1.jar!/org/apache/kudu/client/KuduPredicate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1.jar!/org/apache/kudu/client/PartialRow.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="335" column="17" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
-          <folding>
-            <element signature="e#12783#12784#0" expanded="true" />
-            <element signature="e#12846#12847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1334" column="22" selection-start-line="1334" selection-start-column="22" selection-end-line="1334" selection-end-column="22" />
-          <folding>
-            <element signature="e#52232#52233#0" expanded="true" />
-            <element signature="e#52271#52272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1.jar!/org/apache/kudu/client/RowErrorsAndOverflowStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/RowErrorsAndOverflowStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/AlterTableOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/AbstractKuduScannerBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="131" column="11" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/KuduPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/main/scala/com/galaxy/bigdata/BigDataApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/Upsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/KuduTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="139" column="21" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="21" />
-          <folding>
-            <element signature="e#3479#3480#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/mutable/ListBuffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-795">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/ColumnTypeAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1111">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/ColumnSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="344" column="66" selection-start-line="344" selection-start-column="46" selection-end-line="344" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/Schema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/KuduClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kafka/AvroTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="e#34#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/RowResultIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/kudu/kudu-client/1.7.1/kudu-client-1.7.1-sources.jar!/org/apache/kudu/client/KuduScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/KuduTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding>
-            <element signature="e#33#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3405">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/io/confluent/kafka-avro-serializer/5.1.0/kafka-avro-serializer-5.1.0.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/apache/crunch/crunch-hive/0.12.0-hadoop2/crunch-hive-0.12.0-hadoop2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/apache/hive/hive-exec/2.1.1/hive-exec-2.1.1.pom">
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/OrderRecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6877" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3856" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="180" column="45" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/resources/mappers/ItemInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/resources/mappers/OrderRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/debug/mooc/dubbo/one/server/BootMoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/spring/spring-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/spring/spring-jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1133,7 +659,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1145,11 +671,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bigdata-galaxy</last-edited>
+          <last-edited>dubbo-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
