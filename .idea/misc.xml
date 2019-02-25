@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-two-api" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-two-model" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-two-server" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-galaxy" />
   </component>
   <component name="MarkdownProjectSettings" wasCopied="true">
@@ -94,7 +97,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

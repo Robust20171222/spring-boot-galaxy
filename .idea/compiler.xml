@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bigdata-galaxy" />
         <module name="concurrency-galalxy" />
-        <module name="dubbo-api" />
-        <module name="dubbo-model" />
-        <module name="dubbo-server" />
+        <module name="dubbo-one-api" />
+        <module name="dubbo-one-model" />
+        <module name="dubbo-one-server" />
+        <module name="dubbo-two-api" />
+        <module name="dubbo-two-model" />
+        <module name="dubbo-two-server" />
         <module name="elastic-galaxy" />
         <module name="gateway-galaxy" />
         <module name="groot-galaxy" />
@@ -28,9 +31,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bigdata-galaxy" options="-parameters" />
       <module name="concurrency-galalxy" options="-parameters" />
-      <module name="dubbo-api" options="-parameters" />
-      <module name="dubbo-model" options="-parameters" />
-      <module name="dubbo-server" options="-parameters" />
+      <module name="dubbo-one-api" options="-parameters" />
+      <module name="dubbo-one-model" options="-parameters" />
+      <module name="dubbo-one-server" options="-parameters" />
+      <module name="dubbo-two-api" options="-parameters" />
+      <module name="dubbo-two-model" options="-parameters" />
+      <module name="dubbo-two-server" options="-parameters" />
       <module name="gateway-galaxy" options="-parameters" />
       <module name="groot-galaxy" options="-parameters" />
       <module name="grpc-galaxy" options="-parameters" />

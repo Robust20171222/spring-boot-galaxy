@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>zookeeper-galaxy</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>zookeeper-galaxy Maven Webapp</name>
     <!-- FIXME change it to the project's website -->

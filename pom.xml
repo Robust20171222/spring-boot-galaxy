@@ -19,12 +19,15 @@
         <module>hello-spring-boot-autoconfigure</module>
         <module>hello-spring-boot-starter</module>
         <module>hello-spring-boot-sample-app</module>
-        <module>dubbo-api</module>
-        <module>dubbo-model</module>
-        <module>dubbo-server</module>
         <module>concurrency-galalxy</module>
         <module>elastic-galaxy</module>
         <module>bigdata-galaxy</module>
+        <module>dubbo-two-api</module>
+        <module>dubbo-two-model</module>
+        <module>dubbo-two-server</module>
+        <module>dubbo-one-api</module>
+        <module>dubbo-one-model</module>
+        <module>dubbo-one-server</module>
     </modules>
 
     <parent>
