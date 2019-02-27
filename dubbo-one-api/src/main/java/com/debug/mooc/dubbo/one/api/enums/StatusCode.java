@@ -1,6 +1,4 @@
-package com.debug.mooc.dubbo.one.api.enums;/**
- * Created by Administrator on 2019/1/12.
- */
+package com.debug.mooc.dubbo.one.api.enums;
 
 /**
  * @Author:debug (SteadyJack)

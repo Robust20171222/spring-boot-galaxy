@@ -3,6 +3,8 @@ package com.debug.mooc.dubbo.one.api.request;
 import java.io.Serializable;
 
 /**
+ * 保存订单信息
+ *
  * @Author:debug (SteadyJack)
  * @Date: 2019/1/14 22:18
  **/

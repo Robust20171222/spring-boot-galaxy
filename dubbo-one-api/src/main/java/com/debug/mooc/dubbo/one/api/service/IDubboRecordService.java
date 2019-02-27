@@ -4,7 +4,7 @@ import com.debug.mooc.dubbo.one.api.request.PushOrderDto;
 import com.debug.mooc.dubbo.one.api.response.BaseResponse;
 
 /**
- * Created by Administrator on 2019/1/14.
+ * 提供下单服务业务逻辑操作
  */
 public interface IDubboRecordService {
 
