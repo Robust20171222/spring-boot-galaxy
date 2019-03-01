@@ -76,14 +76,3 @@ spring:
 
 logging:
   config: classpath:log4j2.xml
-
-management:
-  context-path: /actuator
-  security:
-    enabled: false
-endpoints:
-  actuator:
-    enabled: true
-    sensitive: true
-  logfile:
-    enabled: true

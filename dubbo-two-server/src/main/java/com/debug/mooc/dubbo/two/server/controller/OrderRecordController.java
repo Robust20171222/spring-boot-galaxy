@@ -21,9 +21,9 @@ import java.util.Map;
 @RestController
 public class OrderRecordController {
 
-    private static final Logger log=LoggerFactory.getLogger(OrderRecordController.class);
+    private static final Logger log = LoggerFactory.getLogger(OrderRecordController.class);
 
-    private static final String prefix="order";
+    private static final String prefix = "order";
 
     @Autowired
     private OrderRecordService orderRecordService;
@@ -31,22 +31,22 @@ public class OrderRecordController {
     /**
      * 面向客户：用户下单
      */
-    @RequestMapping(value = prefix+"/record/push",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public Map<String,Object> pushRecord(@RequestBody RecordPushRequest pushRequest){
-        Map<String,Object> resMap= Maps.newHashMap();
-        resMap.put("code",0);
-        resMap.put("msg","成功");
+    @RequestMapping(value = prefix + "/record/push", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public Map<String, Object> pushRecord(@RequestBody RecordPushRequest pushRequest) {
+        Map<String, Object> resMap = Maps.newHashMap();
+        resMap.put("code", 0);
+        resMap.put("msg", "成功");
         try {
-            log.info("接收到请求数据：{} ",pushRequest);
+            log.info("接收到请求数据：{} ", pushRequest);
 
             //TODO:处理用户下单数据-发起用户下单接口的调用
             //orderRecordService.pushOrder(pushRequest);
             orderRecordService.pushOrderV2(pushRequest);
 
-        }catch (Exception e){
-            log.error("面向客户：用户下单-发生异常：",e.fillInStackTrace());
-            resMap.put("code",-1);
-            resMap.put("msg","失败");
+        } catch (Exception e) {
+            log.error("面向客户：用户下单-发生异常：", e.fillInStackTrace());
+            resMap.put("code", -1);
+            resMap.put("msg", "失败");
         }
         return resMap;
     }

@@ -44,6 +44,7 @@
       <module name="hello-spring-boot-sample-app" options="-parameters" />
       <module name="hello-spring-boot-starter" options="-parameters" />
       <module name="redis-galaxy" options="-parameters" />
+      <module name="scala-galaxy" options="-parameters" />
       <module name="zookeeper-galaxy" options="-parameters" />
     </option>
   </component>

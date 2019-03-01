@@ -24,7 +24,7 @@
 hs_err_pid*
 
 /test-galaxy/target/
-/scala-galaxy/target/
+/scala-galaxy/target/*
 /logs/
 /grpc-galaxy/target/
 /simple-galaxy/target/
@@ -39,7 +39,7 @@ hs_err_pid*
 /zookeeper-galaxy/zookeeper-galaxy.iml
 /hello-spring-boot-autoconfigure/target/
 /hello-spring-boot-autoconfigure/hello-spring-boot-autoconfigure.iml
-/hello-spring-boot-sample-app/target/
+/hello-spring-boot-sample-app/target/*
 /hello-spring-boot-sample-app/hello-spring-boot-sample-app.iml
 /hello-spring-boot-starter/hello-spring-boot-starter.iml
 /gateway-galaxy/gateway-galaxy.iml
@@ -52,16 +52,16 @@ hs_err_pid*
 /dubbo-api/target/
 /redis-galaxy/target/redis-galaxy.jar.original
 /scala-galaxy/target/scala-galaxy.jar.original
-/concurrency-galalxy/target/
+/concurrency-galalxy/target/*
 /concurrency-galalxy/concurrency-galalxy.iml
-/bigdata-galaxy/target/
-/dubbo-model/target/
-/dubbo-server/target/
-/dubbo-two-server/target/
+/bigdata-galaxy/target/*
+/dubbo-model/target/*
+/dubbo-server/target/*
+/dubbo-two-server/target/*
 /dubbo-two-server/dubbo-two-server.iml
 /dubbo-two-model/dubbo-two-model.iml
-/dubbo-two-model/target/
-/dubbo-two-api/target/
-/dubbo-one-server/target/
-/dubbo-one-model/target/
-/dubbo-one-api/target/
+/dubbo-two-model/target/*
+/dubbo-two-api/target/*
+/dubbo-one-server/target/*
+/dubbo-one-model/target/*
+/dubbo-one-api/target/*
