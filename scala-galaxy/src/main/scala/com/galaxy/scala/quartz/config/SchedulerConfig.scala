@@ -2,7 +2,7 @@ package com.galaxy.scala.quartz.config
 
 import java.util.Properties
 
-import com.galaxy.scala.quartz.service.JobsListenerService
+import com.galaxy.scala.quartz.listener.{JobsListenerService, SchedulerListenerService, TriggerListenerService}
 import javax.sql.DataSource
 import org.quartz.spi.{JobFactory, TriggerFiredBundle}
 import org.springframework.beans.factory.config.{AutowireCapableBeanFactory, PropertiesFactoryBean}
@@ -33,12 +33,14 @@ class SchedulerConfig {
 
   @throws[Exception]
   @Bean
-  def schedulerFactoryBean(dataSource: DataSource, jobFactory: JobFactory, jobsListenerService: JobsListenerService): SchedulerFactoryBean = {
+  def schedulerFactoryBean(dataSource: DataSource, jobFactory: JobFactory, jobsListenerService: JobsListenerService, triggerListenerService: TriggerListenerService, schedulerListenerService: SchedulerListenerService): SchedulerFactoryBean = {
     val factory = new SchedulerFactoryBean()
     factory.setDataSource(dataSource)
     factory.setJobFactory(jobFactory)
     factory.setQuartzProperties(quartzProperties)
-    factory.setGlobalJobListeners(jobsListenerService)
+    factory.setGlobalJobListeners(jobsListenerService) // 注册全局Job监听器
+    factory.setGlobalTriggerListeners(triggerListenerService) // 注册全局Trigger监听器
+    factory.setSchedulerListeners(schedulerListenerService) // 注册全局Scheduler监听器
     // https://medium.com/@rudra.ramesh/use-following-code-in-supervisor-app-while-creating-schedulerfactorybean-object-now-supervisor-fd2f95365350
     // If you need to disable launching of jobs on supervisor use this:
     //factory.setAutoStartup(false);

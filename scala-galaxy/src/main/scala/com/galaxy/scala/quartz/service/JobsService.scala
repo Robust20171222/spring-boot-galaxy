@@ -3,7 +3,7 @@ package com.galaxy.scala.quartz.service
 import java.util.UUID
 
 import com.galaxy.scala.quartz.controllers.JobStatus
-import com.galaxy.scala.quartz.job.TestJob1
+import com.galaxy.scala.quartz.job.TestJob
 import javax.annotation.PostConstruct
 import org.quartz._
 import org.quartz.impl.matchers.GroupMatcher
@@ -48,7 +48,7 @@ class JobsService {
   @throws[SchedulerException]
   def addNewJob: String = {
     val id = UUID.randomUUID().toString
-    val job = JobBuilder.newJob(classOf[TestJob1]).withIdentity(id, groupName).requestRecovery(true).build()
+    val job = JobBuilder.newJob(classOf[TestJob]).withIdentity(id, groupName).requestRecovery(true).build()
     val trigger = TriggerBuilder.newTrigger().withIdentity(id + "-trigger", groupName).startNow().withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(30)).build()
 
     scheduler.scheduleJob(job, trigger)

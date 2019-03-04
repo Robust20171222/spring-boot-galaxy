@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired
   * Time: 11:38
   */
 @DisallowConcurrentExecution
-class TestJob1 extends Job {
+class TestJob extends Job {
 
   @Autowired
   private var testService: TestService = _

@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3afa4623-9f83-43e8-aca2-e01216eb413f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql/tables_mysql_innodb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/JsonConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/SwaggerConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/JobStatus.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/TestController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsListenerService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/TestService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/TestServiceImpl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/SchedulerListenerService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/TriggerListenerService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-one-server/target/dubbo-server.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-one-server/target/dubbo-server.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-two-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-two-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-two-server/src/main/java/com/debug/mooc/dubbo/two/server/controller/OrderRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-two-server/src/main/java/com/debug/mooc/dubbo/two/server/controller/OrderRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/target/elastic-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsListenerService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/JobsListenerService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
@@ -72,22 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-              <folding>
-                <element signature="e#40#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/TestController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="479">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
                 <element signature="e#45#95#0" expanded="true" />
               </folding>
@@ -103,7 +74,11 @@
       <find>SchedulerConfig</find>
       <find>swagger</find>
       <find>traversableAgain</find>
+      <find>println</find>
     </findStrings>
+    <replaceStrings>
+      <replace>LOGGER.info</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -134,7 +109,6 @@
         <option value="$PROJECT_DIR$/dubbo-one-model/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-two-server/src/main/java/com/debug/mooc/dubbo/two/server/DubboTwoServerApplication.java" />
         <option value="$PROJECT_DIR$/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/DubboOneServerApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dubbo-two-server/src/main/java/com/debug/mooc/dubbo/two/server/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboRecordService.java" />
         <option value="$PROJECT_DIR$/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java" />
@@ -150,7 +124,6 @@
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/SchedulerConfig.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/TestService.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob1.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/quartz.properties" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SwaggerConfig.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/JobStatus.scala" />
@@ -158,13 +131,18 @@
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql/scriptFile.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/resources/sql/tables_mysql_innodb.sql" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala" />
-        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsListenerService.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/README.md" />
         <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/JsonConfig.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/TestController.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob1.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsListenerService.scala" />
         <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/JobsListenerService.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/TriggerListenerService.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/SchedulerListenerService.scala" />
       </list>
     </option>
   </component>
@@ -240,16 +218,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="quartz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,7 +236,44 @@
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,25 +415,25 @@
       <workItem from="1551319771779" duration="944000" />
       <workItem from="1551321203986" duration="4174000" />
       <workItem from="1551333308035" duration="6619000" />
-      <workItem from="1551343480513" duration="16932000" />
+      <workItem from="1551343480513" duration="25182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51579000" />
+    <option name="totallyTimeSpent" value="59829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-176" width="1920" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24227902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17944622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46162528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47065464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -457,49 +462,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/config/QuartzConfiguration.scala" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/builders/ApiInfoBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/utils/Key.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/Scheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/collection/immutable/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/util/Random.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/package.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -549,16 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#37#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/ScalaGalaxyApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -570,16 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsListenerService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/TestServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#42#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/collection/SetLike.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -775,23 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/JobStatus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -816,22 +731,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/TestController.scala">
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/TestServiceImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#45#95#0" expanded="true" />
+            <element signature="e#42#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/JobListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/job/TestJob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#37#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/service/JobsService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="e#41#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/TriggerListenerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#42#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/SchedulerListenerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/config/SchedulerConfig.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="344">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="e#40#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/listener/JobsListenerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="41" column="85" lean-forward="true" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
+          <folding>
+            <element signature="e#42#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/JobStatus.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/throws.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/main/scala/com/galaxy/scala/quartz/controllers/TestController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#45#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
