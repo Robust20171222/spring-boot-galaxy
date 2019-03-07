@@ -23,9 +23,11 @@
         <module name="hello-spring-boot-starter" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
-        <module name="zookeeper-galaxy" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zookeeper-galaxy" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
