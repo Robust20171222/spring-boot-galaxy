@@ -11,12 +11,13 @@
     <packaging>jar</packaging>
 
     <properties>
-        <impala.jdbc.version>2.5.30</impala.jdbc.version>
         <spark.version>2.1.1</spark.version>
         <hive.version>2.1.1</hive.version>
         <kafka.version>2.1.0</kafka.version>
         <confluent.version>5.1.0</confluent.version>
         <zookeeper.version>3.4.10</zookeeper.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <impala.jdbc.version>2.5.30</impala.jdbc.version>
     </properties>
 
     <dependencies>
@@ -192,6 +193,33 @@
             <artifactId>zookeeper</artifactId>
             <version>${zookeeper.version}</version>
         </dependency>
+
+<!--        &lt;!&ndash; These dependencies provided by your local repo &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
+<!--            <artifactId>hive_metastore</artifactId>-->
+<!--            <version>${impala.jdbc.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
+<!--            <artifactId>hive_service</artifactId>-->
+<!--            <version>${impala.jdbc.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
+<!--            <artifactId>ImpalaJDBC41</artifactId>-->
+<!--            <version>${impala.jdbc.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
+<!--            <artifactId>ql</artifactId>-->
+<!--            <version>${impala.jdbc.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
+<!--            <artifactId>TCLIServiceClient</artifactId>-->
+<!--            <version>${impala.jdbc.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -231,6 +259,14 @@
         <repository>
             <id>cloudera</id>
             <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </repository>
+        <repository>
+            <id>cdh.repo</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+            <name>Cloudera Repositories</name>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
         <repository>
             <id>central</id>

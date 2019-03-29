@@ -65,3 +65,4 @@ hs_err_pid*
 /dubbo-one-server/target/*
 /dubbo-one-model/target/*
 /dubbo-one-api/target/*
+/dubbo-one-server/target/

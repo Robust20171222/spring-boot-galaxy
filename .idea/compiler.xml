@@ -6,23 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bigdata-galaxy" />
-        <module name="concurrency-galalxy" />
-        <module name="dubbo-one-api" />
-        <module name="dubbo-one-model" />
-        <module name="dubbo-one-server" />
-        <module name="dubbo-two-api" />
-        <module name="dubbo-two-model" />
-        <module name="dubbo-two-server" />
-        <module name="elastic-galaxy" />
-        <module name="gateway-galaxy" />
-        <module name="groot-galaxy" />
-        <module name="grpc-galaxy" />
-        <module name="hello-spring-boot-autoconfigure" />
         <module name="hello-spring-boot-sample-app" />
-        <module name="hello-spring-boot-starter" />
+        <module name="dubbo-one-server" />
         <module name="redis-galaxy" />
         <module name="scala-galaxy" />
+        <module name="bigdata-galaxy" />
+        <module name="hello-spring-boot-starter" />
+        <module name="grpc-galaxy" />
+        <module name="dubbo-one-model" />
+        <module name="groot-galaxy" />
+        <module name="dubbo-two-api" />
+        <module name="gateway-galaxy" />
+        <module name="elastic-galaxy" />
+        <module name="dubbo-two-model" />
+        <module name="dubbo-one-api" />
+        <module name="dubbo-two-server" />
+        <module name="concurrency-galalxy" />
+        <module name="hello-spring-boot-autoconfigure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
