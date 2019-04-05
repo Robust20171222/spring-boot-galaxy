@@ -1,8 +1,12 @@
 package com.galaxy.bigdata.hadoop
 
+import java.text.SimpleDateFormat
+import java.util.Date
+
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, Path}
 import org.junit.Test
+
 
 /**
   * Created by wangpeng
@@ -11,15 +15,55 @@ import org.junit.Test
   */
 class HdfsTest {
 
+  val DEFAULT_FS_URI = "hdfs://namenodetest02.bi.10101111.com:9001"
+
+  val hadoop: FileSystem = {
+    System.setProperty("HADOOP_USER_NAME", "hadoop")
+    val conf = new Configuration()
+    conf.set("fs.defaultFS", this.DEFAULT_FS_URI)
+    FileSystem.get(conf)
+  }
+
   /**
-    * 测试连接NameNode
+    * 测试连接获取文件列表
     */
   @Test
-  def testFileSystem: Unit = {
-    val conf = new Configuration()
-    conf.set("fs.defaultFS", "hdfs://quickstart.cloudera:8020")
-    val fs: FileSystem = FileSystem.get(conf)
-    val path = new Path("hdfs://quickstart.cloudera:8020/user/hive/warehouse/hive_connect.db/cities_orc/.streamreactor_hive_sink_orc_0")
-    print(fs.delete(new Path("/user/wangpeng"),true))
+  def testListFiles: Unit = {
+    val path = new Path("/user/")
+    val files = this.hadoop.listFiles(path, false)
+    while (files.hasNext) {
+      val file = files.next()
+      val pathStr = file.getPath().toString()
+      println(pathStr)
+    }
+  }
+
+  /**
+    * 测试获取文件状态
+    */
+  @Test
+  def testListStatus: Unit = {
+    val dateFormat = new SimpleDateFormat("yyyy-MM-dd")
+
+    val status = this.hadoop.listStatus(new Path("/user"))
+    status.foreach(x => {
+      val modificationTime = x.getModificationTime
+      val modificationDate = new Date(modificationTime)
+      val time = dateFormat.format(modificationDate)
+      if (time.equals("2018-09-03")) {
+      }
+    })
+
+    this.hadoop.delete(new Path("/user/zhupeng^M"))
+
+  }
+
+  @Test
+  def testYARNTimeStamp: Unit ={
+    val timestamp = 1552992108566l
+    val date = new Date(timestamp)s
+    val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+    val time = dateFormat.format(date)
+    println(time)
   }
 }
