@@ -193,33 +193,6 @@
             <artifactId>zookeeper</artifactId>
             <version>${zookeeper.version}</version>
         </dependency>
-
-<!--        &lt;!&ndash; These dependencies provided by your local repo &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
-<!--            <artifactId>hive_metastore</artifactId>-->
-<!--            <version>${impala.jdbc.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
-<!--            <artifactId>hive_service</artifactId>-->
-<!--            <version>${impala.jdbc.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
-<!--            <artifactId>ImpalaJDBC41</artifactId>-->
-<!--            <version>${impala.jdbc.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
-<!--            <artifactId>ql</artifactId>-->
-<!--            <version>${impala.jdbc.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.cloudera.impala.jdbc</groupId>-->
-<!--            <artifactId>TCLIServiceClient</artifactId>-->
-<!--            <version>${impala.jdbc.version}</version>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>

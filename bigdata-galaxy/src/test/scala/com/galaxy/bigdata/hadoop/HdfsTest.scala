@@ -53,15 +53,13 @@ class HdfsTest {
       if (time.equals("2018-09-03")) {
       }
     })
-
     this.hadoop.delete(new Path("/user/zhupeng^M"))
-
   }
 
   @Test
   def testYARNTimeStamp: Unit ={
-    val timestamp = 1552992108566l
-    val date = new Date(timestamp)s
+    val timestamp = 1554105793499l
+    val date = new Date(timestamp)
     val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
     val time = dateFormat.format(date)
     println(time)
