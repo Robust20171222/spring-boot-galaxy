@@ -15,3 +15,5 @@ mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloude
 2、[如何使用Nginx实现Impala负载均衡](https://cloud.tencent.com/developer/article/1078218)
 
 impala-shell -i 10.104.132.73:21001
+
+3、[hadoop2-HBase的Java API操作](https://zhuanlan.zhihu.com/p/49546805)

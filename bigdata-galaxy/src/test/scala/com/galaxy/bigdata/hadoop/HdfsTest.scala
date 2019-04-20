@@ -56,12 +56,24 @@ class HdfsTest {
     this.hadoop.delete(new Path("/user/zhupeng^M"))
   }
 
+  /**
+    * 测试YARN application时间戳
+    */
   @Test
-  def testYARNTimeStamp: Unit ={
+  def testYARNTimeStamp: Unit = {
     val timestamp = 1554105793499l
     val date = new Date(timestamp)
     val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
     val time = dateFormat.format(date)
     println(time)
+  }
+
+  /**
+    * 测试删除文件
+    */
+  @Test
+  def testDelete: Unit = {
+    val path = new Path("/hbase_test")
+    println(this.hadoop.delete(path, true))
   }
 }
