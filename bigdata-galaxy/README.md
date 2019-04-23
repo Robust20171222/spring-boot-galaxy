@@ -1,19 +1,15 @@
-1、安装impala jar包到本地：
+## 一、Impala、
 
-```
-mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloudera_ImpalaJDBC41_2.5.30/hive_metastore.jar -DgroupId=com.cloudera.impala.jdbc -DartifactId=hive_metastore -Dversion=2.5.30 -Dpackaging=jar
-
-mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloudera_ImpalaJDBC41_2.5.30/hive_service.jar -DgroupId=com.cloudera.impala.jdbc -DartifactId=hive_service -Dversion=2.5.30 -Dpackaging=jar
-
-mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloudera_ImpalaJDBC41_2.5.30/ImpalaJDBC41.jar -DgroupId=com.cloudera.impala.jdbc -DartifactId=ImpalaJDBC41 -Dversion=2.5.30 -Dpackaging=jar
-
-mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloudera_ImpalaJDBC41_2.5.30/ql.jar -DgroupId=com.cloudera.impala.jdbc -DartifactId=ql -Dversion=2.5.30 -Dpackaging=jar
-
-mvn install:install-file -Dfile=/Users/pengwang/Downloads/2.5.30.1049\ GA/Cloudera_ImpalaJDBC41_2.5.30/TCLIServiceClient.jar -DgroupId=com.cloudera.impala.jdbc -DartifactId=TCLIServiceClient -Dversion=2.5.30 -Dpackaging=jar
-```
-
-2、[如何使用Nginx实现Impala负载均衡](https://cloud.tencent.com/developer/article/1078218)
+1、[如何使用Nginx实现Impala负载均衡](https://cloud.tencent.com/developer/article/1078218)
 
 impala-shell -i 10.104.132.73:21001
 
-3、[hadoop2-HBase的Java API操作](https://zhuanlan.zhihu.com/p/49546805)
+2、[使用Java代码通过JDBC连接只启用Sentry的Impala异常分析](https://cloud.tencent.com/developer/article/1078680)
+
+
+3、[Hive记录-Impala jdbc连接hive和kudu参考](https://www.cnblogs.com/xinfang520/p/9354466.html)
+
+
+## 二、HBase
+
+1、[hadoop2-HBase的Java API操作](https://zhuanlan.zhihu.com/p/49546805)

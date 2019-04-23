@@ -4,8 +4,12 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.permission.{AclEntry, AclEntryScope, AclEntryType, FsAction, FsPermission}
 import org.apache.hadoop.fs.{FileSystem, Path}
-import org.junit.Test
+import org.junit.{After, Test}
+
+import scala.collection.mutable.ListBuffer
+import scala.collection.JavaConversions._
 
 
 /**
@@ -73,7 +77,68 @@ class HdfsTest {
     */
   @Test
   def testDelete: Unit = {
-    val path = new Path("/hbase_test")
+    val path = new Path("/test")
     println(this.hadoop.delete(path, true))
+  }
+
+  /**
+    * 测试ACL
+    */
+  @Test
+  def testGetACL: Unit = {
+    val path = new Path("/user/hive/warehouse/kudu_test.db/my_first_table3")
+    val aclStatus = this.hadoop.getAclStatus(path)
+    println(aclStatus)
+  }
+
+  /**
+    * 测试更改权限
+    */
+  @Test
+  def testModifyAcl: Unit = {
+    val aclEntryScope = AclEntryScope.ACCESS
+    val builder = new AclEntry.Builder()
+    builder.setType(AclEntryType.USER)
+    builder.setName("impala")
+    builder.setPermission(FsAction.NONE)
+    builder.setScope(aclEntryScope)
+    val aclEntry = builder.build()
+
+    val aclEntries = new ListBuffer[AclEntry]
+    aclEntries += aclEntry
+
+    val path = new Path("/user/hive/warehouse")
+    this.hadoop.modifyAclEntries(path, aclEntries)
+  }
+
+  /**
+    * 测试FsPermission，创建目录并设置权限
+    */
+  @Test
+  def testFsPermission: Unit = {
+    val path = new Path("/test")
+    if (this.hadoop.exists(path)) {
+      println("There is already exist " + path)
+    } else {
+      val filePermission = new FsPermission(
+        FsAction.ALL, //user action
+        FsAction.ALL, //group action
+        FsAction.NONE); //other action
+
+      // 创建目录，不设置权限，默认为当前HDFS服务器启动用户
+      //  val success = this.hadoop.mkdirs(path)
+      val success = this.hadoop.mkdirs(path, filePermission)
+      println(s"$path is success $success")
+    }
+  }
+
+  /**
+    * 关闭FileSystem，释放资源
+    */
+  @After
+  def close: Unit = {
+    if (this.hadoop != null) {
+      this.hadoop.close()
+    }
   }
 }

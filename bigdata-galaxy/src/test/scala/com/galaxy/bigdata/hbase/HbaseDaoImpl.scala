@@ -3,11 +3,10 @@ package com.galaxy.bigdata.hbase
 import java.io.IOException
 
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.hbase.client._
 import org.apache.hadoop.hbase._
+import org.apache.hadoop.hbase.client._
 
 import scala.collection.JavaConversions._
-
 
 class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
 
@@ -190,7 +189,6 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
 
   override def delRowsByRowKeys(tableName: String, rowKeys: List[String]): Unit = {
     if (rowKeys != null && rowKeys.size > 0) {
-      import scala.collection.JavaConversions._
       for (rowKey <- rowKeys) {
         delRow(tableName, rowKey)
       }
@@ -216,8 +214,9 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
     table.setAutoFlush(false, false)
   }
 
-  import org.apache.hadoop.hbase.client.HTableInterface
   import java.io.IOException
+
+  import org.apache.hadoop.hbase.client.HTableInterface
 
   override def closeTable(table: HTableInterface): Unit = {
     try
