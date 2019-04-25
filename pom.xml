@@ -42,33 +42,10 @@
         <mockito.version>2.13.0</mockito.version>
         <guava.version>23.6-jre</guava.version>
         <commons-lang3.version>3.7</commons-lang3.version>
-        <spring-cloud.version>Finchley.M8</spring-cloud.version>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <scala.version>2.11.8</scala.version>
         <swagger2.version>2.9.2</swagger2.version>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>

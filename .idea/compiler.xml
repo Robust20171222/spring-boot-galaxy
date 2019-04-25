@@ -39,6 +39,7 @@
       <module name="dubbo-two-api" options="-parameters" />
       <module name="dubbo-two-model" options="-parameters" />
       <module name="dubbo-two-server" options="-parameters" />
+      <module name="elastic-galaxy" options="-parameters" />
       <module name="gateway-galaxy" options="-parameters" />
       <module name="groot-galaxy" options="-parameters" />
       <module name="grpc-galaxy" options="-parameters" />
