@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3afa4623-9f83-43e8-aca2-e01216eb413f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/HdfsTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/HdfsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elastic-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-galaxy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-galaxy/target/redis-galaxy.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/target/scala-galaxy.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-galaxy/target/" />
@@ -62,18 +58,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboRecordService.java" />
         <option value="$PROJECT_DIR$/dubbo-two-server/src/main/resources/dubbo(1).properties" />
         <option value="$PROJECT_DIR$/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java" />
         <option value="$PROJECT_DIR$/dubbo-one-server/src/main/resources/dubbo.properties" />
@@ -151,9 +135,6 @@
         <option value="$PROJECT_DIR$/concurrency-galalxy/src/main/java/com/galaxy/concurrency/jvm/OutOfMemoryGCLimitExceed.java" />
         <option value="$PROJECT_DIR$/elastic-galaxy/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HBaseConn.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/README.md" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/HdfsTest.scala" />
@@ -161,6 +142,10 @@
         <option value="$PROJECT_DIR$/scala-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/elastic-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala" />
+        <option value="$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala" />
       </list>
     </option>
   </component>
@@ -192,11 +177,6 @@
             <path>
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="scala-galaxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,92 +224,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HdfsTest.testGetACL">
+  <component name="RunManager" selected="JUnit.HbaseDaoTest.delRowsByRowKeys">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testACL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseDaoTest.delRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.HdfsTest" />
-      <option name="METHOD_NAME" value="testACL" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hbase.HbaseDaoTest" />
+      <option name="METHOD_NAME" value="delRow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseDaoTest.delRowsByRowKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.HdfsTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hbase.HbaseDaoTest" />
+      <option name="METHOD_NAME" value="delRowsByRowKeys" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testFsPermission" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseDaoTest.deleteHTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.HdfsTest" />
-      <option name="METHOD_NAME" value="testFsPermission" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hbase.HbaseDaoTest" />
+      <option name="METHOD_NAME" value="deleteHTable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testGetACL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseDaoTest.getAllRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.HdfsTest" />
-      <option name="METHOD_NAME" value="testGetACL" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hbase.HbaseDaoTest" />
+      <option name="METHOD_NAME" value="getAllRows" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testModifyAcl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HbaseDaoTest.getRowsByRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.HdfsTest" />
-      <option name="METHOD_NAME" value="testModifyAcl" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hbase.HbaseDaoTest" />
+      <option name="METHOD_NAME" value="getRowsByRange" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -402,11 +382,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HdfsTest.testACL" />
-      <item itemvalue="JUnit.HdfsTest.testFsPermission" />
-      <item itemvalue="JUnit.HdfsTest.testModifyAcl" />
-      <item itemvalue="JUnit.HdfsTest.testGetACL" />
-      <item itemvalue="JUnit.HdfsTest.testDelete" />
+      <item itemvalue="JUnit.HbaseDaoTest.getAllRows" />
+      <item itemvalue="JUnit.HbaseDaoTest.delRow" />
+      <item itemvalue="JUnit.HbaseDaoTest.getRowsByRange" />
+      <item itemvalue="JUnit.HbaseDaoTest.delRowsByRowKeys" />
+      <item itemvalue="JUnit.HbaseDaoTest.deleteHTable" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
       <item itemvalue="Spring Boot.DubboOneServerApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
@@ -417,11 +397,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HdfsTest.testGetACL" />
-        <item itemvalue="JUnit.HdfsTest.testModifyAcl" />
-        <item itemvalue="JUnit.HdfsTest.testFsPermission" />
-        <item itemvalue="JUnit.HdfsTest.testDelete" />
-        <item itemvalue="JUnit.HdfsTest.testACL" />
+        <item itemvalue="JUnit.HbaseDaoTest.delRowsByRowKeys" />
+        <item itemvalue="JUnit.HbaseDaoTest.deleteHTable" />
+        <item itemvalue="JUnit.HbaseDaoTest.getRowsByRange" />
+        <item itemvalue="JUnit.HbaseDaoTest.delRow" />
+        <item itemvalue="JUnit.HbaseDaoTest.getAllRows" />
       </list>
     </recent_temporary>
   </component>
@@ -504,49 +484,53 @@
       <workItem from="1555984543248" duration="4185000" />
       <workItem from="1556097665317" duration="4058000" />
       <workItem from="1556175235121" duration="1610000" />
-      <workItem from="1556191850481" duration="1200000" />
+      <workItem from="1556191850481" duration="1972000" />
+      <workItem from="1556199123664" duration="2314000" />
+      <workItem from="1556244040017" duration="4980000" />
+      <workItem from="1556369762969" duration="2130000" />
+      <workItem from="1556416109253" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HdfsTest_testModifyAcl - 2019.04.22 at 16h 53m 16s.xml">
-      <configuration name="HdfsTest.testModifyAcl" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_createTable - 2019.04.25 at 22h 30m 43s.xml">
+      <configuration name="HbaseDaoTest.createTable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 16h 53m 28s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_addRow - 2019.04.25 at 22h 31m 31s.xml">
+      <configuration name="HbaseDaoTest.addRow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testModifyAcl - 2019.04.22 at 16h 55m 51s.xml">
-      <configuration name="HdfsTest.testModifyAcl" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_getRow - 2019.04.25 at 22h 31m 50s.xml">
+      <configuration name="HbaseDaoTest.getRow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 16h 56m 07s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_getRow - 2019.04.26 at 15h 33m 01s.xml">
+      <configuration name="HbaseDaoTest.getRow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 16h 57m 06s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_getAllRows - 2019.04.26 at 15h 40m 18s.xml">
+      <configuration name="HbaseDaoTest.getAllRows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testModifyAcl - 2019.04.22 at 16h 57m 19s.xml">
-      <configuration name="HdfsTest.testModifyAcl" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_delRow - 2019.04.26 at 15h 40m 52s.xml">
+      <configuration name="HbaseDaoTest.delRow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 16h 57m 31s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_getRowsByRange - 2019.04.26 at 15h 41m 14s.xml">
+      <configuration name="HbaseDaoTest.getRowsByRange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 17h 11m 05s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_delRowsByRowKeys - 2019.04.26 at 15h 42m 10s.xml">
+      <configuration name="HbaseDaoTest.delRowsByRowKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testModifyAcl - 2019.04.22 at 17h 11m 51s.xml">
-      <configuration name="HdfsTest.testModifyAcl" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_deleteHTable - 2019.04.26 at 15h 42m 50s.xml">
+      <configuration name="HbaseDaoTest.deleteHTable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HdfsTest_testGetACL - 2019.04.22 at 17h 13m 09s.xml">
-      <configuration name="HdfsTest.testGetACL" configurationId="JUnit" />
+    <history-entry file="HbaseDaoTest_delRowsByRowKeys - 2019.04.26 at 15h 43m 19s.xml">
+      <configuration name="HbaseDaoTest.delRowsByRowKeys" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211977000" />
+    <option name="totallyTimeSpent" value="222288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.23695421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.16400427" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.185836" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -555,16 +539,16 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.34087238" weight="0.48871332" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47065464" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.34087238" weight="0.5756208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47029704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" visible="true" weight="0.46952596" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.4683973" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.65912765" side_tool="true" weight="0.44808125" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919224" weight="0.489842" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919224" weight="0.48758465" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3295711" />
@@ -584,33 +568,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hadoop/hadoop-yarn-api/2.6.0-cdh5.13.0/hadoop-yarn-api-2.6.0-cdh5.13.0.jar!/org/apache/hadoop/yarn/api/records/Resource.class" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hadoop/hadoop-yarn-api/2.6.0-cdh5.13.0/hadoop-yarn-api-2.6.0-cdh5.13.0.jar!/org/apache/hadoop/yarn/api/records/ContainerReport.class" />
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hadoop/hadoop-yarn-client/2.6.0-cdh5.13.0/hadoop-yarn-client-2.6.0-cdh5.13.0.jar!/org/apache/hadoop/yarn/client/api/YarnClient.class" />
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -677,25 +634,6 @@
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hbase/hbase-client/0.98.24-hadoop2/hbase-client-0.98.24-hadoop2-sources.jar!/org/apache/hadoop/hbase/client/HTablePool.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hbase/hbase-client/0.98.24-hadoop2/hbase-client-0.98.24-hadoop2-sources.jar!/org/apache/hadoop/hbase/client/HTableInterface.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/JavaConversions.scala" />
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#34#60#0" expanded="true" />
-            <element signature="e#5790#5816#0" expanded="true" />
-            <element signature="e#6992#7018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/AnyVal.scala" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -705,25 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/junit/junit/4.12/junit-4.12.jar!/org/junit/After.class" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/After.java" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hadoop/hadoop-common/2.6.0-cdh5.13.0/hadoop-common-2.6.0-cdh5.13.0-sources.jar!/org/apache/hadoop/fs/permission/AclStatus.java" />
     <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.pom" />
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="295" column="20" lean-forward="true" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/kudu/KuduTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -744,13 +667,6 @@
     <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/basic/BasicTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
@@ -794,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scala-galaxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -839,8 +745,110 @@
     <entry file="file://$PROJECT_DIR$/scala-galaxy/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
+        <state relative-caret-position="297">
+          <caret line="143" column="31" lean-forward="true" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hbase/hbase-client/0.98.24-hadoop2/hbase-client-0.98.24-hadoop2.jar!/org/apache/hadoop/hbase/client/HBaseAdmin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="249" column="19" selection-start-line="249" selection-start-column="19" selection-end-line="249" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Boolean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/hbase/hbase-client/0.98.24-hadoop2/hbase-client-0.98.24-hadoop2.jar!/org/apache/hadoop/hbase/client/HTableInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding>
+            <element signature="e#34#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="206" column="13" lean-forward="true" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+          <folding>
+            <element signature="e#34#60#0" expanded="true" />
+            <element signature="e#5828#5854#0" expanded="true" />
+            <element signature="e#7030#7056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-galaxy/src/test/scala/com/galaxy/test/colletions/ListTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#36#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11280">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-two-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-two-server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="295" column="20" lean-forward="true" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

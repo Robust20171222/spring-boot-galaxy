@@ -2,6 +2,8 @@ package com.galaxy.bigdata.hbase
 
 import org.apache.hadoop.hbase.client.HTableInterface
 
+import scala.collection.mutable.ListBuffer
+
 trait HbaseDao {
 
   /**
@@ -72,7 +74,7 @@ trait HbaseDao {
     * @param tableName
     * @param rowKeys
     */
-  def delRowsByRowKeys(tableName: String, rowKeys: List[String]): Unit
+  def delRowsByRowKeys(tableName: String, rowKeys: ListBuffer[String]): Unit
 
   import org.apache.hadoop.hbase.client.HTableInterface
 

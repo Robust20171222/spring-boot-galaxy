@@ -7,6 +7,7 @@ import org.apache.hadoop.hbase._
 import org.apache.hadoop.hbase.client._
 
 import scala.collection.JavaConversions._
+import scala.collection.mutable.ListBuffer
 
 class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
 
@@ -16,7 +17,7 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
 
   try {
     conf = HBaseConfiguration.create()
-    conf.set("hbase.zookeeper.quorum", "hadoop21-test1-rgtj5-tj1:2181")
+    conf.set("hbase.zookeeper.quorum", "quickstart.cloudera:2181")
 
     hAdmin = new HBaseAdmin(conf)
 
@@ -33,12 +34,13 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
   }
 
   override def isHTableExist(tableName: String): Boolean = {
+    var result: Boolean = false
     try {
-      hAdmin.tableExists(tableName)
+      result = hAdmin.tableExists(tableName)
     } catch {
       case e: IOException => e.printStackTrace()
     }
-    false
+    result
   }
 
   override def createHTable(tableName: String, columnFamilys: Array[String]): Unit = {
@@ -54,10 +56,10 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
 
       try {
         hAdmin.createTable(tableDescriptor)
+        println("The table [" + tableName + "]  is created.")
       } catch {
         case e: IOException => e.printStackTrace()
       }
-      println("The table [" + tableName + "]  is created.")
     } else {
       println("The table [" + tableName + "]  is existing already.")
     }
@@ -187,7 +189,7 @@ class HbaseDaoImpl(poolSize: Int) extends HbaseDao {
     }
   }
 
-  override def delRowsByRowKeys(tableName: String, rowKeys: List[String]): Unit = {
+  override def delRowsByRowKeys(tableName: String, rowKeys: ListBuffer[String]): Unit = {
     if (rowKeys != null && rowKeys.size > 0) {
       for (rowKey <- rowKeys) {
         delRow(tableName, rowKey)
