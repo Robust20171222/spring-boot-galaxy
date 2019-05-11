@@ -1,6 +1,6 @@
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboItemService.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboRecordService.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/Main.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/enums/StatusCode.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/response/BaseResponse.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/response/BaseResponse.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboItemService.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/enums/StatusCode.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/Main.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/request/PushOrderDto.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-api/src/main/java/com/debug/mooc/dubbo/one/api/service/IDubboRecordService.java

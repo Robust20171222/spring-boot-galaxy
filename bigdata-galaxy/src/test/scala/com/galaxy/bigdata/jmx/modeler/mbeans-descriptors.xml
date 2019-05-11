@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mbeans-descriptors>
+    <mbean name="Hello" description="the hello bean" domain="MyMBean" group="helloGroup" type="com.galaxy.bigdata.jmx.Hello">
+        <attribute name="name" description="a name attribute" type="java.lang.String" writeable="true"/>
+        <operation name="printHello" description="public void printHello()" impact="ACTION" returnType="void"/>
+        <operation name="printHello" description="public void printHello(String whoName)" impact="ACTION" returnType="void">
+            <parameter name="whoName" description="method parameter of printHello" type="java.lang.String"></parameter>
+        </operation>
+    </mbean>
+</mbeans-descriptors>

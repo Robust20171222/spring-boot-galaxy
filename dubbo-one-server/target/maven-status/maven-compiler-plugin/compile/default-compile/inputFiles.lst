@@ -1,5 +1,5 @@
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/controller/BaseController.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboItemService.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/DubboOneServerApplication.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboRecordService.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/Main.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/Main.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/controller/BaseController.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/DubboOneServerApplication.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboRecordService.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-server/src/main/java/com/debug/mooc/dubbo/one/server/service/dubbo/DubboItemService.java

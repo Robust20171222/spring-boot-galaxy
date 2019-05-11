@@ -1,5 +1,5 @@
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/Main.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/OrderRecordMapper.java
-/Users/pengwang/Documents/workspace-oxygen/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/ItemInfoMapper.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/OrderRecordMapper.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/Main.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/mapper/ItemInfoMapper.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/ItemInfo.java
+/Users/pengwang/Documents/project/test/spring-boot-galaxy/dubbo-one-model/src/main/java/com/debug/mooc/dubbo/one/model/entity/OrderRecord.java

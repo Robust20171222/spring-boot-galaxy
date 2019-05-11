@@ -15,3 +15,8 @@ impala-shell -i 10.104.132.73:21001
 1、[hadoop2-HBase的Java API操作](https://zhuanlan.zhihu.com/p/49546805)
 
 2、[Spring Boot(六)：如何优雅的使用 Mybatis](https://www.cnblogs.com/ityouknow/p/6037431.html)
+
+
+## 三、JMX
+
+[从零开始玩转JMX(一)——简介和Standard MBean](https://blog.csdn.net/u013256816/article/details/52800742)
