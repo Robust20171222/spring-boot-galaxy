@@ -23,7 +23,7 @@ public class HiveJdbcClient {
             System.exit(1);
         }
         //replace "hive" here with the name of the user the queries should run as
-        Connection con = DriverManager.getConnection("jdbc:hive2://10.104.132.194:10000/ymq", "hadoop", "");
+        Connection con = DriverManager.getConnection("jdbc:hive2://10.104.132.194:10000/ymq", "", "");
         Statement stmt = con.createStatement();
         String tableName = "test";
 

@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
   * Time: 17:07
   */
 @SpringBootApplication
-@MapperScan(value = Array("com.galaxy.bigdata.hbase.mapper"))
+//@MapperScan(value = Array("com.galaxy.bigdata.hbase.mapper"))
 class BigDataApplication {
 
 }
