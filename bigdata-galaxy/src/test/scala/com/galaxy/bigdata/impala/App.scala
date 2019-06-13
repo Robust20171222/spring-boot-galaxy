@@ -5,7 +5,8 @@ import java.sql.{Connection, DriverManager, PreparedStatement, ResultSet}
 object App {
 
   val JDBC_DRIVER = "com.cloudera.impala.jdbc41.Driver"
-  val CONNECTION_URL = "jdbc:impala://10.104.132.73:21051"
+  val CONNECTION_URL = "jdbc:impala://10.104.132.72:21050"
+  val CONNECTION_URL2 = "jdbc:impala://10.104.132.72:21050/default;AuthMech=3;UID=hadoop;PWD=;UseSasl=0"
 
   def main(args: Array[String]): Unit = {
     var connection: Connection = null
@@ -14,8 +15,9 @@ object App {
 
     try {
       Class.forName(JDBC_DRIVER)
-      connection = DriverManager.getConnection(CONNECTION_URL)
-      ps = connection.prepareStatement("select * from kudu_test.my_first_table2;")
+      connection = DriverManager.getConnection(CONNECTION_URL2)
+      println(connection.getSchema)
+      ps = connection.prepareStatement("select * from kudu_test.my_first_table;")
       rs = ps.executeQuery()
       while (rs.next())
         System.out.println("s1=" + rs.getString(1) + ",  s2=" + rs.getString(2))
