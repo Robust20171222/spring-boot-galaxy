@@ -5,8 +5,9 @@ import java.sql.{Connection, DriverManager, PreparedStatement, ResultSet}
 object App {
 
   val JDBC_DRIVER = "com.cloudera.impala.jdbc41.Driver"
+  val JDBC_DRIVER2 = "org.apache.hive.jdbc.HiveDriver"
   val CONNECTION_URL = "jdbc:impala://10.104.132.72:21050"
-  val CONNECTION_URL2 = "jdbc:impala://10.104.132.72:21050/default;AuthMech=3;UID=hadoop;PWD=;UseSasl=0"
+  val CONNECTION_URL2 = "jdbc:hive2://10.104.132.72:21050/default;auth=noSasl;user=hadoop"
 
   def main(args: Array[String]): Unit = {
     var connection: Connection = null
@@ -14,9 +15,8 @@ object App {
     var rs: ResultSet = null
 
     try {
-      Class.forName(JDBC_DRIVER)
+      Class.forName(JDBC_DRIVER2)
       connection = DriverManager.getConnection(CONNECTION_URL2)
-      println(connection.getSchema)
       ps = connection.prepareStatement("select * from kudu_test.my_first_table;")
       rs = ps.executeQuery()
       while (rs.next())
