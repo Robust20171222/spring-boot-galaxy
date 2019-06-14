@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d8ae70-9d55-43ba-9147-51e2b308b055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/impala/App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/impala/App.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dubbo-one-server/target/" />
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/impala/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -113,7 +111,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
@@ -159,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.BigDataApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.impala.App" />
       <module name="bigdata-galaxy" />
@@ -269,10 +267,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigDataApplication" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.JacksonTest" />
         <item itemvalue="Application.GetStarted" />
-        <item itemvalue="Application.BigDataApplication" />
         <item itemvalue="Application.HiveJdbcClient" />
       </list>
     </recent_temporary>
@@ -335,7 +333,7 @@
       <workItem from="1560220056350" duration="999000" />
       <workItem from="1560420783405" duration="1987000" />
       <workItem from="1560430173671" duration="1116000" />
-      <workItem from="1560478751229" duration="10438000" />
+      <workItem from="1560478751229" duration="11239000" />
     </task>
     <servers />
   </component>
@@ -351,10 +349,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73948000" />
+    <option name="totallyTimeSpent" value="74749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1353" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983165" visible="true" weight="0.11199365" />
       <window_info id="Structure" order="1" sideWeight="0.5016835" side_tool="true" weight="0.2463651" />
@@ -728,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/impala/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
