@@ -1,13 +1,21 @@
 package com.galaxy.bigdata.dropwizard;
 
-import com.codahale.metrics.*;
+import com.codahale.metrics.ConsoleReporter;
+import com.codahale.metrics.Gauge;
+import com.codahale.metrics.MetricFilter;
+import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.jvm.*;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.Test;
 
 import java.lang.management.ManagementFactory;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.SortedMap;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -16,54 +24,62 @@ import java.util.concurrent.TimeUnit;
  */
 public class GetStarted {
 
-    static final MetricRegistry metrics = new MetricRegistry();
+    private static final MetricRegistry registry = new MetricRegistry();
 
-    public static void main(String args[]) {
-        startReport();
-
-        //register JVM metrics
-        registerAll("gc", new GarbageCollectorMetricSet());
-        registerAll("buffers", new BufferPoolMetricSet(ManagementFactory.getPlatformMBeanServer()));
-        registerAll("memory", new MemoryUsageGaugeSet());
-        registerAll("threads", new ThreadStatesGaugeSet());
-        registerAll("classLoading", new ClassLoadingGaugeSet());
-
-        wait5Seconds();
+    static {
+        registry.register("gc", new GarbageCollectorMetricSet());
+        registry.register("buffers", new BufferPoolMetricSet(ManagementFactory.getPlatformMBeanServer()));
+        registry.register("memory", new MemoryUsageGaugeSet());
+        registry.register("threads", new ThreadStatesGaugeSet());
+        registry.register("classLoading", new ClassLoadingGaugeSet());
     }
 
-    static void startReport() {
-        ConsoleReporter reporter = ConsoleReporter.forRegistry(metrics)
-                .convertRatesTo(TimeUnit.SECONDS)
-                .convertDurationsTo(TimeUnit.MILLISECONDS)
-                .build();
-        reporter.start(1, TimeUnit.SECONDS);
-        startJsonReport();
-    }
-
-    static void startJsonReport() {
+    @Test
+    public void testJson() {
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
-            System.out.println(objectMapper.writeValueAsString(metrics));
+            ObjectMapper jsonMapper = new ObjectMapper().registerModule(new MetricsModuleTest(TimeUnit.MILLISECONDS, TimeUnit.MILLISECONDS, false, MetricFilter.ALL));
+            String json = jsonMapper.writerWithDefaultPrettyPrinter().writeValueAsString(registry);
+
+            Map<String, Object> dataMap = new HashMap<>();
+            dataMap.put("hostname", InetAddress.getLocalHost().getHostName());
+            dataMap.put("ip", InetAddress.getLocalHost().getHostAddress());
+            dataMap.put("metric", json);
+
+            Map<String, Object> resultMap = new HashMap<>();
+            resultMap.put("code", 200);
+            resultMap.put("data", dataMap);
+
+            System.out.println(jsonMapper.writerWithDefaultPrettyPrinter().writeValueAsString(resultMap));
+        } catch (JsonProcessingException | UnknownHostException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testGetGaugesJson() {
+        try {
+            ObjectMapper jsonMapper = new ObjectMapper();
+            SortedMap<String, Gauge> gaugeSortedMap = registry.getGauges();
+            Map map = new LinkedHashMap();
+            for (Map.Entry<String, Gauge> entry : gaugeSortedMap.entrySet()) {
+                map.put(entry.getKey(), entry.getValue().getValue());
+            }
+            String json = jsonMapper.writerWithDefaultPrettyPrinter().writeValueAsString(map);
+            System.out.println(json);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
     }
 
-    static void wait5Seconds() {
+    @Test
+    public void testConsole() {
         try {
-            Thread.sleep(5 * 1000);
+            ConsoleReporter reporter = ConsoleReporter.forRegistry(registry).convertRatesTo(TimeUnit.SECONDS)
+                    .convertDurationsTo(TimeUnit.MILLISECONDS).build();
+            reporter.start(30, TimeUnit.SECONDS);
+            TimeUnit.SECONDS.sleep(500);
         } catch (InterruptedException e) {
-        }
-    }
-
-    private static void registerAll(String prefix, MetricSet metricSet) {
-        for (Map.Entry<String, Metric> entry : metricSet.getMetrics().entrySet()) {
-            if (entry.getValue() instanceof MetricSet) {
-                registerAll(prefix + "." + entry.getKey(), (MetricSet) entry.getValue());
-            } else {
-                metrics.register(prefix + "." + entry.getKey(), entry.getValue());
-            }
+            e.printStackTrace();
         }
     }
 }
