@@ -1,15 +1,15 @@
-package com.galaxy.bigdata.hadoop
+package com.galaxy.bigdata.hadoop.hdfs
 
 import java.text.SimpleDateFormat
 import java.util.Date
 
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.fs.permission.{AclEntry, AclEntryScope, AclEntryType, FsAction, FsPermission}
+import org.apache.hadoop.fs.permission._
 import org.apache.hadoop.fs.{FileSystem, Path}
 import org.junit.{After, Test}
 
-import scala.collection.mutable.ListBuffer
 import scala.collection.JavaConversions._
+import scala.collection.mutable.ListBuffer
 
 /**
   * Created by wangpeng

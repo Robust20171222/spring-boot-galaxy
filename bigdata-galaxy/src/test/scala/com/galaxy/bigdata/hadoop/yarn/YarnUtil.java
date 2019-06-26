@@ -17,12 +17,17 @@
  * under the License.
  */
 
-package com.galaxy.bigdata.hadoop;
+package com.galaxy.bigdata.hadoop.yarn;
 
+import org.apache.hadoop.yarn.api.protocolrecords.GetNewApplicationResponse;
 import org.apache.hadoop.yarn.api.records.ApplicationId;
+import org.apache.hadoop.yarn.api.records.ApplicationSubmissionContext;
+import org.apache.hadoop.yarn.api.records.Resource;
 import org.apache.hadoop.yarn.client.api.YarnClient;
+import org.apache.hadoop.yarn.client.api.YarnClientApplication;
 import org.apache.hadoop.yarn.conf.YarnConfiguration;
 import org.apache.hadoop.yarn.exceptions.YarnException;
+import org.apache.hadoop.yarn.util.Records;
 import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -142,6 +147,57 @@ public class YarnUtil {
         long timestamp = Long.valueOf(parts[1]);
         int id = Integer.valueOf(parts[2]);
         return ApplicationId.newInstance(timestamp, id);
+    }
+
+    /**
+     * 创建应用
+     */
+    public void createApplication(){
+        // create an application, and get its application id
+        YarnClientApplication app = null;
+        try {
+            app = yarnClient.createApplication();
+        } catch (YarnException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        GetNewApplicationResponse appResponse = app.getNewApplicationResponse();
+        Resource clusterMax = appResponse.getMaximumResourceCapability(); //集群最大资源
+
+        ApplicationSubmissionContext appContext = app.getApplicationSubmissionContext();
+        //填充resource和AMContainerSpec
+        Resource amResource = Records.newRecord(Resource.class);
+        amResource.setMemory(Math.min(clusterMax.getMemory(), 1024));
+        amResource.setVirtualCores(Math.min(clusterMax.getVirtualCores(), 4));
+        appContext.setResource(amResource);
+
+        //AMContainerSpec
+//        ContainerLaunchContext clc = Records.newRecord(ContainerLaunchContext.class);
+//        StringBuilder cmd = new StringBuilder();
+//        cmd.append("\"" + ApplicationConstants.Environment.JAVA_HOME.$() + "/bin/java\"")
+//                .append(" ")
+//                .append(appMasterMainClass)
+//                .append(" ")
+//                .append("1>" + ApplicationConstants.LOG_DIR_EXPANSION_VAR +
+//                        Path.SEPARATOR + ApplicationConstants.STDOUT)
+//                .append(" ")
+//                .append("2>" + ApplicationConstants.LOG_DIR_EXPANSION_VAR +
+//                        Path.SEPARATOR + ApplicationConstants.STDERR);
+//        clc.setCommands(Collections.singletonList(cmd.toString()));
+//        appContext.setAMContainerSpec(clc);
+//
+//        //添加执行的Jar
+//        Map localResourceMap = new HashMap();
+//        File appMasterJarFile = new File(appMasterJar);
+//        localResourceMap.put(appMasterJarFile.getName(), toLocalResource(fs, appResponse.getApplicationId().toString(),
+//                appMasterJarFile));
+//        clc.setLocalResources(localResourceMap);
+//        //设置环境变量
+//        Map envMap = new HashMap();
+//        envMap.put("CLASSPATH", hadoopClassPath());
+//        envMap.put("LANG", "en_US.UTF-8");
+//        clc.setEnvironment(envMap);
     }
 
     /**

@@ -1,4 +1,4 @@
-package com.galaxy.bigdata.hadoop
+package com.galaxy.bigdata.hadoop.yarn
 
 import org.junit.Test
 
