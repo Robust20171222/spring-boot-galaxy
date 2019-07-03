@@ -173,6 +173,13 @@
             <version>${spark.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.databricks/spark-xml -->
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-xml_2.11</artifactId>
+            <version>0.5.0</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala -->
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
