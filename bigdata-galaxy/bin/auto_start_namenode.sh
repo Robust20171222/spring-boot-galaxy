@@ -8,6 +8,7 @@ if [ "$PIDS" != "" ]; then
     echo "${time} NameNode is runing!"
 else
     #运行NameNode进程
+    sleep 60
     source /etc/profile
     $HADOOP_HOME/sbin/hadoop-daemon.sh start namenode
 fi

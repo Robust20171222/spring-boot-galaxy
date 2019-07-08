@@ -34,6 +34,9 @@ public class GetStarted {
         registry.register("classLoading", new ClassLoadingGaugeSet());
     }
 
+    /**
+     * 测试JVM Metric
+     */
     @Test
     public void testJson() {
         try {

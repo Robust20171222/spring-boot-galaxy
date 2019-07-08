@@ -8,6 +8,7 @@ if [ "$PIDS" != "" ]; then
     echo "${time} NodeManager is runing!"
 else
     #运行NodeManager进程
+    sleep 60
     source /etc/profile
     $HADOOP_HOME/sbin/yarn-daemon.sh start nodemanager
 fi

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d8ae70-9d55-43ba-9147-51e2b308b055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/hdfs/FsImage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dubbo-one-server/target/" />
@@ -38,22 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#34#78#0" expanded="true" />
-              </folding>
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/hdfs/FsImage.scala">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -77,6 +76,7 @@
       <find>impala.jdbc.version</find>
       <find>org.apache.spark</find>
       <find>stop</find>
+      <find>metric</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -88,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/jmx/HellloListener.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/jmx/HelloListener.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/jmx/notification/HelloListener.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/jmx/notification/HelloAgent.scala" />
@@ -112,7 +111,6 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/JacksonTest.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/lib/scriptFile.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/MetricsModuleTest.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/impala/App.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/ConnectSentry.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/scriptFile.scala" />
@@ -122,7 +120,6 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/InternalException.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/SentryClientTest.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start.sh" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnUtil.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnTest.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/DemoTest.java" />
@@ -131,7 +128,6 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/yarn/ApplicationMaster.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/yarn/DemoApplicationClient.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/yarn/DemoTest.java" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/hdfs/ActiveNNAdd.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkSessionWrapper.scala" />
@@ -139,6 +135,10 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/scriptFile.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh" />
       </list>
     </option>
   </component>
@@ -160,8 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,57 +179,6 @@
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,7 +424,12 @@
       <workItem from="1562031914559" duration="5778000" />
       <workItem from="1562077778888" duration="1722000" />
       <workItem from="1562117267221" duration="3057000" />
-      <workItem from="1562169733527" duration="1610000" />
+      <workItem from="1562169733527" duration="1717000" />
+      <workItem from="1562203893573" duration="464000" />
+      <workItem from="1562214409045" duration="1697000" />
+      <workItem from="1562290293955" duration="590000" />
+      <workItem from="1562305716867" duration="591000" />
+      <workItem from="1562554115900" duration="240000" />
     </task>
     <servers />
   </component>
@@ -512,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151512000" />
+    <option name="totallyTimeSpent" value="155201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,10 +478,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="713" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1353" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983165" visible="true" weight="0.26494345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983165" visible="true" weight="0.25814137" />
       <window_info id="Structure" order="1" sideWeight="0.5016835" side_tool="true" weight="0.2463651" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -542,7 +496,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960285" weight="0.48303714" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960285" weight="0.41922456" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039715" side_tool="true" weight="0.4013378" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -600,20 +554,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/sentry-site-client.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/sentry/sentry-provider-db/1.5.1-cdh5.16.1/sentry-provider-db-1.5.1-cdh5.16.1-sources.jar!/org/apache/sentry/provider/db/service/thrift/SentryPolicyStoreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="553" column="47" selection-start-line="553" selection-start-column="20" selection-end-line="553" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/target/classes/mapper/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -726,20 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/target/classes/sql/init_hbase.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -791,27 +717,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/MetricsModuleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/JacksonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -899,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="172" column="47" lean-forward="true" selection-start-line="172" selection-start-column="47" selection-end-line="172" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/Dataset.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -914,9 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/resources/scriptFile.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/resources/scriptFile.scala" />
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2-sources.jar!/org/apache/spark/sql/Dataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -924,27 +819,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh">
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="405">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#34#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/hdfs/FsImage.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala">
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/MetricsModuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maven/repo/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="65" column="74" lean-forward="true" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/JacksonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.jar!/com/codahale/metrics/MetricRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6015">
+          <caret line="401" column="29" selection-start-line="401" selection-start-column="29" selection-end-line="401" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/crontab.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="82" lean-forward="true" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_nodemanager.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#34#78#0" expanded="true" />
-          </folding>
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_namenode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
