@@ -67,3 +67,6 @@ hs_err_pid*
 /dubbo-one-api/target/*
 /dubbo-one-server/target/
 !/bigdata-galaxy/lib/
+/gradle-galaxy/build
+/gradle-galaxy/out
+/gradle-galaxy/.gradle

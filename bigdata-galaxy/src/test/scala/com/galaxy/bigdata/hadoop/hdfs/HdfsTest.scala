@@ -3,9 +3,11 @@ package com.galaxy.bigdata.hadoop.hdfs
 import java.text.SimpleDateFormat
 import java.util.Date
 
+import com.amazonaws.util.AwsHostNameUtils
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.permission._
 import org.apache.hadoop.fs.{FileSystem, Path}
+import org.apache.hadoop.net.DNS
 import org.junit.{After, Test}
 
 import scala.collection.JavaConversions._
@@ -139,5 +141,10 @@ class HdfsTest {
     if (this.hadoop != null) {
       this.hadoop.close()
     }
+  }
+
+  @Test
+  def testIP: Unit ={
+    println(DNS.getDefaultIP("en0"))
   }
 }
