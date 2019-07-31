@@ -16,11 +16,16 @@ public class SentryClientTest {
 
     private static SentryConfig sentryConfig = new SentryConfig("/Users/pengwang/Documents/project/test/spring-boot-galaxy/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/sentry-site-client.xml");
 
+    /**
+     * 测试获取已有角色信息
+     * @throws InternalException
+     */
     @Test
     public void testListRoles() throws InternalException {
         SentryServiceClient client = null;
         try {
             client = new SentryServiceClient();
+            // 这里为了测试方便，使用hadoop管理员作为请求用户，来获取所有角色信息
             Set<TSentryRole> roles = client.get().listRoles("hadoop");
             for (TSentryRole role : roles) {
                 System.out.println(role);
@@ -32,6 +37,10 @@ public class SentryClientTest {
         }
     }
 
+    /**
+     * 删除已有角色信息
+     * @throws InternalException
+     */
     @Test
     public void testDropRoleIfExists() throws InternalException {
         SentryServiceClient client = null;

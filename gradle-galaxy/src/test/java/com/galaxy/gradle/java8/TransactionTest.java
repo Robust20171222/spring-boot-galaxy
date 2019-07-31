@@ -2,8 +2,10 @@ package com.galaxy.gradle.java8;
 
 import org.junit.Test;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
