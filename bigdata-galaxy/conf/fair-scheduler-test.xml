@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!--
+  This file contains pool and user allocations for the Fair Scheduler.
+  Its format is explained in the Fair Scheduler documentation at
+  http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/FairScheduler.html.
+  The documentation also includes a sample config file.
+-->
+
+<allocations>
+
+    <defaultQueueSchedulingPolicy>fair</defaultQueueSchedulingPolicy>
+
+    <defaultFairSharePreemptionTimeout>30</defaultFairSharePreemptionTimeout>
+
+    <queueMaxAppsDefault>20</queueMaxAppsDefault>
+
+
+    <queue name="realQueue">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <weight>4</weight>
+        <maxAMShare>0.3</maxAMShare>
+    </queue>
+
+    <queue name="delayQueue">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <weight>3</weight>
+    </queue>
+
+    <queue name="bi_resource">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <maxResources>184320 mb,60vcores</maxResources>
+        <weight>2</weight>
+    </queue>
+
+    <queue name="datadog">
+        <minResources>1000 mb,1vcores</minResources>
+        <maxResources>8000 mb,2vcores</maxResources>
+        <maxRunningApps>2</maxRunningApps>
+        <weight>1.0</weight>
+        <schedulingPolicy>fair</schedulingPolicy>
+        <minSharePreemptionTimeout>120</minSharePreemptionTimeout>
+    </queue>
+
+
+    <queue name="zpnote">
+        <minResources>10000 mb,4vcores</minResources>
+        <maxResources>480000 mb,120vcores</maxResources>
+        <maxRunningApps>12</maxRunningApps>
+        <weight>1.0</weight>
+        <schedulingPolicy>fair</schedulingPolicy>
+        <minSharePreemptionTimeout>600</minSharePreemptionTimeout>
+    </queue>
+
+    <queuePlacementPolicy>
+        <rule name="specified" create="false"/>
+        <rule name="default" queue="delayQueue"/>
+    </queuePlacementPolicy>
+
+    <!--重新设计队列 -->
+
+    <!--base队列,执行基础任务,要求严格 -->
+    <queue name="base_queue">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <maxResources>73728 mb,24 vcores</maxResources>
+        <maxRunningApps>20</maxRunningApps>
+        <weight>1</weight>
+        <maxAMShare>1.0</maxAMShare>
+        <!-- user1,user2 group1,group2 -->
+        <aclSubmitApps>hadoop</aclSubmitApps>
+        <minSharePreemptionTimeout>10</minSharePreemptionTimeout>
+        <queue name="hdfs_hive">
+        </queue>
+        <queue name="hive_source">
+        </queue>
+        <queue name="base_other">
+        </queue>
+    </queue>
+    <!--BI队列,业务重要,要求严格 -->
+    <queue name="bi_queue">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <maxResources>172032 mb,60 vcores</maxResources>
+        <maxRunningApps>30</maxRunningApps>
+        <weight>30</weight>
+        <maxAMShare>1.0</maxAMShare>
+        <!-- user1,user2 group1,group2 -->
+        <aclSubmitApps>hadoop,hiveAccess,zhangli15</aclSubmitApps>
+        <minSharePreemptionTimeout>20</minSharePreemptionTimeout>
+        <queue name="bi_base">
+            <schedulingPolicy>fair</schedulingPolicy>
+            <minResources>1024 mb,4 vcores</minResources>
+            <weight>4</weight>
+        </queue>
+        <queue name="bi_business">
+            <schedulingPolicy>fair</schedulingPolicy>
+            <minResources>1024 mb,4 vcores</minResources>
+            <weight>4</weight>
+        </queue>
+        <queue name="bi_custom">
+            <minResources>1024 mb,4 vcores</minResources>
+            <schedulingPolicy>fair</schedulingPolicy>
+            <weight>2</weight>
+        </queue>
+    </queue>
+
+    <!--营销队列,业务较重要,要求较严格 -->
+    <queue name="marketing_queue">
+        <schedulingPolicy>drf</schedulingPolicy>
+        <maxResources>110268 mb,36 vcores</maxResources>
+        <maxRunningApps>30</maxRunningApps>
+        <weight>1</weight>
+        <maxAMShare>1.0</maxAMShare>
+        <!-- user1,user2 group1,group2 -->
+        <aclSubmitApps>hadoop,zhangzhu</aclSubmitApps>
+        <minSharePreemptionTimeout>20</minSharePreemptionTimeout>
+        <queue name="shenmiao">
+            <weight>6</weight>
+        </queue>
+        <queue name="tags">
+            <weight>4</weight>
+        </queue>
+    </queue>
+
+    <queue name="ai_queue">
+        <schedulingPolicy>fair</schedulingPolicy>
+        <maxResources>110268 mb,36 vcores</maxResources>
+        <minResources>1024 mb,2 vcores</minResources>
+        <maxRunningApps>30</maxRunningApps>
+        <weight>6</weight>
+        <maxAMShare>1.0</maxAMShare>
+        <aclSubmitApps>*</aclSubmitApps>
+        <minSharePreemptionTimeout>40</minSharePreemptionTimeout>
+    </queue>
+
+    <!--other队列 -->
+    <queue name="other_queue">
+        <schedulingPolicy>fair</schedulingPolicy>
+        <maxResources>147456 mb,48 vcores</maxResources>
+        <minResources>8192 mb,4 vcores</minResources>
+        <maxRunningApps>30</maxRunningApps>
+        <weight>2</weight>
+        <maxAMShare>1.0</maxAMShare>
+        <aclSubmitApps>*</aclSubmitApps>
+        <minSharePreemptionTimeout>40</minSharePreemptionTimeout>
+        <queue name="ai">
+            <schedulingPolicy>fair</schedulingPolicy>
+            <weight>1</weight>
+        </queue>
+        <queue name="other">
+            <schedulingPolicy>fair</schedulingPolicy>
+            <weight>1</weight>
+        </queue>
+    </queue>
+
+</allocations>

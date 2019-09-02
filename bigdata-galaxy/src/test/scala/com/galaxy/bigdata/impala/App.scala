@@ -2,20 +2,23 @@ package com.galaxy.bigdata.impala
 
 import java.sql.{Connection, DriverManager, PreparedStatement, ResultSet}
 
-object App {
+import org.junit.Test
+
+class App {
 
   val JDBC_DRIVER = "com.cloudera.impala.jdbc41.Driver"
   val JDBC_DRIVER2 = "org.apache.hive.jdbc.HiveDriver"
   val CONNECTION_URL = "jdbc:impala://10.104.132.72:21050"
-  val CONNECTION_URL2 = "jdbc:hive2://10.104.132.73:21050/default;auth=noSasl;user=hadoop1"
+  val CONNECTION_URL2 = "jdbc:hive2://10.104.132.73:21050/default;auth=noSasl"
+  Class.forName(JDBC_DRIVER2)
 
-  def main(args: Array[String]): Unit = {
+  @Test
+  def testSelect: Unit ={
     var connection: Connection = null
     var ps: PreparedStatement = null
     var rs: ResultSet = null
 
     try {
-      Class.forName(JDBC_DRIVER2)
       connection = DriverManager.getConnection(CONNECTION_URL2)
       ps = connection.prepareStatement("select * from kudu_test.my_first_table;")
       rs = ps.executeQuery()

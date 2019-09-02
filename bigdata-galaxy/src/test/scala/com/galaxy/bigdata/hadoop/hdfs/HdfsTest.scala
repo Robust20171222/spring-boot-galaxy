@@ -44,7 +44,7 @@ class HdfsTest {
   }
 
   /**
-    * 测试获取文件状态
+    * 测试获取目录下的文件状态
     */
   @Test
   def testListStatus: Unit = {
@@ -52,13 +52,29 @@ class HdfsTest {
 
     val status = this.hadoop.listStatus(new Path("/user"))
     status.foreach(x => {
-      val modificationTime = x.getModificationTime
-      val modificationDate = new Date(modificationTime)
-      val time = dateFormat.format(modificationDate)
-      if (time.equals("2018-09-03")) {
+
+      if (x.isDirectory){
+        val modificationTime = x.getModificationTime
+        val accessTime = x.getAccessTime
+        println(x.getPath + "--" + accessTime)
+        val modificationDate = new Date(modificationTime)
+        val time = dateFormat.format(modificationDate)
+        if (time.equals("2018-09-03")) {
+        }
       }
+
     })
-    this.hadoop.delete(new Path("/user/zhupeng^M"))
+    //this.hadoop.delete(new Path("/user/zhupeng^M"))
+  }
+
+  /**
+    * 测试获取文件状态
+    */
+  @Test
+  def testGetFileStatus: Unit ={
+    val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:dd")
+    val fileStatus = this.hadoop.getFileStatus(new Path("/user"))
+    println(dateFormat.format(new Date(fileStatus.getAccessTime)))
   }
 
   /**
