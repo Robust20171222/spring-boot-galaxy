@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <spark.version>2.0.2</spark.version>
+        <spark.version>2.4.4</spark.version>
         <hive.version>1.2.1</hive.version>
         <kafka.version>2.1.0</kafka.version>
         <confluent.version>5.1.0</confluent.version>
