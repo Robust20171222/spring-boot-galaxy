@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d8ae70-9d55-43ba-9147-51e2b308b055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_master.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_tablet.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveJdbcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveJdbcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/OrcTest.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dubbo-one-server/target/" />
@@ -79,19 +79,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_master.sh">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveJdbcClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="213">
+              <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_tablet.sh">
+        <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="615">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -139,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/sentry/InternalException.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start.sh" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnUtil.java" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hadoop/YarnTest.scala" />
@@ -153,7 +156,6 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hbase/HbaseDaoImpl.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkSessionWrapper.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/hdfs/FsImage.scala" />
-        <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/resources/scriptFile.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/spark/SparkTest.scala" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/dropwizard/GetStarted.java" />
@@ -190,6 +192,8 @@
         <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_hiveserver2.sh" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_master.sh" />
         <option value="$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_tablet.sh" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveJdbcClient.java" />
       </list>
     </option>
   </component>
@@ -217,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,12 +237,48 @@
               <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +311,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HdfsTest.testIP">
+  <component name="RunManager" selected="JUnit.HiveJdbcClient.testConcatenate">
+    <configuration name="HiveJdbcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hive.HiveJdbcClient" />
+      <module name="bigdata-galaxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galaxy.bigdata.hive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
@@ -322,33 +373,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.testListFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HiveJdbcClient.testConcatenate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigdata-galaxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.hdfs.*" />
+          <option name="PATTERN" value="com.galaxy.bigdata.hive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.hdfs.HdfsTest" />
-      <option name="METHOD_NAME" value="testListFiles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HdfsTest.testListStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bigdata-galaxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galaxy.bigdata.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hadoop.hdfs.HdfsTest" />
-      <option name="METHOD_NAME" value="testListStatus" />
+      <option name="PACKAGE_NAME" value="com.galaxy.bigdata.hive" />
+      <option name="MAIN_CLASS_NAME" value="com.galaxy.bigdata.hive.HiveJdbcClient" />
+      <option name="METHOD_NAME" value="testConcatenate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HiveJdbcClient.testConcatenate" />
+        <item itemvalue="Application.HiveJdbcClient" />
         <item itemvalue="JUnit.HdfsTest.testIP" />
         <item itemvalue="JUnit.App.testSelect" />
         <item itemvalue="JUnit.HdfsTest.testGetFileStatus" />
-        <item itemvalue="JUnit.HdfsTest.testListStatus" />
-        <item itemvalue="JUnit.HdfsTest.testListFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -559,28 +594,14 @@
       <workItem from="1567907375836" duration="720000" />
       <workItem from="1567909918099" duration="1332000" />
       <workItem from="1568014320761" duration="4038000" />
+      <workItem from="1568082913755" duration="20000" />
+      <workItem from="1568107225687" duration="2963000" />
+      <workItem from="1568187295974" duration="8510000" />
+      <workItem from="1568254898350" duration="11535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionTest_test6 - 2019.07.26 at 23h 48m 02s.xml">
-      <configuration name="TransactionTest.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsTest_testListFiles - 2019.08.29 at 11h 32m 56s.xml">
-      <configuration name="HdfsTest.testListFiles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsTest_testListFiles - 2019.08.29 at 11h 33m 24s.xml">
-      <configuration name="HdfsTest.testListFiles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsTest_testListStatus - 2019.08.29 at 11h 38m 31s.xml">
-      <configuration name="HdfsTest.testListStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsTest_testListStatus - 2019.08.29 at 11h 39m 48s.xml">
-      <configuration name="HdfsTest.testListStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsTest_testListStatus - 2019.08.29 at 11h 41m 08s.xml">
-      <configuration name="HdfsTest.testListStatus" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HdfsTest_testGetFileStatus - 2019.08.29 at 11h 44m 55s.xml">
       <configuration name="HdfsTest.testGetFileStatus" configurationId="JUnit" />
     </history-entry>
@@ -593,9 +614,27 @@
     <history-entry file="HdfsTest_testIP - 2019.09.06 at 14h 44m 30s.xml">
       <configuration name="HdfsTest.testIP" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 11h 41m 14s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 11h 42m 57s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 13h 36m 15s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 14h 24m 57s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 14h 28m 54s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HiveJdbcClient_testConcatenate - 2019.09.12 at 15h 36m 32s.xml">
+      <configuration name="HiveJdbcClient.testConcatenate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248937000" />
+    <option name="totallyTimeSpent" value="271965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,14 +648,14 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1350" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.13065925" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.15091342" />
       <window_info id="Structure" order="1" sideWeight="0.5033445" side_tool="true" weight="0.27382874" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32956383" />
       <window_info id="Web" order="4" sideWeight="0.502021" side_tool="true" weight="0.14733917" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53765184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49068826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3979933" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,7 +663,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.23805667" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.4145749" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -656,60 +695,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClient">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClient</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClient</node>
-            <node x="" y="">java.lang.AutoCloseable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="111.0" y="51.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClientDefaultImpl">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClientDefaultImpl</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.sentry.core.common.transport.SentryConnection</node>
-            <node x="" y="">org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClient</node>
-            <node x="" y="">java.lang.AutoCloseable</node>
-            <node x="" y="">org.apache.sentry.provider.db.service.thrift.SentryPolicyServiceClientDefaultImpl</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="200.0" y="89.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/sentry/sentry-provider-db/1.5.1-cdh5.16.1/sentry-provider-db-1.5.1-cdh5.16.1-sources.jar!/org/apache/sentry/service/thrift/SentryServiceClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="89" column="44" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/sentry/sentry-provider-db/1.5.1-cdh5.16.1/sentry-provider-db-1.5.1-cdh5.16.1-sources.jar!/org/apache/sentry/provider/db/service/thrift/SentryPolicyServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/sentry/sentry-provider-db/1.5.1-cdh5.16.1/sentry-provider-db-1.5.1-cdh5.16.1-sources.jar!/org/apache/sentry/provider/db/service/thrift/SentryPolicyServiceClientDefaultImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -877,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/conf/fair-scheduler-test.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -987,17 +964,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_tablet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_master.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/bin/auto_start_tablet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repo/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar!/org/apache/curator/framework/imps/GetChildrenBuilderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#6033#6666#0" expanded="true" />
+            <element signature="e#6665#6666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/OrcTest.scala" />
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/src/test/scala/com/galaxy/bigdata/hive/HiveJdbcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-galaxy/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>

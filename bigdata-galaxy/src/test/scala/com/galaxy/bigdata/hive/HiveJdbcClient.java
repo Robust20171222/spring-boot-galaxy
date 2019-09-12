@@ -1,6 +1,10 @@
 package com.galaxy.bigdata.hive;
 
+import org.junit.Test;
+
 import java.sql.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * @author pengwang
@@ -8,39 +12,91 @@ import java.sql.*;
  */
 public class HiveJdbcClient {
 
-    private static String driverName = "org.apache.hive.jdbc.HiveDriver";
+    private static final ExecutorService executorService = Executors.newFixedThreadPool(50);
+
+    private static final String driverName = "org.apache.hive.jdbc.HiveDriver";
+    private static final String username = "cdapadmin";
+    private static final String password = "Ucar_cdap_admin_2017";
+    private static final String connection_url = "jdbc:hive2://10.104.108.87:5181,10.104.108.88:5181/default;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2-zk-ha;hive.server2.proxy.user=hadoop";
+
 
     /**
-     * @param args
-     * @throws SQLException
+     * 测试Hive文件合并
      */
-    public static void main(String[] args) throws SQLException {
+    @Test
+    public void testConcatenate() {
+        Connection con = null;
+        Statement stmt = null;
+        ResultSet res = null;
+
         try {
             Class.forName(driverName);
-        } catch (ClassNotFoundException e) {
+            con = DriverManager.getConnection(connection_url, username, password);
+            stmt = con.createStatement();
+            String tableName = "bi_ucar.t_driver_rank_daily_stat_api";
+
+            // regular hive query
+            String sql = "show partitions " + tableName;
+            System.out.println("Running: " + sql);
+            res = stmt.executeQuery(sql);
+            while (res.next()) {
+                String partition = res.getString(1);
+                int index = partition.indexOf("=");
+                String date = partition.substring(index + 1);
+                executorService.submit(new Runnable() {
+                    @Override
+                    public void run() {
+                        Connection con = null;
+                        PreparedStatement stmt = null;
+                        try {
+                            con = DriverManager.getConnection(connection_url, username, password);
+                            String sql = "alter table " + tableName + " partition(dt=" + "\"" + date + "\"" + ") concatenate";
+                            stmt = con.prepareStatement(sql);
+//            sql = "alter table bi_ucar.bas_driver_history partition(dt=\"2019-06-28\") concatenate";
+                            System.out.println(sql);
+                            stmt.executeUpdate(sql);
+                        } catch (SQLException e) {
+                            e.printStackTrace();
+                        } finally {
+                            try {
+                                if (stmt != null) {
+                                    stmt.close();
+                                }
+
+                                if (con != null) {
+                                    con.close();
+                                }
+                            } catch (SQLException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }
+                });
+            }
+
+        } catch (SQLException | ClassNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            System.exit(1);
-        }
-        //replace "hive" here with the name of the user the queries should run as
-        Connection con = DriverManager.getConnection("jdbc:hive2://10.104.132.194:10000/ymq", "", "");
-        Statement stmt = con.createStatement();
-        String tableName = "test";
+        } finally {
+            try {
+                if (res != null) {
+                    res.close();
+                }
 
-        // select * query
-        String sql = "select * from " + tableName;
-        System.out.println("Running: " + sql);
-        ResultSet res = stmt.executeQuery(sql);
-        while (res.next()) {
-            System.out.println(String.valueOf(res.getInt(1)) + "\t" + res.getString(2));
+                if (stmt != null) {
+                    stmt.close();
+                }
+
+                if (con != null) {
+                    con.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
-        // regular hive query
-        sql = "select count(1) from " + tableName;
-        System.out.println("Running: " + sql);
-        res = stmt.executeQuery(sql);
-        while (res.next()) {
-            System.out.println(res.getString(1));
+        while (true){
+
         }
     }
 }

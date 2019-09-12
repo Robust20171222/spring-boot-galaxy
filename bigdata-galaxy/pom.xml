@@ -12,7 +12,7 @@
 
     <properties>
         <spark.version>2.0.2</spark.version>
-        <hive.version>2.1.1</hive.version>
+        <hive.version>1.2.1</hive.version>
         <kafka.version>2.1.0</kafka.version>
         <confluent.version>5.1.0</confluent.version>
         <zookeeper.version>3.4.10</zookeeper.version>
