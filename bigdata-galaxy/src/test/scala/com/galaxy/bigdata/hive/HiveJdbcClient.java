@@ -33,7 +33,7 @@ public class HiveJdbcClient {
             Class.forName(driverName);
             con = DriverManager.getConnection(connection_url, username, password);
             stmt = con.createStatement();
-            String tableName = "bi_ucar.t_driver_rank_daily_stat_api";
+            String tableName = "bi_ucar.t_mid_driver_rank_daily_stat_api";
 
             // regular hive query
             String sql = "show partitions " + tableName;
