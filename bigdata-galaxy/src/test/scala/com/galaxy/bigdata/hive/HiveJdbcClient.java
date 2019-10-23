@@ -14,6 +14,7 @@ public class HiveJdbcClient {
 
     private static final ExecutorService executorService = Executors.newFixedThreadPool(50);
 
+    // 数据库连接信息
     private static final String driverName = "org.apache.hive.jdbc.HiveDriver";
     private static final String username = "cdapadmin";
     private static final String password = "Ucar_cdap_admin_2017";
@@ -35,40 +36,39 @@ public class HiveJdbcClient {
             stmt = con.createStatement();
             String tableName = "bi_ucar.t_mid_driver_rank_daily_stat_api";
 
-            // regular hive query
+            // 查询表分区
             String sql = "show partitions " + tableName;
             System.out.println("Running: " + sql);
             res = stmt.executeQuery(sql);
+
+            // 循环取出表分区，执行合并操作
             while (res.next()) {
                 String partition = res.getString(1);
                 int index = partition.indexOf("=");
                 String date = partition.substring(index + 1);
-                executorService.submit(new Runnable() {
-                    @Override
-                    public void run() {
-                        Connection con = null;
-                        PreparedStatement stmt = null;
-                        try {
-                            con = DriverManager.getConnection(connection_url, username, password);
-                            String sql = "alter table " + tableName + " partition(dt=" + "\"" + date + "\"" + ") concatenate";
-                            stmt = con.prepareStatement(sql);
+                executorService.submit(() -> {
+                    Connection con1 = null;
+                    PreparedStatement stmt1 = null;
+                    try {
+                        con1 = DriverManager.getConnection(connection_url, username, password);
+                        String sql1 = "alter table " + tableName + " partition(dt=" + "\"" + date + "\"" + ") concatenate";
+                        stmt1 = con1.prepareStatement(sql1);
 //            sql = "alter table bi_ucar.bas_driver_history partition(dt=\"2019-06-28\") concatenate";
-                            System.out.println(sql);
-                            stmt.executeUpdate(sql);
+                        System.out.println(sql1);
+                        stmt1.executeUpdate(sql1);
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    } finally {
+                        try {
+                            if (stmt1 != null) {
+                                stmt1.close();
+                            }
+
+                            if (con1 != null) {
+                                con1.close();
+                            }
                         } catch (SQLException e) {
                             e.printStackTrace();
-                        } finally {
-                            try {
-                                if (stmt != null) {
-                                    stmt.close();
-                                }
-
-                                if (con != null) {
-                                    con.close();
-                                }
-                            } catch (SQLException e) {
-                                e.printStackTrace();
-                            }
                         }
                     }
                 });
