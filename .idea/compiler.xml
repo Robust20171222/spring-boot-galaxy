@@ -16,6 +16,7 @@
         <module name="dubbo-one-model" />
         <module name="dubbo-one-server" />
         <module name="gateway-galaxy" />
+        <module name="hive-tools" />
         <module name="elastic-galaxy" />
         <module name="dubbo-two-model" />
         <module name="dubbo-one-api" />
@@ -43,6 +44,7 @@
       <module name="hello-spring-boot-autoconfigure" options="-parameters" />
       <module name="hello-spring-boot-sample-app" options="-parameters" />
       <module name="hello-spring-boot-starter" options="-parameters" />
+      <module name="hive-tools" options="-parameters" />
       <module name="redis-galaxy" options="-parameters" />
       <module name="scala-galaxy" options="-parameters" />
     </option>

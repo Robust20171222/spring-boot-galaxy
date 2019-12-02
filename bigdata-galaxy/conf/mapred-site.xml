@@ -66,6 +66,6 @@
 
     <property>
         <name>mapreduce.input.fileinputformat.split.minsize</name>
-        <name>134217728</name>
+        <value>134217728</value>
     </property>
 </configuration>

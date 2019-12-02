@@ -74,6 +74,10 @@ class HdfsTest {
     val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:dd")
     val fileStatus = this.hadoop.getFileStatus(new Path("/user"))
     println(dateFormat.format(new Date(fileStatus.getAccessTime)))
+
+    val fileStatusArray = this.hadoop.listStatus(new Path("/user/hive/warehouse/bi_ucar.db/ups_driver_order_h/dt=2019-07-05"))
+    fileStatusArray.foreach(f => println(f))
+    fileStatusArray.foreach(f => this.hadoop.getFileBlockLocations(f,0,f.getLen).foreach(b => b.getHosts.foreach(host => println(host))))
   }
 
   /**

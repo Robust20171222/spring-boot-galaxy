@@ -27,6 +27,7 @@
         <module>dubbo-one-api</module>
         <module>dubbo-one-model</module>
         <module>dubbo-one-server</module>
+        <module>hive-tools</module>
     </modules>
 
     <parent>
