@@ -4,14 +4,17 @@ import org.apache.spark.sql.SparkSession
 import org.junit.Test
 
 /**
-  *
+  * SparkSQL测试
   *
   * @author pengwang
   * @date 2019/10/22
   */
-class SparkTest {
+class SparkSQLTest {
 
   val spark = SparkSession.builder().master("local[1]").appName("SparkByExample").getOrCreate()
+
+  import spark.implicits._
+
 
   /**
     * Below is an example on how to create a SparkSession using builder pattern method and SparkContext.
@@ -175,5 +178,27 @@ class SparkTest {
     while (true) {
 
     }
+  }
+
+  /**
+    * 输出spark SQL参数
+    */
+  @Test
+  def testShowSqlParam: Unit = {
+    this.spark.sql("SET -v").show(200, false)
+  }
+
+  /**
+    * 测试spark.sql.shuffle.partitions参数
+    */
+  @Test
+  def test_shuffle_partitions: Unit = {
+    this.spark.conf.set("spark.sql.shuffle.partitions", "1")
+    val startTime = System.currentTimeMillis()
+    val employeeDF = this.spark.sparkContext.parallelize(List("Bob", "Alice")).toDF("name")
+    val departmentDF = this.spark.sparkContext.parallelize(List(("Bob", "Accounts"), ("Alice", "Sales"))).toDF("name", "department")
+    employeeDF.join(departmentDF, "name").show()
+    val elapseTime = System.currentTimeMillis() - startTime
+    println("spark.sql.shuffle.partitions-->" + elapseTime + "ms")
   }
 }

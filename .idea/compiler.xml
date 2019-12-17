@@ -9,8 +9,8 @@
         <module name="hello-spring-boot-sample-app" />
         <module name="scala-galaxy" />
         <module name="redis-galaxy" />
+        <module name="hello-spring-boot-autoconfigure" />
         <module name="bigdata-galaxy" />
-        <module name="hello-spring-boot-starter" />
         <module name="groot-galaxy" />
         <module name="grpc-galaxy" />
         <module name="dubbo-one-model" />
@@ -22,7 +22,7 @@
         <module name="dubbo-one-api" />
         <module name="dubbo-two-api" />
         <module name="concurrency-galalxy" />
-        <module name="hello-spring-boot-autoconfigure" />
+        <module name="hello-spring-boot-starter" />
         <module name="dubbo-two-server" />
       </profile>
     </annotationProcessing>

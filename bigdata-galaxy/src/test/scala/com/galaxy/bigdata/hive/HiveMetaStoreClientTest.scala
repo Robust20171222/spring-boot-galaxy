@@ -6,7 +6,6 @@ import org.apache.hadoop.hive.metastore.{IMetaStoreClient, RetryingMetaStoreClie
 import org.junit.Test
 
 import scala.collection.JavaConversions._
-import scala.collection.JavaConverters._
 import scala.collection.mutable.ListBuffer
 
 /**
@@ -45,9 +44,20 @@ class HiveMetaStoreClientTest {
     this.hiveMetaStoreClient.getTableColumnStatistics(dbName, tableName, colNameList).foreach(f => println("列统计信息----" + f.getColName))
 
     // 获取分区信息
-    println(this.hiveMetaStoreClient.listPartitionNames(dbName,tableName,-1))
+    println(this.hiveMetaStoreClient.listPartitionNames(dbName, tableName, -1))
 
     println(table.getTableType)
     println(table.getPartitionKeys)
+  }
+
+  @Test
+  def getParitionKeys: Unit ={
+    val dbName = "bi_test"
+    val tableName = "driver_dadian_info_2017"
+
+    val table = this.hiveMetaStoreClient.getTable(dbName,tableName);
+    println(table.getPartitionKeysSize)
+    val partitions = this.hiveMetaStoreClient.listPartitionNames(dbName,tableName,-1)
+    partitions.foreach(f => println(f))
   }
 }
