@@ -201,4 +201,10 @@ class SparkSQLTest {
     val elapseTime = System.currentTimeMillis() - startTime
     println("spark.sql.shuffle.partitions-->" + elapseTime + "ms")
   }
+
+  @Test
+  def testSimpleSQL: Unit = {
+    this.spark.read.json("src/test/resources/people.json").createOrReplaceTempView("people")
+    this.spark.sql("select name from people where age > 10").show()
+  }
 }
