@@ -1,0 +1,38 @@
+server:
+  port: 5080
+  servlet:
+    context-path: /scala
+spring:
+  #数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/galaxy?useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      connection-timeout: 20000
+      minimum-idle: 5
+      maximum-pool-size: 12
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jackson:
+    default-property-inclusion: non_absent
+  application:
+    name: scala-galaxy
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+    show-sql: true
+
+  # Customizing the Banner：YAML treats 'off' value as boolean type, whereas Spring tries to convert it to the enum type Banner.Mode.
+  main:
+    banner-mode: 'OFF'
+
+logging:
+  config: classpath:log4j2.xml
+  level:
+    org:
+     springframework: debug
