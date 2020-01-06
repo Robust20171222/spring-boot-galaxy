@@ -1,4 +1,4 @@
-package com.galaxy.bigdata.hadoop.yarn;
+package com.galaxy.bigdata.hadoop.yarn.app.am;
 
 import org.apache.hadoop.yarn.api.records.Container;
 import org.apache.hadoop.yarn.api.records.ContainerStatus;

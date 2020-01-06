@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <phoenix-core.version>4.9.0-HBase-0.98</phoenix-core.version>
         <mybatis-spring-boot.version>1.1.1</mybatis-spring-boot.version>
-        <hadoop.version>2.6.0-cdh5.13.0</hadoop.version>
+        <hadoop.version>2.6.3</hadoop.version>
     </properties>
 
     <dependencies>

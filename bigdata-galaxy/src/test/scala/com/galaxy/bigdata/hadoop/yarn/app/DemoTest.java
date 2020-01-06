@@ -1,4 +1,4 @@
-package com.galaxy.bigdata.hadoop.yarn;
+package com.galaxy.bigdata.hadoop.yarn.app;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.yarn.api.records.ApplicationId;
@@ -13,11 +13,9 @@ import org.junit.Test;
 import java.io.IOException;
 
 /**
- * @author pengwang
- * @date 2019/06/26
+ * Created by xingsen on 2016/10/7.
  */
 public class DemoTest {
-
     private Configuration conf;
 
     @Before
@@ -39,12 +37,9 @@ public class DemoTest {
     public void testClient() throws IOException, YarnException, InterruptedException {
         DemoApplicationClient client = new DemoApplicationClient(conf);
         client.setAppMasterJar("/Users/pengwang/Documents/project/test/spring-boot-galaxy/bigdata-galaxy/target/bigdata-galaxy.jar");
-        // 创建并提交应用
         ApplicationId applicationId = client.submit();
         boolean outAccepted = false;
         boolean outTrackingUrl = false;
-
-        // 获取应用状态报告
         ApplicationReport report = client.getApplicationReport(applicationId);
         while (report.getYarnApplicationState() != YarnApplicationState.FINISHED) {
             report = client.getApplicationReport(applicationId);

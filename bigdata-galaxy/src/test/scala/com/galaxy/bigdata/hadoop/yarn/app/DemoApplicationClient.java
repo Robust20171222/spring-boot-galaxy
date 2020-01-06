@@ -1,5 +1,6 @@
-package com.galaxy.bigdata.hadoop.yarn;
+package com.galaxy.bigdata.hadoop.yarn.app;
 
+import com.galaxy.bigdata.hadoop.yarn.app.am.ApplicationMaster;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
@@ -50,13 +51,6 @@ public class DemoApplicationClient {
         this.appMasterJar = appMasterJar;
     }
 
-    /**
-     * 创建并提交应用
-     *
-     * @return
-     * @throws IOException
-     * @throws YarnException
-     */
     public ApplicationId submit() throws IOException, YarnException {
         FileSystem fs = FileSystem.get(conf);
 
@@ -88,6 +82,7 @@ public class DemoApplicationClient {
                 .append(" ")
                 .append("2>" + ApplicationConstants.LOG_DIR_EXPANSION_VAR + Path.SEPARATOR + ApplicationConstants.STDERR);
         clc.setCommands(Collections.singletonList(cmd.toString()));
+
         //添加执行的Jar
         Map<String, LocalResource> localResourceMap = new HashMap<String, LocalResource>();
         File appMasterJarFile = new File(appMasterJar);

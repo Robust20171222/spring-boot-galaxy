@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.{RequestMapping, RestController}
   * Time: 17:49
   */
 @RestController
-@RequestMapping(value = Array("/hello"), produces = Array(MediaType.APPLICATION_JSON_UTF8_VALUE))
+@RequestMapping(produces = Array(MediaType.APPLICATION_JSON_UTF8_VALUE))
 class HelloController {
 
   @RequestMapping(value = Array("/hello"))

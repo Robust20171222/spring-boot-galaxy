@@ -1,4 +1,4 @@
-package com.galaxy.bigdata.hadoop.yarn;
+package com.galaxy.bigdata.hadoop.yarn.app.am;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.yarn.api.protocolrecords.RegisterApplicationMasterResponse;
@@ -9,17 +9,12 @@ import org.apache.hadoop.yarn.exceptions.YarnException;
 
 import java.io.IOException;
 
-/**
- * @author pengwang
- * @date 2019/06/26
- */
 public class ApplicationMaster {
-
     public static void main(String[] args) throws IOException, YarnException, InterruptedException {
         Configuration conf = new YarnConfiguration();
 
         //便于使用minicluster调试
-        boolean isDebug = true;
+        boolean isDebug = false;
         if (args.length >= 1 && args[0].equalsIgnoreCase("debug")) {
             isDebug = true;
         }
