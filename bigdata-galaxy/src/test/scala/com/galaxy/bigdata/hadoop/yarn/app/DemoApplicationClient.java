@@ -56,7 +56,7 @@ public class DemoApplicationClient {
 
         YarnClientApplication app = yarnClient.createApplication();
         GetNewApplicationResponse appResponse = app.getNewApplicationResponse();
-        Resource clusterMax = appResponse.getMaximumResourceCapability(); //集群最大资源
+        Resource clusterMax = appResponse.getMaximumResourceCapability(); //单个container可以申请的最大资源
 
         ApplicationSubmissionContext appContext = app.getApplicationSubmissionContext();
 

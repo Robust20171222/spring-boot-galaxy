@@ -40,3 +40,8 @@ spring:
       allow_unquoted_control_chars: true
       #允许出现单引号
       allow_single_quotes: true
+
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: my-application

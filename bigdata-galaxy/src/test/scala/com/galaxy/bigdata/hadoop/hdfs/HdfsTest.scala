@@ -19,7 +19,7 @@ import scala.collection.mutable.ListBuffer
   */
 class HdfsTest {
 
-  val DEFAULT_FS_URI = "hdfs://namenodetest02.bi.10101111.com:9001"
+  val DEFAULT_FS_URI = "hdfs://namenodetest01.bi.10101111.com:9001"
 
   val hadoop: FileSystem = {
     System.setProperty("HADOOP_USER_NAME", "hadoop")
