@@ -2,6 +2,7 @@ package com.galaxy.bigdata.web;
 
 import com.galaxy.bigdata.dao.es.BookDao;
 import com.galaxy.bigdata.model.Book;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -10,11 +11,8 @@ import java.util.Map;
 @RequestMapping("/books")
 public class BookController {
 
+    @Autowired
     private BookDao bookDao;
-
-    public BookController(BookDao bookDao) {
-        this.bookDao = bookDao;
-    }
 
     @PostMapping
     public Book insertBook(@RequestBody Book book) throws Exception {

@@ -14,6 +14,7 @@ import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
@@ -26,14 +27,10 @@ public class BookDao {
     private final String INDEX = "bookdata";
     private final String TYPE = "books";
 
+    @Autowired
     private RestHighLevelClient restHighLevelClient;
-
+    @Autowired
     private ObjectMapper objectMapper;
-
-    public BookDao( ObjectMapper objectMapper, RestHighLevelClient restHighLevelClient) {
-        this.objectMapper = objectMapper;
-        this.restHighLevelClient = restHighLevelClient;
-    }
 
     public Book insertBook(Book book){
         book.setId(UUID.randomUUID().toString());
